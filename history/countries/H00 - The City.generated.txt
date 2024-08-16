@@ -3,7 +3,7 @@
 technology_group = tech_group_default
 
 government = player_type
-add_government_reform = nation_reform
+add_government_reform = player_reform
 
 primary_culture = race_humans
 religion = faith_faithless

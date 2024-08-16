@@ -1,6 +1,8 @@
 owner = H00
 add_core = H00
 
+culture = race_humans
+religion = faith_faithless
 trade_goods = unknown
 
 add_province_triggered_modifier = on_global_daily

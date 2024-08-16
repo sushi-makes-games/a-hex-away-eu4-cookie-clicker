@@ -1,0 +1,8 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_HEX_province_bg"
+		texturefile = "gfx/hex/interface/_province_bg.dds"
+		noOfFrames = 32
+		legacy_lazy_load = no
+	}
+}

@@ -1,0 +1,162 @@
+guiTypes = {
+
+	windowType = {
+		name = "aggressiveness_window"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=16 y=16 }
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		moveable = 0
+		Orientation = "LOWER_LEFT"
+		
+		iconType =
+		{
+			name ="aggressiveness_icon"
+			spriteType = "GFX_aggressiveness_icon"
+			position = { x = 0 y = 0 }
+		}
+	}
+	
+	windowType = {
+		name = "ferocity_window"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=16 y=16 }
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		moveable = 0
+		Orientation = "LOWER_LEFT"
+		
+		iconType =
+		{
+			name ="ferocity_icon"
+			spriteType = "GFX_ferocity_icon"
+			position = { x = 0 y = 0 }
+		}
+	}
+
+	### LIST ENTRY
+	
+windowType = {
+		name = "send_colonist_button"
+		#backGround =""
+		position = { x=0 y=0 }	
+		size = { x=300 y= 36 }
+		#moveable = 0
+		#dontRender = ""
+		#horizontalBorder = ""
+
+
+		#checkboxType = {
+		#	name = "list_button"
+		#	position = { x=0 y =0}
+		#	quadTextureSprite ="GFX_send_colonists_button"	
+		#	buttonFont = "vic_18"
+		#}		
+		
+		guiButtonType = {
+			name = "list_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_button_straight_300_32"
+			buttonFont = "vic_18"
+		}
+		
+		instantTextBoxType = {
+			name = "list_item_label"
+			position = { x = 10 y = 7 }
+			textureFile = ""
+			font = "vic_18"
+			text = ""	
+			maxWidth = 280
+			maxHeight = 20	
+			format = centre
+			fixedsize = yes
+			alwaystransparent = yes
+		}	
+	}	
+	
+	windowType = {
+		name = "expel_colonist_entry"
+		#backGround =""
+		position = { x=502 y=500 }	
+		size = { x=325 y= 62 } #57
+		#moveable = 0
+		#dontRender = ""
+		#horizontalBorder = ""
+	
+		guiButtonType = {
+			name = "list_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="GFX_expel_colonist_entry"
+			buttonFont = "vic_18"
+		}
+		
+		instantTextBoxType = {
+			name = "list_item_label"
+			position = { x = 15 y = 5 }
+			textureFile = ""
+			font = "vic_18"
+			text = ""	
+			maxWidth = 200
+			maxHeight = 20	
+			format = left
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+
+
+		instantTextBoxType = {
+			name = "dev_bonus"
+			position = { x = 12 y = 26 }
+			textureFile = ""
+			font = "vic_18"
+			text = "0"	
+			maxWidth = 30
+			maxHeight = 20	
+			format = right
+			fixedsize = yes
+			alwaystransparent = yes
+		}		
+		
+		iconType = {
+			name ="development_icon"
+			spriteType = "GFX_development_icon"
+			position = { x = 45 y = 22 }
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "settler_chance"
+			position = { x = 82 y = 26 }
+			textureFile = ""
+			font = "vic_18"
+			text = "0"	
+			maxWidth = 60
+			maxHeight = 20	
+			format = right
+			fixedsize = yes
+			alwaystransparent = yes
+		}		
+		
+		iconType = {
+			name ="colonist_placement_chance_icon"
+			spriteType = "GFX_colonist_placement_chance"
+			position = { x = 145 y = 20 }
+			alwaystransparent = yes
+		}
+
+		
+		iconType = {
+			name = "cross_icon"
+			spriteType ="GFX_province_view_religion"	
+			position = { x = 285 y = 12 }
+			frame = 14
+			alwaystransparent = yes
+		}
+	}		
+}

@@ -1,0 +1,44 @@
+## PROVINCE WINDOW
+
+custom_window = {
+	name = cw_province
+	potential = { always = yes }
+}
+
+custom_icon = {
+	name = ci_province_bg
+	potential = { always = yes }
+
+	frame = { number = 1 trigger = { area = city_area } }
+	frame = { number = 2 trigger = { region = the_city_region } }
+	frame = { number = 3 trigger = { region = great_forest_region } }
+	frame = { number = 4 trigger = { region = grey_mountains_region } }
+	frame = { number = 5 trigger = { region = the_desert_region } }
+	frame = { number = 6 trigger = { region = riverlands_region } }
+	frame = { number = 7 trigger = { region = griffon_hills_region } }
+	frame = { number = 8 trigger = { region = archipelago_region } }
+	frame = { number = 9 trigger = { region = the_maw_region } }
+	frame = { number = 10 trigger = { region = azure_lake_region } }
+	frame = { number = 11 trigger = { region = tempest_sea_region } }
+	frame = { number = 12 trigger = { region = tempest_coast_region } }
+	frame = { number = 13 trigger = { region = violet_steppes_region } }
+	frame = { number = 14 trigger = { region = black_sands_region } }
+	frame = { number = 15 trigger = { region = brimstone_region } }
+	frame = { number = 16 trigger = { region = the_lakes_region } }
+	frame = { number = 17 trigger = { region = sweet_seas_region } }
+	frame = { number = 18 trigger = { region = silk_highlands_region } }
+	frame = { number = 19 trigger = { region = sugar_plains_region } }
+	frame = { number = 20 trigger = { region = vine_coast_region } }
+	frame = { number = 21 trigger = { region = mangrove_shoals_region } }
+	frame = { number = 22 trigger = { region = horizon_ocean_region } }
+	frame = { number = 23 trigger = { region = the_shards_region } }
+	frame = { number = 24 trigger = { region = golden_valley_region } }
+	frame = { number = 25 trigger = { region = deadlands_region } }
+	frame = { number = 26 trigger = { region = blue_mountains_region } }
+	frame = { number = 27 trigger = { region = ghost_sea_region } }
+	frame = { number = 28 trigger = { region = dragontail_mountains_region } }
+	frame = { number = 29 trigger = { region = green_wastes_region } }
+	frame = { number = 30 trigger = { region = red_marshes_region } }
+	frame = { number = 31 trigger = { region = frozen_lands_region } }
+	frame = { number = 32 trigger = { region = the_pale_region } }
+}

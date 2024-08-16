@@ -1,0 +1,3 @@
+﻿l_english:
+  alert_can_use_government_interaction_instant:0 "§YYou have recent alerts:§!"
+  alert_can_use_government_interaction_delayed:0 "$POWERS$"

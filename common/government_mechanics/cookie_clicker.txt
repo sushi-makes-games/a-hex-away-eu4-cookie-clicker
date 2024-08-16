@@ -1,0 +1,3347 @@
+cookie_clicker_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 1
+	available = { always = yes }
+
+	powers = {
+		power_0 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_1 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_0 value = 0 }
+			}
+		}
+
+		power_1 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_2 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_1 value = 0 }
+			}
+		}
+
+		power_2 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_3 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_2 value = 0 }
+			}
+		}
+
+		power_3 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_4 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_3 value = 0 }
+			}
+		}
+
+		power_4 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_5 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_4 value = 0 }
+			}
+		}
+
+		power_5 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_6 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_5 value = 0 }
+			}
+		}
+
+		power_6 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_7 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_6 value = 0 }
+			}
+		}
+
+		power_7 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_8 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_7 value = 0 }
+			}
+		}
+
+		power_8 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_9 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_8 value = 0 }
+			}
+		}
+
+		power_9 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_10 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_9 value = 0 }
+			}
+		}
+
+		power_10 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_11 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_10 value = 0 }
+			}
+		}
+
+		power_11 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_12 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_11 value = 0 }
+			}
+		}
+
+		power_12 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_13 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_12 value = 0 }
+			}
+		}
+
+		power_13 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_14 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_13 value = 0 }
+			}
+		}
+
+		power_14 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_15 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_14 value = 0 }
+			}
+		}
+
+		power_15 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_16 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_15 value = 0 }
+			}
+		}
+
+		power_16 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_17 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_16 value = 0 }
+			}
+		}
+
+		power_17 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_18 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_17 value = 0 }
+			}
+		}
+
+		power_18 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_19 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_18 value = 0 }
+			}
+		}
+
+		power_19 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_20 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_19 value = 0 }
+			}
+		}
+
+		power_20 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_21 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_20 value = 0 }
+			}
+		}
+
+		power_21 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_22 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_21 value = 0 }
+			}
+		}
+
+		power_22 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_23 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_22 value = 0 }
+			}
+		}
+
+		power_23 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_24 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_23 value = 0 }
+			}
+		}
+
+		power_24 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_25 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_24 value = 0 }
+			}
+		}
+
+		power_25 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_26 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_25 value = 0 }
+			}
+		}
+
+		power_26 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_27 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_26 value = 0 }
+			}
+		}
+
+		power_27 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_28 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_27 value = 0 }
+			}
+		}
+
+		power_28 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_29 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_28 value = 0 }
+			}
+		}
+
+		power_29 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_30 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_29 value = 0 }
+			}
+		}
+
+		power_30 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_31 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_30 value = 0 }
+			}
+		}
+
+		power_31 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_32 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_31 value = 0 }
+			}
+		}
+
+		power_32 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_33 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_32 value = 0 }
+			}
+		}
+
+		power_33 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_34 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_33 value = 0 }
+			}
+		}
+
+		power_34 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_35 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_34 value = 0 }
+			}
+		}
+
+		power_35 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_36 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_35 value = 0 }
+			}
+		}
+
+		power_36 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_37 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_36 value = 0 }
+			}
+		}
+
+		power_37 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_38 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_37 value = 0 }
+			}
+		}
+
+		power_38 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_39 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_38 value = 0 }
+			}
+		}
+
+		power_39 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_40 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_39 value = 0 }
+			}
+		}
+
+		power_40 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_41 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_40 value = 0 }
+			}
+		}
+
+		power_41 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_42 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_41 value = 0 }
+			}
+		}
+
+		power_42 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_43 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_42 value = 0 }
+			}
+		}
+
+		power_43 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_44 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_43 value = 0 }
+			}
+		}
+
+		power_44 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_45 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_44 value = 0 }
+			}
+		}
+
+		power_45 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_46 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_45 value = 0 }
+			}
+		}
+
+		power_46 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_47 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_46 value = 0 }
+			}
+		}
+
+		power_47 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_48 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_47 value = 0 }
+			}
+		}
+
+		power_48 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_49 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_48 value = 0 }
+			}
+		}
+
+		power_49 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_50 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_49 value = 0 }
+			}
+		}
+
+		power_50 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_51 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_50 value = 0 }
+			}
+		}
+
+		power_51 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_52 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_51 value = 0 }
+			}
+		}
+
+		power_52 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_53 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_52 value = 0 }
+			}
+		}
+
+		power_53 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_54 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_53 value = 0 }
+			}
+		}
+
+		power_54 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_55 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_54 value = 0 }
+			}
+		}
+
+		power_55 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_56 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_55 value = 0 }
+			}
+		}
+
+		power_56 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_57 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_56 value = 0 }
+			}
+		}
+
+		power_57 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_58 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_57 value = 0 }
+			}
+		}
+
+		power_58 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_59 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_58 value = 0 }
+			}
+		}
+
+		power_59 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_60 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_59 value = 0 }
+			}
+		}
+
+		power_60 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_61 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_60 value = 0 }
+			}
+		}
+
+		power_61 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_62 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_61 value = 0 }
+			}
+		}
+
+		power_62 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_63 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_62 value = 0 }
+			}
+		}
+
+		power_63 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_64 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_63 value = 0 }
+			}
+		}
+
+		power_64 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_65 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_64 value = 0 }
+			}
+		}
+
+		power_65 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_66 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_65 value = 0 }
+			}
+		}
+
+		power_66 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_67 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_66 value = 0 }
+			}
+		}
+
+		power_67 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_68 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_67 value = 0 }
+			}
+		}
+
+		power_68 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_69 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_68 value = 0 }
+			}
+		}
+
+		power_69 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_70 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_69 value = 0 }
+			}
+		}
+
+		power_70 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_71 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_70 value = 0 }
+			}
+		}
+
+		power_71 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_72 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_71 value = 0 }
+			}
+		}
+
+		power_72 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_73 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_72 value = 0 }
+			}
+		}
+
+		power_73 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_74 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_73 value = 0 }
+			}
+		}
+
+		power_74 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_75 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_74 value = 0 }
+			}
+		}
+
+		power_75 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_76 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_75 value = 0 }
+			}
+		}
+
+		power_76 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_77 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_76 value = 0 }
+			}
+		}
+
+		power_77 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_78 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_77 value = 0 }
+			}
+		}
+
+		power_78 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_79 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_78 value = 0 }
+			}
+		}
+
+		power_79 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_80 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_79 value = 0 }
+			}
+		}
+
+		power_80 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_81 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_80 value = 0 }
+			}
+		}
+
+		power_81 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_82 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_81 value = 0 }
+			}
+		}
+
+		power_82 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_83 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_82 value = 0 }
+			}
+		}
+
+		power_83 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_84 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_83 value = 0 }
+			}
+		}
+
+		power_84 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_85 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_84 value = 0 }
+			}
+		}
+
+		power_85 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_86 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_85 value = 0 }
+			}
+		}
+
+		power_86 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_87 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_86 value = 0 }
+			}
+		}
+
+		power_87 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_88 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_87 value = 0 }
+			}
+		}
+
+		power_88 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_89 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_88 value = 0 }
+			}
+		}
+
+		power_89 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_90 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_89 value = 0 }
+			}
+		}
+
+		power_90 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_91 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_90 value = 0 }
+			}
+		}
+
+		power_91 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_92 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_91 value = 0 }
+			}
+		}
+
+		power_92 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_93 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_92 value = 0 }
+			}
+		}
+
+		power_93 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_94 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_93 value = 0 }
+			}
+		}
+
+		power_94 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_95 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_94 value = 0 }
+			}
+		}
+
+		power_95 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_96 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_95 value = 0 }
+			}
+		}
+
+		power_96 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_97 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_96 value = 0 }
+			}
+		}
+
+		power_97 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_98 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_97 value = 0 }
+			}
+		}
+
+		power_98 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_99 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_98 value = 0 }
+			}
+		}
+
+		power_99 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_100 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_99 value = 0 }
+			}
+		}
+
+		power_100 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_101 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_100 value = 0 }
+			}
+		}
+
+		power_101 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_102 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_101 value = 0 }
+			}
+		}
+
+		power_102 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_103 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_102 value = 0 }
+			}
+		}
+
+		power_103 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_104 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_103 value = 0 }
+			}
+		}
+
+		power_104 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_105 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_104 value = 0 }
+			}
+		}
+
+		power_105 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_106 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_105 value = 0 }
+			}
+		}
+
+		power_106 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_107 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_106 value = 0 }
+			}
+		}
+
+		power_107 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_108 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_107 value = 0 }
+			}
+		}
+
+		power_108 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_109 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_108 value = 0 }
+			}
+		}
+
+		power_109 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_110 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_109 value = 0 }
+			}
+		}
+
+		power_110 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_111 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_110 value = 0 }
+			}
+		}
+
+		power_111 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_112 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_111 value = 0 }
+			}
+		}
+
+		power_112 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_113 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_112 value = 0 }
+			}
+		}
+
+		power_113 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_114 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_113 value = 0 }
+			}
+		}
+
+		power_114 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_115 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_114 value = 0 }
+			}
+		}
+
+		power_115 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_116 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_115 value = 0 }
+			}
+		}
+
+		power_116 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_117 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_116 value = 0 }
+			}
+		}
+
+		power_117 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_118 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_117 value = 0 }
+			}
+		}
+
+		power_118 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_119 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_118 value = 0 }
+			}
+		}
+
+		power_119 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_120 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_119 value = 0 }
+			}
+		}
+
+		power_120 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_121 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_120 value = 0 }
+			}
+		}
+
+		power_121 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_122 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_121 value = 0 }
+			}
+		}
+
+		power_122 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_123 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_122 value = 0 }
+			}
+		}
+
+		power_123 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_124 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_123 value = 0 }
+			}
+		}
+
+		power_124 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_125 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_124 value = 0 }
+			}
+		}
+
+		power_125 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_126 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_125 value = 0 }
+			}
+		}
+
+		power_126 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_127 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_126 value = 0 }
+			}
+		}
+
+		power_127 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_128 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_127 value = 0 }
+			}
+		}
+
+		power_128 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_129 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_128 value = 0 }
+			}
+		}
+
+		power_129 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_130 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_129 value = 0 }
+			}
+		}
+
+		power_130 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_131 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_130 value = 0 }
+			}
+		}
+
+		power_131 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_132 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_131 value = 0 }
+			}
+		}
+
+		power_132 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_133 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_132 value = 0 }
+			}
+		}
+
+		power_133 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_134 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_133 value = 0 }
+			}
+		}
+
+		power_134 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_135 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_134 value = 0 }
+			}
+		}
+
+		power_135 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_136 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_135 value = 0 }
+			}
+		}
+
+		power_136 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_137 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_136 value = 0 }
+			}
+		}
+
+		power_137 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_138 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_137 value = 0 }
+			}
+		}
+
+		power_138 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_139 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_138 value = 0 }
+			}
+		}
+
+		power_139 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_140 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_139 value = 0 }
+			}
+		}
+
+		power_140 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_141 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_140 value = 0 }
+			}
+		}
+
+		power_141 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_142 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_141 value = 0 }
+			}
+		}
+
+		power_142 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_143 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_142 value = 0 }
+			}
+		}
+
+		power_143 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_144 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_143 value = 0 }
+			}
+		}
+
+		power_144 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_145 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_144 value = 0 }
+			}
+		}
+
+		power_145 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_146 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_145 value = 0 }
+			}
+		}
+
+		power_146 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_147 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_146 value = 0 }
+			}
+		}
+
+		power_147 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_148 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_147 value = 0 }
+			}
+		}
+
+		power_148 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_149 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_148 value = 0 }
+			}
+		}
+
+		power_149 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_150 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_149 value = 0 }
+			}
+		}
+
+		power_150 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_151 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_150 value = 0 }
+			}
+		}
+
+		power_151 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_152 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_151 value = 0 }
+			}
+		}
+
+		power_152 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_153 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_152 value = 0 }
+			}
+		}
+
+		power_153 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_154 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_153 value = 0 }
+			}
+		}
+
+		power_154 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_155 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_154 value = 0 }
+			}
+		}
+
+		power_155 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_156 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_155 value = 0 }
+			}
+		}
+
+		power_156 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_157 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_156 value = 0 }
+			}
+		}
+
+		power_157 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_158 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_157 value = 0 }
+			}
+		}
+
+		power_158 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_159 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_158 value = 0 }
+			}
+		}
+
+		power_159 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_160 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_159 value = 0 }
+			}
+		}
+
+		power_160 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_161 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_160 value = 0 }
+			}
+		}
+
+		power_161 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_162 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_161 value = 0 }
+			}
+		}
+
+		power_162 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_163 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_162 value = 0 }
+			}
+		}
+
+		power_163 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_164 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_163 value = 0 }
+			}
+		}
+
+		power_164 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_165 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_164 value = 0 }
+			}
+		}
+
+		power_165 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_166 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_165 value = 0 }
+			}
+		}
+
+		power_166 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_167 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_166 value = 0 }
+			}
+		}
+
+		power_167 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_168 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_167 value = 0 }
+			}
+		}
+
+		power_168 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_169 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_168 value = 0 }
+			}
+		}
+
+		power_169 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_170 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_169 value = 0 }
+			}
+		}
+
+		power_170 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_171 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_170 value = 0 }
+			}
+		}
+
+		power_171 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_172 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_171 value = 0 }
+			}
+		}
+
+		power_172 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_173 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_172 value = 0 }
+			}
+		}
+
+		power_173 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_174 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_173 value = 0 }
+			}
+		}
+
+		power_174 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_175 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_174 value = 0 }
+			}
+		}
+
+		power_175 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_176 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_175 value = 0 }
+			}
+		}
+
+		power_176 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_177 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_176 value = 0 }
+			}
+		}
+
+		power_177 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_178 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_177 value = 0 }
+			}
+		}
+
+		power_178 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_179 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_178 value = 0 }
+			}
+		}
+
+		power_179 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_180 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_179 value = 0 }
+			}
+		}
+
+		power_180 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_181 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_180 value = 0 }
+			}
+		}
+
+		power_181 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_182 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_181 value = 0 }
+			}
+		}
+
+		power_182 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_183 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_182 value = 0 }
+			}
+		}
+
+		power_183 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_184 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_183 value = 0 }
+			}
+		}
+
+		power_184 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_185 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_184 value = 0 }
+			}
+		}
+
+		power_185 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_186 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_185 value = 0 }
+			}
+		}
+
+		power_186 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_187 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_186 value = 0 }
+			}
+		}
+
+		power_187 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_188 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_187 value = 0 }
+			}
+		}
+
+		power_188 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_189 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_188 value = 0 }
+			}
+		}
+
+		power_189 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_190 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_189 value = 0 }
+			}
+		}
+
+		power_190 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_191 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_190 value = 0 }
+			}
+		}
+
+		power_191 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_192 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_191 value = 0 }
+			}
+		}
+
+		power_192 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_193 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_192 value = 0 }
+			}
+		}
+
+		power_193 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_194 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_193 value = 0 }
+			}
+		}
+
+		power_194 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_195 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_194 value = 0 }
+			}
+		}
+
+		power_195 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_196 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_195 value = 0 }
+			}
+		}
+
+		power_196 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_197 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_196 value = 0 }
+			}
+		}
+
+		power_197 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_198 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_197 value = 0 }
+			}
+		}
+
+		power_198 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_199 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_198 value = 0 }
+			}
+		}
+
+		power_199 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_200 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_199 value = 0 }
+			}
+		}
+
+		power_200 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_201 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_200 value = 0 }
+			}
+		}
+
+		power_201 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_202 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_201 value = 0 }
+			}
+		}
+
+		power_202 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_203 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_202 value = 0 }
+			}
+		}
+
+		power_203 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_204 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_203 value = 0 }
+			}
+		}
+
+		power_204 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_205 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_204 value = 0 }
+			}
+		}
+
+		power_205 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_206 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_205 value = 0 }
+			}
+		}
+
+		power_206 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_207 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_206 value = 0 }
+			}
+		}
+
+		power_207 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_208 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_207 value = 0 }
+			}
+		}
+
+		power_208 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_209 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_208 value = 0 }
+			}
+		}
+
+		power_209 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_210 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_209 value = 0 }
+			}
+		}
+
+		power_210 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_211 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_210 value = 0 }
+			}
+		}
+
+		power_211 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_212 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_211 value = 0 }
+			}
+		}
+
+		power_212 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_213 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_212 value = 0 }
+			}
+		}
+
+		power_213 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_214 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_213 value = 0 }
+			}
+		}
+
+		power_214 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_215 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_214 value = 0 }
+			}
+		}
+
+		power_215 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_216 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_215 value = 0 }
+			}
+		}
+
+		power_216 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_217 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_216 value = 0 }
+			}
+		}
+
+		power_217 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_218 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_217 value = 0 }
+			}
+		}
+
+		power_218 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_219 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_218 value = 0 }
+			}
+		}
+
+		power_219 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_220 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_219 value = 0 }
+			}
+		}
+
+		power_220 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_221 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_220 value = 0 }
+			}
+		}
+
+		power_221 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_222 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_221 value = 0 }
+			}
+		}
+
+		power_222 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_223 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_222 value = 0 }
+			}
+		}
+
+		power_223 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_224 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_223 value = 0 }
+			}
+		}
+
+		power_224 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_225 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_224 value = 0 }
+			}
+		}
+
+		power_225 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_226 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_225 value = 0 }
+			}
+		}
+
+		power_226 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_227 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_226 value = 0 }
+			}
+		}
+
+		power_227 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_228 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_227 value = 0 }
+			}
+		}
+
+		power_228 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_229 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_228 value = 0 }
+			}
+		}
+
+		power_229 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_230 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_229 value = 0 }
+			}
+		}
+
+		power_230 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_231 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_230 value = 0 }
+			}
+		}
+
+		power_231 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_232 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_231 value = 0 }
+			}
+		}
+
+		power_232 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_233 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_232 value = 0 }
+			}
+		}
+
+		power_233 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_234 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_233 value = 0 }
+			}
+		}
+
+		power_234 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_235 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_234 value = 0 }
+			}
+		}
+
+		power_235 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_236 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_235 value = 0 }
+			}
+		}
+
+		power_236 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_237 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_236 value = 0 }
+			}
+		}
+
+		power_237 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_238 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_237 value = 0 }
+			}
+		}
+
+		power_238 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_239 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_238 value = 0 }
+			}
+		}
+
+		power_239 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_240 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_239 value = 0 }
+			}
+		}
+
+		power_240 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_241 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_240 value = 0 }
+			}
+		}
+
+		power_241 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_242 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_241 value = 0 }
+			}
+		}
+
+		power_242 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_243 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_242 value = 0 }
+			}
+		}
+
+		power_243 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_244 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_243 value = 0 }
+			}
+		}
+
+		power_244 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_245 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_244 value = 0 }
+			}
+		}
+
+		power_245 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_246 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_245 value = 0 }
+			}
+		}
+
+		power_246 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_247 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_246 value = 0 }
+			}
+		}
+
+		power_247 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_248 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_247 value = 0 }
+			}
+		}
+
+		power_248 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_249 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_248 value = 0 }
+			}
+		}
+
+		power_249 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_250 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_249 value = 0 }
+			}
+		}
+
+		power_250 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_251 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_250 value = 0 }
+			}
+		}
+
+		power_251 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_252 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_251 value = 0 }
+			}
+		}
+
+		power_252 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_253 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_252 value = 0 }
+			}
+		}
+
+		power_253 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_254 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_253 value = 0 }
+			}
+		}
+
+		power_254 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_255 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_254 value = 0 }
+			}
+		}
+
+		power_255 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_256 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_255 value = 0 }
+			}
+		}
+
+		power_256 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_257 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_256 value = 0 }
+			}
+		}
+
+		power_257 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_258 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_257 value = 0 }
+			}
+		}
+
+		power_258 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_259 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_258 value = 0 }
+			}
+		}
+
+		power_259 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_260 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_259 value = 0 }
+			}
+		}
+
+		power_260 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_261 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_260 value = 0 }
+			}
+		}
+
+		power_261 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_262 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_261 value = 0 }
+			}
+		}
+
+		power_262 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_263 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_262 value = 0 }
+			}
+		}
+
+		power_263 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_264 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_263 value = 0 }
+			}
+		}
+
+		power_264 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_265 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_264 value = 0 }
+			}
+		}
+
+		power_265 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_266 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_265 value = 0 }
+			}
+		}
+
+		power_266 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_267 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_266 value = 0 }
+			}
+		}
+
+		power_267 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_268 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_267 value = 0 }
+			}
+		}
+
+		power_268 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_269 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_268 value = 0 }
+			}
+		}
+
+		power_269 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_270 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_269 value = 0 }
+			}
+		}
+
+		power_270 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_271 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_270 value = 0 }
+			}
+		}
+
+		power_271 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_272 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_271 value = 0 }
+			}
+		}
+
+		power_272 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_273 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_272 value = 0 }
+			}
+		}
+
+		power_273 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_274 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_273 value = 0 }
+			}
+		}
+
+		power_274 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_275 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_274 value = 0 }
+			}
+		}
+
+		power_275 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_276 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_275 value = 0 }
+			}
+		}
+
+		power_276 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_277 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_276 value = 0 }
+			}
+		}
+
+		power_277 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_278 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_277 value = 0 }
+			}
+		}
+
+		power_278 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_279 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_278 value = 0 }
+			}
+		}
+
+		power_279 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_280 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_279 value = 0 }
+			}
+		}
+
+		power_280 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_281 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_280 value = 0 }
+			}
+		}
+
+		power_281 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_282 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_281 value = 0 }
+			}
+		}
+
+		power_282 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_283 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_282 value = 0 }
+			}
+		}
+
+		power_283 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_284 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_283 value = 0 }
+			}
+		}
+
+		power_284 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_285 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_284 value = 0 }
+			}
+		}
+
+		power_285 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_286 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_285 value = 0 }
+			}
+		}
+
+		power_286 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_287 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_286 value = 0 }
+			}
+		}
+
+		power_287 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_288 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_287 value = 0 }
+			}
+		}
+
+		power_288 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_289 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_288 value = 0 }
+			}
+		}
+
+		power_289 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_290 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_289 value = 0 }
+			}
+		}
+
+		power_290 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_291 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_290 value = 0 }
+			}
+		}
+
+		power_291 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_292 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_291 value = 0 }
+			}
+		}
+
+		power_292 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_293 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_292 value = 0 }
+			}
+		}
+
+		power_293 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_294 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_293 value = 0 }
+			}
+		}
+
+		power_294 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_295 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_294 value = 0 }
+			}
+		}
+
+		power_295 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_296 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_295 value = 0 }
+			}
+		}
+
+		power_296 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_297 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_296 value = 0 }
+			}
+		}
+
+		power_297 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_298 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_297 value = 0 }
+			}
+		}
+
+		power_298 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_299 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_298 value = 0 }
+			}
+		}
+
+		power_299 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_300 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_299 value = 0 }
+			}
+		}
+
+		power_300 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_301 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_300 value = 0 }
+			}
+		}
+
+		power_301 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_302 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_301 value = 0 }
+			}
+		}
+
+		power_302 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_303 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_302 value = 0 }
+			}
+		}
+
+		power_303 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_304 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_303 value = 0 }
+			}
+		}
+
+		power_304 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_305 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_304 value = 0 }
+			}
+		}
+
+		power_305 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_306 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_305 value = 0 }
+			}
+		}
+
+		power_306 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_307 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_306 value = 0 }
+			}
+		}
+
+		power_307 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_308 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_307 value = 0 }
+			}
+		}
+
+		power_308 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_309 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_308 value = 0 }
+			}
+		}
+
+		power_309 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_310 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_309 value = 0 }
+			}
+		}
+
+		power_310 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_311 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_310 value = 0 }
+			}
+		}
+
+		power_311 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_312 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_311 value = 0 }
+			}
+		}
+
+		power_312 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_313 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_312 value = 0 }
+			}
+		}
+
+		power_313 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_314 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_313 value = 0 }
+			}
+		}
+
+		power_314 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_315 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_314 value = 0 }
+			}
+		}
+
+		power_315 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_316 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_315 value = 0 }
+			}
+		}
+
+		power_316 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_317 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_316 value = 0 }
+			}
+		}
+
+		power_317 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_318 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_317 value = 0 }
+			}
+		}
+
+		power_318 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_319 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_318 value = 0 }
+			}
+		}
+
+		power_319 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_320 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_319 value = 0 }
+			}
+		}
+
+		power_320 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_321 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_320 value = 0 }
+			}
+		}
+
+		power_321 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_322 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_321 value = 0 }
+			}
+		}
+
+		power_322 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_323 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_322 value = 0 }
+			}
+		}
+
+		power_323 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_324 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_323 value = 0 }
+			}
+		}
+
+		power_324 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_325 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_324 value = 0 }
+			}
+		}
+
+		power_325 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_326 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_325 value = 0 }
+			}
+		}
+
+		power_326 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_327 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_326 value = 0 }
+			}
+		}
+
+		power_327 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_328 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_327 value = 0 }
+			}
+		}
+
+		power_328 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_329 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_328 value = 0 }
+			}
+		}
+
+		power_329 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_330 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_329 value = 0 }
+			}
+		}
+
+		power_330 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_331 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_330 value = 0 }
+			}
+		}
+
+		power_331 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_332 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_331 value = 0 }
+			}
+		}
+
+		power_332 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_333 value = 1 }
+				set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_332 value = 0 }
+			}
+		}
+
+		power_333 = {
+			default = 0
+			max = 1000
+			min = 0
+			on_max_reached = {
+				# add_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_334 value = 1 }
+				# set_government_power = { mechanic_type = cookie_clicker_mechanic power_type = power_333 value = 0 }
+			}
+		}
+	}
+}

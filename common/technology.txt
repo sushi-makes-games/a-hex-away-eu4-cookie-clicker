@@ -1,0 +1,32 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+# If adding new technology, make sure they are AFTER THE LAST TECHNOLOGY
+
+# Groups must be defined BEFORE tables.
+
+#Nation Designer Cost is set to match triggers for starting institutions.
+
+groups = {
+	tech_group_default = {
+		start_level = 0
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = { always = yes }
+			value = 0
+		}
+	}
+	tech_group_special = {
+		start_level = 0
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = { always = yes }
+			value = 0
+		}
+	}
+}
+
+tables = {
+	adm_tech = "technologies/adm.txt"
+	dip_tech = "technologies/dip.txt"
+	mil_tech = "technologies/mil.txt"
+}

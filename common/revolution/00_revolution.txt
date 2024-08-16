@@ -1,0 +1,9 @@
+# Don't rename file, replace_path doesn't work
+
+revolution = {
+	target_province_weights = { factor = 1 }
+
+	revolution_province_modifiers = { }
+
+	zeal_modifiers = { }
+}

@@ -1,0 +1,17 @@
+# ANY = { is_variable_between = { which = $which$ from = $from$ to = $to$ } }
+is_variable_between = {
+	check_variable = { which = $which$ value = $from$ }
+	NOT = { check_variable = { which = $which$ value = $to$ } }
+}
+
+# ANY = { is_variable_equal_to = { which = $which$ scope = $scope$ } } }
+is_variable_equal_to = {
+	check_variable = { which = $which$ which = $scope$ }
+	$scope$ = { check_variable = { which = $which$ which = PREV } }
+}
+
+# ANY = { is_variable_above_to = { which = $which$ scope = $scope$ } } }
+is_variable_above_to = {
+	check_variable = { which = $which$ which = $scope$ }
+	NOT = { $scope$ = { check_variable = { which = $which$ which = PREV } } }
+}

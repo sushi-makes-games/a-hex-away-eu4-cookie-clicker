@@ -1,0 +1,15 @@
+ideas = {
+	start = { }
+	bonus = { }
+	
+	trigger = { always = yes }
+	free = yes
+	
+	ideas_1 = { }
+	ideas_2 = { }
+	ideas_3 = { }
+	ideas_4 = { }
+	ideas_5 = { }
+	ideas_6 = { }
+	ideas_7 = { }
+}

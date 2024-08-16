@@ -1,0 +1,945 @@
+difficulty_very_easy_player = {
+}
+
+difficulty_easy_player = {
+}
+
+difficulty_normal_player = {
+}
+
+difficulty_hard_player = {
+}
+
+difficulty_very_hard_player = {
+}
+
+difficulty_very_easy_ai = {
+}
+
+difficulty_easy_ai = {
+}
+
+difficulty_normal_ai = {
+}
+
+difficulty_hard_ai = {
+}
+
+difficulty_very_hard_ai = {
+}
+
+city = {
+}
+
+port = {
+}
+
+in_state = {
+}
+
+in_capital_state = {
+}
+
+coastal = {
+}
+
+seat_in_parliament = {
+}
+
+non_coastal = {
+}
+
+coastal_sea = {
+}
+
+tropical = {
+	picture = "climate_tropical"
+}
+
+arctic = {
+	picture = "climate_arctic"
+}
+
+arid = {
+	picture = "climate_arid"
+}
+
+sea_zone = {
+}
+
+land_province = {
+}
+
+mild_winter = {
+	picture = "winter_mild"
+}
+
+normal_winter = {
+	picture = "winter_normal"
+}
+
+severe_winter = {
+	picture = "winter_severe"
+}
+
+mild_monsoon = {
+	picture = "monsoon_mild"
+}
+
+normal_monsoon = {
+	picture = "monsoon_normal"
+}
+
+severe_monsoon = {
+	picture = "monsoon_severe"
+}
+
+blockaded = {
+}
+
+no_adjacent_controlled = {
+}
+
+provincial_tax_income = {
+}
+
+provincial_production_size = {
+}
+
+knowledge_sharing = {
+}
+
+cardinals_spread_institution = {
+}
+
+manpower = {
+}
+
+province_razed = {
+	picture = "province_razed"
+}
+
+development = {
+}
+
+development_scaled = {
+}
+
+capital_city = {
+}
+
+patriarch_state = {
+}
+
+patriarch_authority_local = {
+}
+
+patriarch_authority_global = {
+}
+
+pasha_state = {
+}
+
+colony_level = {
+}
+
+native_assimilation = {
+}
+
+native_aggressiveness = {
+}
+
+core = {
+}
+
+non_core = {
+}
+
+colonial_core = {
+}
+
+territory_core = {
+}
+
+territory_non_core = {
+}
+
+same_culture_group = {
+}
+
+non_accepted_culture = {
+}
+
+accepted_culture_demoted = {
+}
+
+non_accepted_culture_republic = {
+}
+
+occupied = {
+}
+
+under_siege = {
+}
+
+devastation = {
+}
+
+prosperity = {
+}
+
+slaves_raided = {
+	picture = "raided_for_slaves"
+}
+
+tolerance = {
+}
+
+intolerance = {
+}
+
+unrest = {
+}
+
+nationalism = {
+}
+
+harsh_treatment = {
+}
+
+local_autonomy_multiplicative = {
+}
+
+local_autonomy = {
+}
+
+local_autonomy_trade_company_multiplicative = {
+}
+
+local_autonomy_trade_company = {
+}
+
+recent_uprising = {
+	picture = "recent_uprising"
+}
+
+friendly_regiments = {
+}
+
+active_missionary = {
+}
+
+national_defense = {
+}
+
+resource_depleted = {
+}
+
+in_trade_company = {
+}
+
+left_trade_company = {
+}
+
+scorched_earth = {
+}
+
+base_values = {
+}
+
+ai_nation = {
+}
+
+war_taxes = {
+}
+
+stability = {
+}
+
+positive_stability = {
+}
+
+privateering = {
+}
+
+negative_stability = {
+}
+
+positive_mandate = {
+}
+
+negative_mandate = {
+}
+
+cancelled_loan = {
+}
+
+bank_loan = {
+}
+
+inflation = {
+}
+
+bankruptcy = {
+}
+
+war = {
+}
+
+peace = {
+}
+
+unconditional_surrender = {
+}
+
+call_for_peace = {
+}
+
+war_exhaustion = {
+}
+
+doom = {
+}
+
+authority = {
+}
+
+regency_council = {
+}
+
+trade_efficiency = {
+}
+
+production_efficiency = {
+}
+
+trade_refusal = {
+}
+
+mercantilism = {
+}
+
+army_tradition = {
+}
+
+navy_tradition = {
+}
+
+positive_piety = {
+}
+
+negative_piety = {
+}
+
+defender_of_faith = {
+}
+
+defender_of_faith_refused_cta = {
+}
+
+emperor = {
+}
+
+states_in_hre = {
+}
+
+free_cities_in_hre = {
+}
+
+free_city_in_hre = {
+}
+
+member_in_hre = {
+}
+
+occupied_imperial = {
+}
+
+emperor_revoked_reform =  {
+}
+
+num_of_marriages = {
+}
+
+num_of_provinces = {
+}
+
+papal_influence = {
+}
+
+church_power = {
+}
+
+fervor = {
+}
+
+karma = {
+}
+
+positive_karma = {
+}
+
+negative_karma = {
+}
+
+country_development = {
+}
+
+legitimacy = {
+}
+
+horde_unity = {
+}
+
+devotion = {
+}
+
+meritocracy = {
+}
+
+low_meritocracy = {
+}
+
+corruption = {
+}
+
+root_out_corruption = {
+}
+
+recovery_motivation = {
+}
+
+luck = {
+}
+
+over_extension = {
+}
+
+prestige = {
+}
+
+no_debate_in_parliament = {
+}
+
+republican_tradition = {
+}
+
+inverse_republican_tradition = {
+}
+
+curia_controller = {
+}
+
+bought_indulgence = {
+}
+
+religious_unity = {
+}
+
+inverse_religious_unity = {
+}
+
+total_occupation = {
+}
+
+total_blockaded = {
+}
+
+uncontested_cores = {
+}
+
+num_objectives_fullfilled = {
+}
+
+production_leader = {
+}
+
+trade_company_bonus = {
+}
+
+bonus_from_merchant_republics = {
+}
+
+bonus_from_merchant_republics_for_trade_league_member = {
+}
+
+merchant_republic_mechanics_modifier = {
+}
+
+federation_leader = {
+}
+
+liberty_desire = {
+}
+
+is_great_power = {
+}
+
+in_golden_era = {
+}
+
+absolutism = {
+}
+
+low_army_professionalism = {
+}
+
+high_army_professionalism = {
+}
+
+streltsy_modifier = {
+}
+
+cossacks_modifier = {
+}
+
+tercio_modifier = {
+}
+
+musketeers_modifier = {
+}
+
+samurai_modifier = {
+}
+
+qizilbash_modifier = {
+}
+
+mamluks_modifier = {
+}
+
+geobukseon_modifier = {
+}
+
+man_of_war_modifier = {
+}
+
+galleon_modifier = {
+}
+
+galleass_modifier = {
+}
+
+caravel_modifier = {
+}
+
+voc_indiamen_modifier = {
+}
+
+power_projection = {
+}
+
+power_projection_25 = {
+}
+
+land_forcelimit = {
+}
+
+naval_forcelimit = {
+}
+
+trade_company_strong = {
+}
+
+all_nations = {
+}
+
+primitive_nation = {
+}
+
+maintained_forts = {
+}
+
+gov_rank_1 = {
+}
+
+gov_rank_2 = {
+}
+
+gov_rank_3 = {
+}
+
+gov_rank_4 = {
+}
+
+gov_rank_5 = {
+}
+
+gov_rank_6 = {
+}
+
+gov_rank_7 = {
+}
+
+gov_rank_8 = {
+}
+
+gov_rank_9 = {
+}
+
+gov_rank_10 = {
+}
+
+autonomy_increased = {
+	picture="autonomy_increased"
+}
+
+autonomy_decreased = {
+}
+
+revolution_target = {
+}
+
+dishonoured_alliance =  {
+}
+
+drilling_armies = {
+}
+
+recruitment_sabotaged = {
+}
+
+merchants_slandered = {
+}
+
+discontent_sowed = {
+}
+
+reputation_sabotaged = {
+}
+
+corrupt_officials = {
+}
+
+scaled_trade_league_leader = {
+}
+
+in_trade_league = {
+}
+
+custom_setup = {
+}
+
+embargo_rivals = {
+}
+
+scutage = {
+}
+
+subsidize_armies = {
+}
+
+support_loyalists = {
+}
+
+send_officers = {
+}
+
+divert_trade = {
+}
+
+karma_just_right = {
+}
+
+karma_too_high = {
+}
+
+karma_too_low = {
+}
+
+invasion_nation = {
+}
+
+native_policy_coexist = {
+}
+
+native_policy_trade = {
+}
+
+native_policy_hostile = {
+}
+
+high_harmony = {
+}
+
+low_harmony = {
+}
+
+overlord_daimyo_at_peace = {
+}
+
+overlord_daimyo_at_peace_max = {
+}
+
+overlord_daimyo_at_peace_min = {
+}
+
+overlord_daimyo_same_isolationism = {
+}
+
+overlord_daimyo_different_isolationism = {
+}
+
+overlord_daimyo_isolationism_max = {
+}
+
+overlord_daimyo_isolationism_min = {
+}
+
+overlord_sankin_kotai = {
+}
+
+subject_sankin_kotai = {
+}
+
+overlord_expel_ronin = {
+}
+
+subject_expel_ronin = {
+}
+
+overlord_sword_hunt = {
+}
+
+subject_sword_hunt = {
+}
+
+supply_depot_area = {
+}
+
+regiment_drill_modifier = {
+}
+
+army_drill_modifier = {
+}
+
+janissary_regiment = {
+}
+
+cawa_regiment = {
+}
+
+hussars_regiment = {
+}
+
+marine_regiment = {
+}
+
+banner_regiment = {
+}
+
+streltsy_regiment = {
+}
+
+tercio_regiment = {
+}
+
+musketeer_regiment = {
+}
+
+samurai_regiment = {
+}
+
+qizilbash_regiment = {
+}
+
+mamluks_regiment = {
+}
+
+geobukseon_ship = {
+}
+
+man_of_war_ship = {
+}
+
+galleon_ship = {
+}
+
+galleass_ship = {
+}
+
+caravel_ship = {
+}
+
+voc_indiamen_ship = {
+}
+
+cossacks_regiment = {
+}
+
+carolean_regiment = {
+}
+
+revolutionary_guard_regiment = {
+}
+
+innovativeness = {
+}
+
+rajput_regiment = {
+}
+
+serfs_recieved_by_cossacks = {
+}
+
+expand_administation_modifier = {
+}
+
+over_governing_capacity_modifier = {
+}
+
+under_governing_capacity_modifier = {
+}
+
+reverse_under_governing_capacity_modifier = {
+}
+
+lost_hegemony = {
+}
+
+at_peace_revolutionary = {
+}
+
+expanded_infrastructure = {
+}
+
+centralize_state = {
+	picture = "centralize_state"
+}
+
+guru_teaching = {
+}
+
+diplomatic_reputation = {
+}
+
+tolerance_own = {
+}
+
+tolerance_heretic = {
+}
+
+tolerance_heathen = {
+}
+
+num_accepted_cultures = {
+}
+
+ruler_adm = {
+}
+
+ruler_dip = {
+}
+
+ruler_mil = {
+}
+
+heir_adm = {
+}
+
+heir_dip = {
+}
+
+heir_mil = {
+}
+
+consort_adm = {
+}
+
+consort_dip = {
+}
+
+consort_mil = {
+}
+
+mandate = {
+}
+
+imperial_authority_emperor = {
+}
+
+imperial_authority_member = {
+}
+
+positive_imperial_authority_emperor = {
+}
+
+positive_imperial_authority_member = {
+}
+
+negative_imperial_authority_emperor = {
+}
+
+negative_imperial_authority_member = {
+}
+
+slackening_modifier = {
+}
+
+average_overseas_subject_liberty_desire = {
+}
+
+reverse_average_overseas_subject_liberty_desire = {
+}
+
+average_subject_liberty_desire = {
+}
+
+reverse_average_subject_liberty_desire = {
+}
+
+average_global_autonomy = {
+}
+
+reverse_average_global_autonomy = {
+}
+
+manpower_percentage = {
+}
+
+reverse_manpower_percentage = {
+}
+
+sailors_percentage = {
+}
+
+reverse_sailors_percentage = {
+}
+
+religious_zeal_at_conv = {
+}
+
+trade_post_modifier = {
+}
+
+unlawful_territory = {
+}
+
+expelled_minority = {
+}
+
+pasha_removed_modifier = {
+}
+
+chisti_timer = {
+}
+
+qadiriyya_timer = {
+}
+
+suhrawardiyya_timer = {
+}
+
+joined_league_war = {
+}
+
+global_holy_war_released_modifier = {
+}
+
+religious_center = {
+}
+
+# SUBJECT TYPES
+
+subject_nation = {
+}

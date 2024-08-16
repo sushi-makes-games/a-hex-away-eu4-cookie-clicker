@@ -1,0 +1,83 @@
+tutorial = {
+	index = 1
+	category = 1
+	title = "TUT_BAS_CHAPTER01_TITLE"
+	desc = "TUT_BAS_CHAPTER01_DESC"
+	buttonText = "TUT_BAS_CHAPTER01_BUTTON"
+	country = ENG
+	window = "hints_window"	# default window
+	moveable = yes
+	
+	page = {
+		title = "TUT_BAS_CHAPTER01_PAGE01_TITLE"
+		text = "TUT_BAS_CHAPTER01_PAGE01_TEXT"
+		object = "TUT_BAS_CHAPTER01_PAGE01_OBJECTIVES"
+		disabled_gui_object = { f_button_1 }
+		disabled_gui_object = { f_button_2 }
+		disabled_gui_object = { open_build_interface_button }
+		disabled_gui_object = { unitpanel disbandbutton }
+		
+		effect = { # This page's effects on the world
+			goto = 236 # London
+			pauseable = no
+			pause = yes
+			close_window = "all"
+			keep_window_closed = yes
+			zoom = 200
+			ai = no
+			allow_select_army = no
+			allow_select_navy = no
+		}
+		extra_window = {
+			window = "dummy-br"
+			sprite = "GFX_uiarrow_up"
+			position = {
+				x = -250
+				y = -230
+			}
+		}
+		#connected_icons = { dummy-br hints_window hint_minimise }
+		extra_window = {
+			window = "dummy-br"
+			sprite = "GFX_uiarrow_right"
+			position = {
+				x = -343
+				y = -578
+			}
+		}
+		connected_icons = { dummy-br tutorial_minimized hint_maximize }
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_MENU"
+			action = "close"
+			tooltip = "TUT_MENU_TOOLTIP"
+			position = {
+				x = 7 #10
+				y = 338
+			}
+		}	
+		
+		option = {
+			button = "TutorialPageButtonOption"
+			text = "TUT_NEXT"
+			action = "continue"
+			tooltip = "TUT_NEXT_TOOLTIP"
+			position = {
+				x = 183 #180
+				y = 338
+			}
+		}
+		option = {
+			name = "hint_minimise"
+	
+			text = "MINIMISE"
+			action = "minimize"
+			tooltip = "TUT_BAS_CLOSE_TOOLTIP"
+		}
+		
+		disabled_gui_object = { countrymissionsdecisionsview mission_window mission_banner }
+		
+		orientation = "UPPER_LEFT"
+	}
+}

@@ -1,0 +1,6 @@
+unknown = {
+  color = { 0.36 0.13 0.28 }
+  modifier = { }
+  province = { }
+  chance = { factor = 100 }
+}

@@ -1,0 +1,14 @@
+player_basic_reform = {
+	basic_reform = yes
+	custom_attributes = { }
+	modifiers = { }
+	government_abilities = {
+		cookie_clicker_mechanic
+	}
+}
+
+player_reform = {
+	icon = "the_city"
+	potential = { ai = no }
+	removed_effect = { }
+}

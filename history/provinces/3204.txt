@@ -1,0 +1,6 @@
+owner = H00
+add_core = H00
+
+trade_goods = unknown
+
+add_province_triggered_modifier = on_global_daily

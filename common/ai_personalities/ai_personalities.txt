@@ -1,0 +1,11 @@
+human = { chance = { factor = 0 } icon = 1 }
+
+ai_capitalist = { chance = { factor = 100 } icon = 2 }
+
+ai_diplomat = { chance = { factor = 100 } icon = 3 }
+
+ai_militarist = { chance = { factor = 100 } icon = 4 }
+
+ai_colonialist = { chance = { factor = 100 } icon = 5 }
+
+ai_balanced = { chance = { factor = 100 } icon = 6 }

@@ -1,0 +1,85 @@
+monarch_power = MIL
+
+ahead_of_time = { }
+
+# Awakening
+technology = {
+	year = 2
+
+	enable = western_medieval_infantry
+}
+
+# Beyond
+technology = {
+	year = 5
+}
+
+# Control
+technology = {
+	year = 11
+}
+
+# Divine
+technology = {
+	year = 17
+}
+
+# Elements
+technology = {
+	year = 23
+}
+
+# Frontier
+technology = {
+	year = 35
+}
+
+# Glowing
+technology = {
+	year = 47
+}
+
+# Hollow
+technology = {
+	year = 59
+}
+
+# Ignition
+technology = {
+	year = 71
+}
+
+# Judgement
+technology = {
+	year = 95
+}
+
+# Keymaker
+technology = {
+	year = 119
+}
+
+# Legion
+technology = {
+	year = 143
+}
+
+# Mechnaim
+technology = {
+	year = 167
+}
+
+# Nocturne
+technology = {
+	year = 191
+}
+
+# Origin
+technology = {
+	year = 203
+}
+
+# Portal
+technology = {
+	year = 209
+}

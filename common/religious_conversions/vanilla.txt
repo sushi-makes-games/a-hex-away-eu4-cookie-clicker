@@ -1,0 +1,12 @@
+propagate_religion_policy = {
+	
+	trading_policy = yes
+
+	map_icon = GFX_religious_conversion_center_trading_policy
+
+	base_conversion_speed = 2.0
+	
+	target_province_weights = {
+		factor = 5
+	}
+}

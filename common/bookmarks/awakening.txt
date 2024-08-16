@@ -1,0 +1,7 @@
+bookmark = {
+	name = awakening_arc
+	desc = awakening_arc_desc
+	date = 3.1.1
+	
+	country = H00
+}

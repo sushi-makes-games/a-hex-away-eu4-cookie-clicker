@@ -1,0 +1,31 @@
+government_name_female = {
+	rank = {
+		1 = name_faction
+		2 = name_country
+		3 = name_queendom
+	}
+
+	ruler_female = {
+		1 = name_leader
+		2 = name_ruler
+		3 = name_queen
+	}
+
+	trigger = { is_female = yes }
+}
+
+government_name_male = {
+	rank = {
+		1 = name_faction
+		2 = name_country
+		3 = name_kingdom
+	}
+
+	ruler_male = {
+		1 = name_leader
+		2 = name_ruler
+		3 = name_king
+	}
+
+	trigger = { is_female = no }
+}

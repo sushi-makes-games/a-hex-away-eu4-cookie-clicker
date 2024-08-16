@@ -1,0 +1,8 @@
+on_startup = {
+	if = {
+		limit = { NOT = { has_global_flag = world_generated } }
+		init_game = yes
+
+		set_global_flag = world_generated
+	}
+}

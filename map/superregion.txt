@@ -1,0 +1,11 @@
+east_frontier_superregion = { horizon_ocean_region tempest_coast_region tempest_sea_region silk_highlands_region mangrove_shoals_region vine_coast_region violet_steppes_region the_lakes_region }
+
+the_beyond_superregion = { the_desert_region grey_mountains_region great_forest_region riverlands_region griffon_hills_region archipelago_region the_maw_region azure_lake_region }
+
+west_frontier_superregion = { dragontail_mountains_region golden_valley_region the_shards_region green_wastes_region deadlands_region red_marshes_region the_pale_region }
+
+western_edges_superregion = { frozen_lands_region ghost_sea_region blue_mountains_region }
+
+eastern_edges_superregion = { sugar_plains_region sweet_seas_region black_sands_region brimstone_region }
+
+the_city_superregion = { the_city_region }

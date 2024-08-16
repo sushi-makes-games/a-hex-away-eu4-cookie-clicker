@@ -1,0 +1,9 @@
+# ANY = { set_variable_to = { which = $which$ scope = $scope$ from = $from$ to = $to$ } }
+set_variable_to = {
+	[[which] set_variable = { which = $which$ which = $scope$ } ]
+	[[from]
+		$scope$ = { set_variable = { which = temp which = $from$ } }
+		set_variable = { which = temp which = $scope$ }
+		set_variable = { which = $to$ which = temp }
+	]
+}

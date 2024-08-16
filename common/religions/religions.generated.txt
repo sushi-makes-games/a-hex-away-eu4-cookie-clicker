@@ -1,0 +1,38 @@
+# This file is generated, any changes made here will be rewritten
+
+faith_group_faithless = {
+	crusade_name = CRUSADE
+  
+  faith_faithless = {
+    icon = 1
+    color = { 203 164 103 }
+    province = { }
+		country = { }
+		country_as_secondary = { }
+		heretic = { HERETIC }
+
+    
+    
+    
+  }
+
+}
+
+faith_group_papacy = {
+	crusade_name = CRUSADE
+  
+  faith_papacy = {
+    icon = 2
+    color = { 203 164 103 }
+    province = { }
+		country = { }
+		country_as_secondary = { }
+		heretic = { HERETIC }
+
+    hre_religion = yes
+		papacy = { papal_tag = OBS election_cost = 5 seat_of_papacy = 1 }
+    
+    date = 1000.1.1
+  }
+
+}

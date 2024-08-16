@@ -1,0 +1,12 @@
+special_basic_reform = {
+	basic_reform = yes
+	custom_attributes = { }
+	modifiers = { }
+	# government_abilities = { }
+}
+
+special_reform = {
+	icon = "the_city"
+	potential = { has_country_flag = is_special }
+	removed_effect = { }
+}

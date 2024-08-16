@@ -1,0 +1,13 @@
+feudalism = {
+	bonus = { }
+
+	trade_company_efficiency = 0
+
+	history = { is_year = 1000 }
+	
+	can_embrace = { always = yes }
+
+	embracement_speed = { modifier = { factor = 0 } }
+	
+	ai_will_do = { factor = 1 }
+}

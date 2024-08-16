@@ -1,0 +1,21 @@
+tropical = { }
+
+arid = { }
+
+arctic = { }
+
+mild_winter = { }
+
+normal_winter = { }
+
+severe_winter = { }
+
+impassable = { 6525 6526 6527 6528 }
+
+mild_monsoon = { }
+
+normal_monsoon = { }
+
+severe_monsoon = { }
+
+equator_y_on_province_image = 3204

@@ -1,0 +1,10 @@
+federal_constitution = {
+	gfx = GFX_federal_constitution
+	can_pick = { always = no }
+
+	effect = { }
+
+	ai_chance = {
+		factor = 0
+	}
+}

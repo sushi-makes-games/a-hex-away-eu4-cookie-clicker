@@ -1,0 +1,12 @@
+cb_conquest = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_core = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_defection = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_dishonored_call = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_forced_break_alliance = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_hre_attacked = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_imperial_realm_war = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_insult = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_loan_cancelled = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_religious_conformance = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_restore_personal_union = { is_triggered_only = yes war_goal = wargoal_dummy }
+cb_trade_conflict = { is_triggered_only = yes war_goal = wargoal_dummy }

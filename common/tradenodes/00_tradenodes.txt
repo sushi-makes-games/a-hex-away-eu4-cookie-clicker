@@ -1,0 +1,10 @@
+# Don't rename file, replace_path doesn't work
+
+english_channel={
+	location=1
+	color={
+		220 138 57 
+	}
+	members={ 1 }
+	end=yes
+}

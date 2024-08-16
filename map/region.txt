@@ -1,0 +1,69 @@
+the_maw_region = { areas = { the_maw_1m_0_area the_maw_1m_1p_area the_maw_2m_1m_area } }
+
+griffon_hills_region = { areas = { griffon_hills_1p_2p_area griffon_hills_2p_4p_area griffon_hills_3p_6p_area griffon_hills_2p_5p_area } }
+
+sweet_seas_region = { areas = { sweet_seas_2m_5p_area sweet_seas_2m_6p_area sweet_seas_3m_4p_area sweet_seas_3m_5p_area sweet_seas_4m_3p_area } }
+
+the_lakes_region = { areas = { the_lakes_4m_0_area the_lakes_4m_1m_area the_lakes_5m_1m_area the_lakes_5m_2m_area the_lakes_6m_3m_area } }
+
+red_marshes_region = { areas = { red_marshes_0_6m_area red_marshes_0_7m_area red_marshes_1p_5m_area red_marshes_1p_6m_area red_marshes_2p_5m_area } }
+
+the_city_region = { areas = {
+	city_area
+	city_waters_area
+	city_hills_area
+	city_sands_area
+	city_mountains_area
+	city_fields_area
+	city_forest_area
+} }
+
+tempest_coast_region = { areas = { tempest_coast_4m_6m_area tempest_coast_4m_5m_area tempest_coast_5m_6m_area tempest_coast_6m_7m_area } }
+
+golden_valley_region = { areas = { golden_valley_4p_4p_area golden_valley_4p_3p_area golden_valley_4p_2p_area golden_valley_4p_1p_area golden_valley_5p_6p_area golden_valley_5p_5p_area golden_valley_5p_4p_area golden_valley_5p_3p_area golden_valley_5p_2p_area golden_valley_6p_5p_area golden_valley_6p_4p_area golden_valley_6p_6p_area golden_valley_6p_7p_area golden_valley_6p_8p_area golden_valley_7p_8p_area } }
+
+archipelago_region = { areas = { archipelago_0_1p_area archipelago_0_2p_area archipelago_1p_3p_area archipelago_1p_4p_area archipelago_0_3p_area } }
+
+the_pale_region = { areas = { the_pale_2m_6m_area the_pale_2m_7m_area the_pale_2m_8m_area the_pale_3m_7m_area the_pale_3m_8m_area the_pale_3m_9m_area } }
+
+frozen_lands_region = { areas = { frozen_lands_1p_9m_area frozen_lands_1p_8m_area frozen_lands_1p_7m_area frozen_lands_0_10m_area frozen_lands_0_9m_area frozen_lands_0_8m_area frozen_lands_2p_7m_area frozen_lands_2p_6m_area frozen_lands_1m_9m_area } }
+
+silk_highlands_region = { areas = { silk_highlands_1m_2p_area silk_highlands_1m_3p_area silk_highlands_1m_4p_area silk_highlands_2m_0_area silk_highlands_2m_1p_area silk_highlands_2m_2p_area silk_highlands_2m_3p_area silk_highlands_3m_1p_area } }
+
+horizon_ocean_region = { areas = { horizon_ocean_0_4p_area horizon_ocean_0_5p_area horizon_ocean_0_6p_area horizon_ocean_1p_5p_area horizon_ocean_1p_6p_area horizon_ocean_1p_7p_area horizon_ocean_1p_8p_area horizon_ocean_2p_6p_area horizon_ocean_2p_7p_area horizon_ocean_2p_8p_area horizon_ocean_3p_7p_area horizon_ocean_3p_8p_area horizon_ocean_4p_8p_area horizon_ocean_3p_9p_area horizon_ocean_2p_9p_area horizon_ocean_4p_9p_area } }
+
+the_desert_region = { areas = { the_desert_1m_1m_area the_desert_2m_2m_area the_desert_2m_3m_area the_desert_3m_4m_area the_desert_3m_3m_area } }
+
+grey_mountains_region = { areas = { grey_mountains_1m_2m_area grey_mountains_2m_4m_area grey_mountains_3m_6m_area grey_mountains_2m_5m_area grey_mountains_3m_5m_area grey_mountains_1m_4m_area } }
+
+azure_lake_region = { areas = { azure_lake_2p_1p_area azure_lake_1p_1m_area } }
+
+great_forest_region = { areas = { great_forest_0_1m_area great_forest_1p_0_area great_forest_0_2m_area great_forest_1m_3m_area great_forest_0_3m_area } }
+
+blue_mountains_region = { areas = { blue_mountains_7p_4p_area blue_mountains_7p_5p_area blue_mountains_7p_6p_area blue_mountains_7p_7p_area blue_mountains_8p_5p_area blue_mountains_8p_6p_area blue_mountains_8p_7p_area blue_mountains_9p_7p_area } }
+
+brimstone_region = { areas = { brimstone_5m_0_area brimstone_5m_1p_area brimstone_6m_1m_area } }
+
+deadlands_region = { areas = { deadlands_6p_3p_area deadlands_6p_2p_area deadlands_5p_1p_area deadlands_5p_0_area deadlands_4p_1m_area } }
+
+ghost_sea_region = { areas = { ghost_sea_3p_4m_area ghost_sea_4p_3m_area ghost_sea_5p_1m_area ghost_sea_3p_5m_area ghost_sea_6p_1p_area ghost_sea_7p_3p_area } }
+
+dragontail_mountains_region = { areas = { dragontail_mountains_1p_2m_area dragontail_mountains_2p_0_area dragontail_mountains_3p_2p_area dragontail_mountains_2p_1m_area dragontail_mountains_3p_0_area dragontail_mountains_3p_1p_area dragontail_mountains_2p_2m_area dragontail_mountains_3p_1m_area dragontail_mountains_3p_2m_area dragontail_mountains_3p_3m_area dragontail_mountains_4p_2m_area dragontail_mountains_4p_0_area dragontail_mountains_2p_3m_area dragontail_mountains_2p_4m_area } }
+
+green_wastes_region = { areas = { green_wastes_1p_3m_area green_wastes_1p_4m_area green_wastes_0_4m_area green_wastes_0_5m_area green_wastes_1m_5m_area green_wastes_1m_6m_area green_wastes_1m_7m_area green_wastes_1m_8m_area green_wastes_2m_9m_area } }
+
+mangrove_shoals_region = { areas = { mangrove_shoals_1m_5p_area mangrove_shoals_0_7p_area mangrove_shoals_1m_6p_area } }
+
+sugar_plains_region = { areas = { sugar_plains_0_8p_area sugar_plains_0_9p_area sugar_plains_1m_7p_area sugar_plains_1m_8p_area sugar_plains_1m_9p_area sugar_plains_1p_10p_area sugar_plains_0_10p_area sugar_plains_1p_9p_area sugar_plains_2m_7p_area } }
+
+black_sands_region = { areas = { black_sands_6m_2m_area black_sands_7m_5m_area black_sands_7m_4m_area black_sands_7m_3m_area black_sands_8m_5m_area black_sands_8m_6m_area black_sands_8m_7m_area black_sands_9m_7m_area black_sands_9m_6m_area } }
+
+tempest_sea_region = { areas = { tempest_sea_4m_7m_area tempest_sea_4m_8m_area tempest_sea_5m_7m_area tempest_sea_5m_8m_area tempest_sea_6m_8m_area } }
+
+riverlands_region = { areas = { riverlands_1p_1p_area riverlands_2p_2p_area riverlands_2p_3p_area riverlands_3p_4p_area riverlands_3p_5p_area riverlands_3p_3p_area } }
+
+violet_steppes_region = { areas = { violet_steppes_3m_0_area violet_steppes_3m_2m_area violet_steppes_3m_1m_area violet_steppes_4m_4m_area violet_steppes_4m_3m_area violet_steppes_4m_2m_area violet_steppes_5m_5m_area violet_steppes_5m_4m_area violet_steppes_5m_3m_area violet_steppes_6m_6m_area violet_steppes_6m_5m_area violet_steppes_6m_4m_area violet_steppes_7m_6m_area violet_steppes_7m_7m_area } }
+
+the_shards_region = { areas = { the_shards_4p_7p_area the_shards_4p_6p_area the_shards_4p_5p_area the_shards_5p_7p_area the_shards_5p_8p_area } }
+
+vine_coast_region = { areas = { vine_coast_4m_2p_area vine_coast_4m_1p_area vine_coast_3m_3p_area vine_coast_3m_2p_area vine_coast_2m_4p_area } }

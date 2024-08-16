@@ -1,0 +1,6 @@
+defined_text = {
+	name = CL_DIVIDER
+	random = no
+
+	text = { localisation_key = divider }
+}

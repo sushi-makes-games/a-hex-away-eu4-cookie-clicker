@@ -1,16 +1,20 @@
 on_startup = {
 	if = {
-		limit = { tag = OBS }
+		limit = { NOT = { has_global_flag = world_generated } }
+
 		save_global_event_target_as = Global
 		3204 = {
 			save_global_event_target_as = City
 			set_province_flag = daily
 		}
+	
+		every_province = { init_province_cookies = yes }
+		set_global_flag = world_generated
 	}
 
 	if = {
 		limit = { NOT = { has_country_flag = set_up_cookies } }
-		init_cookies = yes
+		init_country_cookies = yes
 		set_country_flag = set_up_cookies
 	}
 }

@@ -1,5 +1,14 @@
-# COUNTRY = { init_cookies = yes }
-init_cookies = {
+# PROVINCE = { init_province_cookies = yes }
+init_province_cookies = {
+	set_variable = { which = manual_clicks value = 10 }
+	set_variable = { which = manual_subrank value = 0 }
+	set_variable = { which = manual_rank value = 0 }
+	set_variable = { which = manual_price value = 10 }
+	set_variable = { which = manual_price_rank value = 0 }
+}
+
+# COUNTRY = { init_country_cookies = yes }
+init_country_cookies = {
 	set_variable = { which = power_333 value = 0 }
 	set_variable = { which = power_332 value = 0 }
 	set_variable = { which = power_331 value = 0 }

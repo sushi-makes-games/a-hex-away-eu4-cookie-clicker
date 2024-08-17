@@ -172,43 +172,15 @@ custom_text_box = {
 }
 
 custom_button = {
-	name = cbt_cookie_add_1
+	name = cbt_cookie_manual
 	potential = { always = yes }
 	trigger = { always = yes }
-	effect = { FROM = { add_cookie = { rank = 0 value = 1 } } }
+	effect = { variable_effect = { which = manual_rank effect = click_manual } }
 }
 
 custom_button = {
-	name = cbt_cookie_add_10
+	name = cbt_cookie_manual_upgrade
 	potential = { always = yes }
 	trigger = { always = yes }
-	effect = { FROM = { add_cookie = { rank = 0 value = -1 } } }
-}
-
-custom_button = {
-	name = cbt_cookie_add_100
-	potential = { always = yes }
-	trigger = { always = yes }
-	effect = { FROM = { add_cookie = { rank = 0 value = 100 } } }
-}
-
-custom_button = {
-	name = cbt_cookie_add_1000
-	potential = { always = yes }
-	trigger = { always = yes }
-	effect = { FROM = { add_cookie = { rank = 0 value = 1000 } } }
-}
-
-custom_button = {
-	name = cbt_cookie_add_10000
-	potential = { always = yes }
-	trigger = { always = yes }
-	effect = { FROM = { add_cookie = { rank = 0 value = 10000 } } }
-}
-
-custom_button = {
-	name = cbt_cookie_add_100000
-	potential = { always = yes }
-	trigger = { always = yes }
-	effect = { FROM = { add_cookie = { rank = 0 value = 100000 } } }
+	effect = { upgrade_manual = yes }
 }

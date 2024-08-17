@@ -127,4 +127,9 @@ spriteTypes = {
 		name = "GFX_HEX_province_bg_32"
 		texturefile = "gfx/hex/interface/_bg_region_32.dds"
 	}
+
+	spriteType = {
+		name = "GFX_HEX_button_test"
+		texturefile = "gfx/hex/interface/_button_test.dds"
+	}
 }

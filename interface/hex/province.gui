@@ -3717,6 +3717,86 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					position = { x = 0 y = 0 }
 				}
+	
+				instantTextBoxType = {
+					name = "ctb_province_desc"
+					scripted = yes
+
+					Orientation = "UPPER_LEFT"
+					position = { x = 0 y = 0 }
+
+					maxWidth = 256
+					maxHeight = 32
+					format = center
+					font = "vic_22"
+				}
+
+				guiButtonType = {
+					name ="cbt_cookie_add_1"
+					quadTextureSprite = "GFX_HEX_button_test"
+					scripted = yes
+	
+					Orientation = "UPPER_LEFT"
+					buttonFont = "vic_18"
+					format = center
+					position = { x = 100 y = 64 }
+				}
+
+				guiButtonType = {
+					name ="cbt_cookie_add_10"
+					quadTextureSprite = "GFX_HEX_button_test"
+					scripted = yes
+	
+					Orientation = "UPPER_LEFT"
+					buttonFont = "vic_18"
+					format = center
+					position = { x = 150 y = 64 }
+				}
+				
+				guiButtonType = {
+					name ="cbt_cookie_add_100"
+					quadTextureSprite = "GFX_HEX_button_test"
+					scripted = yes
+	
+					Orientation = "UPPER_LEFT"
+					buttonFont = "vic_18"
+					format = center
+					position = { x = 200 y = 64 }
+				}
+
+				guiButtonType = {
+					name ="cbt_cookie_add_1000"
+					quadTextureSprite = "GFX_HEX_button_test"
+					scripted = yes
+	
+					Orientation = "UPPER_LEFT"
+					buttonFont = "vic_18"
+					format = center
+					position = { x = 250 y = 64 }
+				}
+
+				guiButtonType = {
+					name ="cbt_cookie_add_10000"
+					quadTextureSprite = "GFX_HEX_button_test"
+					scripted = yes
+	
+					Orientation = "UPPER_LEFT"
+					buttonFont = "vic_18"
+					format = center
+					position = { x = 300 y = 64 }
+				}
+
+				guiButtonType = {
+					name ="cbt_cookie_add_100000"
+					quadTextureSprite = "GFX_HEX_button_test"
+					scripted = yes
+	
+					Orientation = "UPPER_LEFT"
+					buttonFont = "vic_18"
+					format = center
+					position = { x = 350 y = 64 }
+				}
+	
 			}
 		}
 	}

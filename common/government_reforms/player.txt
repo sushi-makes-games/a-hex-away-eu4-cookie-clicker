@@ -2,9 +2,7 @@ player_basic_reform = {
 	basic_reform = yes
 	custom_attributes = { }
 	modifiers = { }
-	government_abilities = {
-		cookie_clicker_mechanic
-	}
+	# government_abilities = { }
 }
 
 player_reform = {

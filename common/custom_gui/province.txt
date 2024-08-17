@@ -164,3 +164,51 @@ custom_icon = {
 	name = ci_province_bg_32
 	potential = { ROOT = { region = the_pale_region } }
 }
+
+custom_text_box = {
+	name = ctb_province_desc
+	potential = { always = yes }
+	tooltip = ctb_province_desc_tt
+}
+
+custom_button = {
+	name = cbt_cookie_add_1
+	potential = { always = yes }
+	trigger = { always = yes }
+	effect = { FROM = { add_cookie = { rank = 0 value = 1 } } }
+}
+
+custom_button = {
+	name = cbt_cookie_add_10
+	potential = { always = yes }
+	trigger = { always = yes }
+	effect = { FROM = { add_cookie = { rank = 0 value = 10 } } }
+}
+
+custom_button = {
+	name = cbt_cookie_add_100
+	potential = { always = yes }
+	trigger = { always = yes }
+	effect = { FROM = { add_cookie = { rank = 0 value = 100 } } }
+}
+
+custom_button = {
+	name = cbt_cookie_add_1000
+	potential = { always = yes }
+	trigger = { always = yes }
+	effect = { FROM = { add_cookie = { rank = 0 value = 1000 } } }
+}
+
+custom_button = {
+	name = cbt_cookie_add_10000
+	potential = { always = yes }
+	trigger = { always = yes }
+	effect = { FROM = { add_cookie = { rank = 0 value = 10000 } } }
+}
+
+custom_button = {
+	name = cbt_cookie_add_100000
+	potential = { always = yes }
+	trigger = { always = yes }
+	effect = { FROM = { add_cookie = { rank = 0 value = 100000 } } }
+}

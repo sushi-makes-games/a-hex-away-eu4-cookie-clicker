@@ -182,7 +182,7 @@ custom_button = {
 	name = cbt_cookie_add_10
 	potential = { always = yes }
 	trigger = { always = yes }
-	effect = { FROM = { add_cookie = { rank = 0 value = 10 } } }
+	effect = { FROM = { add_cookie = { rank = 0 value = -1 } } }
 }
 
 custom_button = {

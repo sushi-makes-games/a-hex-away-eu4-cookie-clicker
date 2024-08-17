@@ -9,18 +9,28 @@ add_cookie = {
 
 # COUNTRY = { add_cookie = { rank = $rank$ value = $value$ } }
 validate_rank = {
+	while = {
+		limit = { cookie_overflow = { rank = $rank$ } }
+		change_cookie = { rank = $rank$ value = -1000 }
+		rank_up_$rank$_effect = { effect = change_cookie value = 1 }
+	}
+
+	while = {
+		limit = { cookie_underflow = { rank = $rank$ } }
+		change_cookie = { rank = $rank$ value = 1000 }
+		rank_up_$rank$_effect = { effect = change_cookie value = -1 }
+	}
+
 	if = {
-		limit = { has_cookies_at_rank = { rank = $rank$ } }
-		while = {
-			limit = { cookie_overflow = { rank = $rank$ } }
-			change_cookie = { rank = $rank$ value = -1000 }
-			rank_up_$rank$_effect = { effect = change_cookie value = 1 }
+		limit = {
+			NOT = { has_country_flag = overflow_check }
+			OR = {
+				rank_up_$rank$_trigger = { trigger = cookie_overflow }
+				rank_up_$rank$_trigger = { trigger = cookie_underflow }
+			}
 		}
-		if = {
-			limit = { NOT = { has_country_flag = overflow_check } rank_up_$rank$_trigger = { trigger = cookie_overflow } }
-			set_country_flag = overflow_check
-			country_event = { id = overflow.0 }
-		}
+		set_country_flag = overflow_check
+		country_event = { id = overflow.0 }
 	}
 }
 

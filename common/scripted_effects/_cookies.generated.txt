@@ -1,337 +1,337 @@
 # This file is generated, any changes made here will be rewritten
 
 # COUNTRY = { rank_up_$rank$_effect = { effect = $effect$ [value = $value$] } }
-rank_up_0_effect = { $effect$ = { rank = 1 [[value] value = $value$ ] } }
-rank_up_1_effect = { $effect$ = { rank = 2 [[value] value = $value$ ] } }
-rank_up_2_effect = { $effect$ = { rank = 3 [[value] value = $value$ ] } }
-rank_up_3_effect = { $effect$ = { rank = 4 [[value] value = $value$ ] } }
-rank_up_4_effect = { $effect$ = { rank = 5 [[value] value = $value$ ] } }
-rank_up_5_effect = { $effect$ = { rank = 6 [[value] value = $value$ ] } }
-rank_up_6_effect = { $effect$ = { rank = 7 [[value] value = $value$ ] } }
-rank_up_7_effect = { $effect$ = { rank = 8 [[value] value = $value$ ] } }
-rank_up_8_effect = { $effect$ = { rank = 9 [[value] value = $value$ ] } }
-rank_up_9_effect = { $effect$ = { rank = 10 [[value] value = $value$ ] } }
-rank_up_10_effect = { $effect$ = { rank = 11 [[value] value = $value$ ] } }
-rank_up_11_effect = { $effect$ = { rank = 12 [[value] value = $value$ ] } }
-rank_up_12_effect = { $effect$ = { rank = 13 [[value] value = $value$ ] } }
-rank_up_13_effect = { $effect$ = { rank = 14 [[value] value = $value$ ] } }
-rank_up_14_effect = { $effect$ = { rank = 15 [[value] value = $value$ ] } }
-rank_up_15_effect = { $effect$ = { rank = 16 [[value] value = $value$ ] } }
-rank_up_16_effect = { $effect$ = { rank = 17 [[value] value = $value$ ] } }
-rank_up_17_effect = { $effect$ = { rank = 18 [[value] value = $value$ ] } }
-rank_up_18_effect = { $effect$ = { rank = 19 [[value] value = $value$ ] } }
-rank_up_19_effect = { $effect$ = { rank = 20 [[value] value = $value$ ] } }
-rank_up_20_effect = { $effect$ = { rank = 21 [[value] value = $value$ ] } }
-rank_up_21_effect = { $effect$ = { rank = 22 [[value] value = $value$ ] } }
-rank_up_22_effect = { $effect$ = { rank = 23 [[value] value = $value$ ] } }
-rank_up_23_effect = { $effect$ = { rank = 24 [[value] value = $value$ ] } }
-rank_up_24_effect = { $effect$ = { rank = 25 [[value] value = $value$ ] } }
-rank_up_25_effect = { $effect$ = { rank = 26 [[value] value = $value$ ] } }
-rank_up_26_effect = { $effect$ = { rank = 27 [[value] value = $value$ ] } }
-rank_up_27_effect = { $effect$ = { rank = 28 [[value] value = $value$ ] } }
-rank_up_28_effect = { $effect$ = { rank = 29 [[value] value = $value$ ] } }
-rank_up_29_effect = { $effect$ = { rank = 30 [[value] value = $value$ ] } }
-rank_up_30_effect = { $effect$ = { rank = 31 [[value] value = $value$ ] } }
-rank_up_31_effect = { $effect$ = { rank = 32 [[value] value = $value$ ] } }
-rank_up_32_effect = { $effect$ = { rank = 33 [[value] value = $value$ ] } }
-rank_up_33_effect = { $effect$ = { rank = 34 [[value] value = $value$ ] } }
-rank_up_34_effect = { $effect$ = { rank = 35 [[value] value = $value$ ] } }
-rank_up_35_effect = { $effect$ = { rank = 36 [[value] value = $value$ ] } }
-rank_up_36_effect = { $effect$ = { rank = 37 [[value] value = $value$ ] } }
-rank_up_37_effect = { $effect$ = { rank = 38 [[value] value = $value$ ] } }
-rank_up_38_effect = { $effect$ = { rank = 39 [[value] value = $value$ ] } }
-rank_up_39_effect = { $effect$ = { rank = 40 [[value] value = $value$ ] } }
-rank_up_40_effect = { $effect$ = { rank = 41 [[value] value = $value$ ] } }
-rank_up_41_effect = { $effect$ = { rank = 42 [[value] value = $value$ ] } }
-rank_up_42_effect = { $effect$ = { rank = 43 [[value] value = $value$ ] } }
-rank_up_43_effect = { $effect$ = { rank = 44 [[value] value = $value$ ] } }
-rank_up_44_effect = { $effect$ = { rank = 45 [[value] value = $value$ ] } }
-rank_up_45_effect = { $effect$ = { rank = 46 [[value] value = $value$ ] } }
-rank_up_46_effect = { $effect$ = { rank = 47 [[value] value = $value$ ] } }
-rank_up_47_effect = { $effect$ = { rank = 48 [[value] value = $value$ ] } }
-rank_up_48_effect = { $effect$ = { rank = 49 [[value] value = $value$ ] } }
-rank_up_49_effect = { $effect$ = { rank = 50 [[value] value = $value$ ] } }
-rank_up_50_effect = { $effect$ = { rank = 51 [[value] value = $value$ ] } }
-rank_up_51_effect = { $effect$ = { rank = 52 [[value] value = $value$ ] } }
-rank_up_52_effect = { $effect$ = { rank = 53 [[value] value = $value$ ] } }
-rank_up_53_effect = { $effect$ = { rank = 54 [[value] value = $value$ ] } }
-rank_up_54_effect = { $effect$ = { rank = 55 [[value] value = $value$ ] } }
-rank_up_55_effect = { $effect$ = { rank = 56 [[value] value = $value$ ] } }
-rank_up_56_effect = { $effect$ = { rank = 57 [[value] value = $value$ ] } }
-rank_up_57_effect = { $effect$ = { rank = 58 [[value] value = $value$ ] } }
-rank_up_58_effect = { $effect$ = { rank = 59 [[value] value = $value$ ] } }
-rank_up_59_effect = { $effect$ = { rank = 60 [[value] value = $value$ ] } }
-rank_up_60_effect = { $effect$ = { rank = 61 [[value] value = $value$ ] } }
-rank_up_61_effect = { $effect$ = { rank = 62 [[value] value = $value$ ] } }
-rank_up_62_effect = { $effect$ = { rank = 63 [[value] value = $value$ ] } }
-rank_up_63_effect = { $effect$ = { rank = 64 [[value] value = $value$ ] } }
-rank_up_64_effect = { $effect$ = { rank = 65 [[value] value = $value$ ] } }
-rank_up_65_effect = { $effect$ = { rank = 66 [[value] value = $value$ ] } }
-rank_up_66_effect = { $effect$ = { rank = 67 [[value] value = $value$ ] } }
-rank_up_67_effect = { $effect$ = { rank = 68 [[value] value = $value$ ] } }
-rank_up_68_effect = { $effect$ = { rank = 69 [[value] value = $value$ ] } }
-rank_up_69_effect = { $effect$ = { rank = 70 [[value] value = $value$ ] } }
-rank_up_70_effect = { $effect$ = { rank = 71 [[value] value = $value$ ] } }
-rank_up_71_effect = { $effect$ = { rank = 72 [[value] value = $value$ ] } }
-rank_up_72_effect = { $effect$ = { rank = 73 [[value] value = $value$ ] } }
-rank_up_73_effect = { $effect$ = { rank = 74 [[value] value = $value$ ] } }
-rank_up_74_effect = { $effect$ = { rank = 75 [[value] value = $value$ ] } }
-rank_up_75_effect = { $effect$ = { rank = 76 [[value] value = $value$ ] } }
-rank_up_76_effect = { $effect$ = { rank = 77 [[value] value = $value$ ] } }
-rank_up_77_effect = { $effect$ = { rank = 78 [[value] value = $value$ ] } }
-rank_up_78_effect = { $effect$ = { rank = 79 [[value] value = $value$ ] } }
-rank_up_79_effect = { $effect$ = { rank = 80 [[value] value = $value$ ] } }
-rank_up_80_effect = { $effect$ = { rank = 81 [[value] value = $value$ ] } }
-rank_up_81_effect = { $effect$ = { rank = 82 [[value] value = $value$ ] } }
-rank_up_82_effect = { $effect$ = { rank = 83 [[value] value = $value$ ] } }
-rank_up_83_effect = { $effect$ = { rank = 84 [[value] value = $value$ ] } }
-rank_up_84_effect = { $effect$ = { rank = 85 [[value] value = $value$ ] } }
-rank_up_85_effect = { $effect$ = { rank = 86 [[value] value = $value$ ] } }
-rank_up_86_effect = { $effect$ = { rank = 87 [[value] value = $value$ ] } }
-rank_up_87_effect = { $effect$ = { rank = 88 [[value] value = $value$ ] } }
-rank_up_88_effect = { $effect$ = { rank = 89 [[value] value = $value$ ] } }
-rank_up_89_effect = { $effect$ = { rank = 90 [[value] value = $value$ ] } }
-rank_up_90_effect = { $effect$ = { rank = 91 [[value] value = $value$ ] } }
-rank_up_91_effect = { $effect$ = { rank = 92 [[value] value = $value$ ] } }
-rank_up_92_effect = { $effect$ = { rank = 93 [[value] value = $value$ ] } }
-rank_up_93_effect = { $effect$ = { rank = 94 [[value] value = $value$ ] } }
-rank_up_94_effect = { $effect$ = { rank = 95 [[value] value = $value$ ] } }
-rank_up_95_effect = { $effect$ = { rank = 96 [[value] value = $value$ ] } }
-rank_up_96_effect = { $effect$ = { rank = 97 [[value] value = $value$ ] } }
-rank_up_97_effect = { $effect$ = { rank = 98 [[value] value = $value$ ] } }
-rank_up_98_effect = { $effect$ = { rank = 99 [[value] value = $value$ ] } }
-rank_up_99_effect = { $effect$ = { rank = 100 [[value] value = $value$ ] } }
-rank_up_100_effect = { $effect$ = { rank = 101 [[value] value = $value$ ] } }
-rank_up_101_effect = { $effect$ = { rank = 102 [[value] value = $value$ ] } }
-rank_up_102_effect = { $effect$ = { rank = 103 [[value] value = $value$ ] } }
-rank_up_103_effect = { $effect$ = { rank = 104 [[value] value = $value$ ] } }
-rank_up_104_effect = { $effect$ = { rank = 105 [[value] value = $value$ ] } }
-rank_up_105_effect = { $effect$ = { rank = 106 [[value] value = $value$ ] } }
-rank_up_106_effect = { $effect$ = { rank = 107 [[value] value = $value$ ] } }
-rank_up_107_effect = { $effect$ = { rank = 108 [[value] value = $value$ ] } }
-rank_up_108_effect = { $effect$ = { rank = 109 [[value] value = $value$ ] } }
-rank_up_109_effect = { $effect$ = { rank = 110 [[value] value = $value$ ] } }
-rank_up_110_effect = { $effect$ = { rank = 111 [[value] value = $value$ ] } }
-rank_up_111_effect = { $effect$ = { rank = 112 [[value] value = $value$ ] } }
-rank_up_112_effect = { $effect$ = { rank = 113 [[value] value = $value$ ] } }
-rank_up_113_effect = { $effect$ = { rank = 114 [[value] value = $value$ ] } }
-rank_up_114_effect = { $effect$ = { rank = 115 [[value] value = $value$ ] } }
-rank_up_115_effect = { $effect$ = { rank = 116 [[value] value = $value$ ] } }
-rank_up_116_effect = { $effect$ = { rank = 117 [[value] value = $value$ ] } }
-rank_up_117_effect = { $effect$ = { rank = 118 [[value] value = $value$ ] } }
-rank_up_118_effect = { $effect$ = { rank = 119 [[value] value = $value$ ] } }
-rank_up_119_effect = { $effect$ = { rank = 120 [[value] value = $value$ ] } }
-rank_up_120_effect = { $effect$ = { rank = 121 [[value] value = $value$ ] } }
-rank_up_121_effect = { $effect$ = { rank = 122 [[value] value = $value$ ] } }
-rank_up_122_effect = { $effect$ = { rank = 123 [[value] value = $value$ ] } }
-rank_up_123_effect = { $effect$ = { rank = 124 [[value] value = $value$ ] } }
-rank_up_124_effect = { $effect$ = { rank = 125 [[value] value = $value$ ] } }
-rank_up_125_effect = { $effect$ = { rank = 126 [[value] value = $value$ ] } }
-rank_up_126_effect = { $effect$ = { rank = 127 [[value] value = $value$ ] } }
-rank_up_127_effect = { $effect$ = { rank = 128 [[value] value = $value$ ] } }
-rank_up_128_effect = { $effect$ = { rank = 129 [[value] value = $value$ ] } }
-rank_up_129_effect = { $effect$ = { rank = 130 [[value] value = $value$ ] } }
-rank_up_130_effect = { $effect$ = { rank = 131 [[value] value = $value$ ] } }
-rank_up_131_effect = { $effect$ = { rank = 132 [[value] value = $value$ ] } }
-rank_up_132_effect = { $effect$ = { rank = 133 [[value] value = $value$ ] } }
-rank_up_133_effect = { $effect$ = { rank = 134 [[value] value = $value$ ] } }
-rank_up_134_effect = { $effect$ = { rank = 135 [[value] value = $value$ ] } }
-rank_up_135_effect = { $effect$ = { rank = 136 [[value] value = $value$ ] } }
-rank_up_136_effect = { $effect$ = { rank = 137 [[value] value = $value$ ] } }
-rank_up_137_effect = { $effect$ = { rank = 138 [[value] value = $value$ ] } }
-rank_up_138_effect = { $effect$ = { rank = 139 [[value] value = $value$ ] } }
-rank_up_139_effect = { $effect$ = { rank = 140 [[value] value = $value$ ] } }
-rank_up_140_effect = { $effect$ = { rank = 141 [[value] value = $value$ ] } }
-rank_up_141_effect = { $effect$ = { rank = 142 [[value] value = $value$ ] } }
-rank_up_142_effect = { $effect$ = { rank = 143 [[value] value = $value$ ] } }
-rank_up_143_effect = { $effect$ = { rank = 144 [[value] value = $value$ ] } }
-rank_up_144_effect = { $effect$ = { rank = 145 [[value] value = $value$ ] } }
-rank_up_145_effect = { $effect$ = { rank = 146 [[value] value = $value$ ] } }
-rank_up_146_effect = { $effect$ = { rank = 147 [[value] value = $value$ ] } }
-rank_up_147_effect = { $effect$ = { rank = 148 [[value] value = $value$ ] } }
-rank_up_148_effect = { $effect$ = { rank = 149 [[value] value = $value$ ] } }
-rank_up_149_effect = { $effect$ = { rank = 150 [[value] value = $value$ ] } }
-rank_up_150_effect = { $effect$ = { rank = 151 [[value] value = $value$ ] } }
-rank_up_151_effect = { $effect$ = { rank = 152 [[value] value = $value$ ] } }
-rank_up_152_effect = { $effect$ = { rank = 153 [[value] value = $value$ ] } }
-rank_up_153_effect = { $effect$ = { rank = 154 [[value] value = $value$ ] } }
-rank_up_154_effect = { $effect$ = { rank = 155 [[value] value = $value$ ] } }
-rank_up_155_effect = { $effect$ = { rank = 156 [[value] value = $value$ ] } }
-rank_up_156_effect = { $effect$ = { rank = 157 [[value] value = $value$ ] } }
-rank_up_157_effect = { $effect$ = { rank = 158 [[value] value = $value$ ] } }
-rank_up_158_effect = { $effect$ = { rank = 159 [[value] value = $value$ ] } }
-rank_up_159_effect = { $effect$ = { rank = 160 [[value] value = $value$ ] } }
-rank_up_160_effect = { $effect$ = { rank = 161 [[value] value = $value$ ] } }
-rank_up_161_effect = { $effect$ = { rank = 162 [[value] value = $value$ ] } }
-rank_up_162_effect = { $effect$ = { rank = 163 [[value] value = $value$ ] } }
-rank_up_163_effect = { $effect$ = { rank = 164 [[value] value = $value$ ] } }
-rank_up_164_effect = { $effect$ = { rank = 165 [[value] value = $value$ ] } }
-rank_up_165_effect = { $effect$ = { rank = 166 [[value] value = $value$ ] } }
-rank_up_166_effect = { $effect$ = { rank = 167 [[value] value = $value$ ] } }
-rank_up_167_effect = { $effect$ = { rank = 168 [[value] value = $value$ ] } }
-rank_up_168_effect = { $effect$ = { rank = 169 [[value] value = $value$ ] } }
-rank_up_169_effect = { $effect$ = { rank = 170 [[value] value = $value$ ] } }
-rank_up_170_effect = { $effect$ = { rank = 171 [[value] value = $value$ ] } }
-rank_up_171_effect = { $effect$ = { rank = 172 [[value] value = $value$ ] } }
-rank_up_172_effect = { $effect$ = { rank = 173 [[value] value = $value$ ] } }
-rank_up_173_effect = { $effect$ = { rank = 174 [[value] value = $value$ ] } }
-rank_up_174_effect = { $effect$ = { rank = 175 [[value] value = $value$ ] } }
-rank_up_175_effect = { $effect$ = { rank = 176 [[value] value = $value$ ] } }
-rank_up_176_effect = { $effect$ = { rank = 177 [[value] value = $value$ ] } }
-rank_up_177_effect = { $effect$ = { rank = 178 [[value] value = $value$ ] } }
-rank_up_178_effect = { $effect$ = { rank = 179 [[value] value = $value$ ] } }
-rank_up_179_effect = { $effect$ = { rank = 180 [[value] value = $value$ ] } }
-rank_up_180_effect = { $effect$ = { rank = 181 [[value] value = $value$ ] } }
-rank_up_181_effect = { $effect$ = { rank = 182 [[value] value = $value$ ] } }
-rank_up_182_effect = { $effect$ = { rank = 183 [[value] value = $value$ ] } }
-rank_up_183_effect = { $effect$ = { rank = 184 [[value] value = $value$ ] } }
-rank_up_184_effect = { $effect$ = { rank = 185 [[value] value = $value$ ] } }
-rank_up_185_effect = { $effect$ = { rank = 186 [[value] value = $value$ ] } }
-rank_up_186_effect = { $effect$ = { rank = 187 [[value] value = $value$ ] } }
-rank_up_187_effect = { $effect$ = { rank = 188 [[value] value = $value$ ] } }
-rank_up_188_effect = { $effect$ = { rank = 189 [[value] value = $value$ ] } }
-rank_up_189_effect = { $effect$ = { rank = 190 [[value] value = $value$ ] } }
-rank_up_190_effect = { $effect$ = { rank = 191 [[value] value = $value$ ] } }
-rank_up_191_effect = { $effect$ = { rank = 192 [[value] value = $value$ ] } }
-rank_up_192_effect = { $effect$ = { rank = 193 [[value] value = $value$ ] } }
-rank_up_193_effect = { $effect$ = { rank = 194 [[value] value = $value$ ] } }
-rank_up_194_effect = { $effect$ = { rank = 195 [[value] value = $value$ ] } }
-rank_up_195_effect = { $effect$ = { rank = 196 [[value] value = $value$ ] } }
-rank_up_196_effect = { $effect$ = { rank = 197 [[value] value = $value$ ] } }
-rank_up_197_effect = { $effect$ = { rank = 198 [[value] value = $value$ ] } }
-rank_up_198_effect = { $effect$ = { rank = 199 [[value] value = $value$ ] } }
-rank_up_199_effect = { $effect$ = { rank = 200 [[value] value = $value$ ] } }
-rank_up_200_effect = { $effect$ = { rank = 201 [[value] value = $value$ ] } }
-rank_up_201_effect = { $effect$ = { rank = 202 [[value] value = $value$ ] } }
-rank_up_202_effect = { $effect$ = { rank = 203 [[value] value = $value$ ] } }
-rank_up_203_effect = { $effect$ = { rank = 204 [[value] value = $value$ ] } }
-rank_up_204_effect = { $effect$ = { rank = 205 [[value] value = $value$ ] } }
-rank_up_205_effect = { $effect$ = { rank = 206 [[value] value = $value$ ] } }
-rank_up_206_effect = { $effect$ = { rank = 207 [[value] value = $value$ ] } }
-rank_up_207_effect = { $effect$ = { rank = 208 [[value] value = $value$ ] } }
-rank_up_208_effect = { $effect$ = { rank = 209 [[value] value = $value$ ] } }
-rank_up_209_effect = { $effect$ = { rank = 210 [[value] value = $value$ ] } }
-rank_up_210_effect = { $effect$ = { rank = 211 [[value] value = $value$ ] } }
-rank_up_211_effect = { $effect$ = { rank = 212 [[value] value = $value$ ] } }
-rank_up_212_effect = { $effect$ = { rank = 213 [[value] value = $value$ ] } }
-rank_up_213_effect = { $effect$ = { rank = 214 [[value] value = $value$ ] } }
-rank_up_214_effect = { $effect$ = { rank = 215 [[value] value = $value$ ] } }
-rank_up_215_effect = { $effect$ = { rank = 216 [[value] value = $value$ ] } }
-rank_up_216_effect = { $effect$ = { rank = 217 [[value] value = $value$ ] } }
-rank_up_217_effect = { $effect$ = { rank = 218 [[value] value = $value$ ] } }
-rank_up_218_effect = { $effect$ = { rank = 219 [[value] value = $value$ ] } }
-rank_up_219_effect = { $effect$ = { rank = 220 [[value] value = $value$ ] } }
-rank_up_220_effect = { $effect$ = { rank = 221 [[value] value = $value$ ] } }
-rank_up_221_effect = { $effect$ = { rank = 222 [[value] value = $value$ ] } }
-rank_up_222_effect = { $effect$ = { rank = 223 [[value] value = $value$ ] } }
-rank_up_223_effect = { $effect$ = { rank = 224 [[value] value = $value$ ] } }
-rank_up_224_effect = { $effect$ = { rank = 225 [[value] value = $value$ ] } }
-rank_up_225_effect = { $effect$ = { rank = 226 [[value] value = $value$ ] } }
-rank_up_226_effect = { $effect$ = { rank = 227 [[value] value = $value$ ] } }
-rank_up_227_effect = { $effect$ = { rank = 228 [[value] value = $value$ ] } }
-rank_up_228_effect = { $effect$ = { rank = 229 [[value] value = $value$ ] } }
-rank_up_229_effect = { $effect$ = { rank = 230 [[value] value = $value$ ] } }
-rank_up_230_effect = { $effect$ = { rank = 231 [[value] value = $value$ ] } }
-rank_up_231_effect = { $effect$ = { rank = 232 [[value] value = $value$ ] } }
-rank_up_232_effect = { $effect$ = { rank = 233 [[value] value = $value$ ] } }
-rank_up_233_effect = { $effect$ = { rank = 234 [[value] value = $value$ ] } }
-rank_up_234_effect = { $effect$ = { rank = 235 [[value] value = $value$ ] } }
-rank_up_235_effect = { $effect$ = { rank = 236 [[value] value = $value$ ] } }
-rank_up_236_effect = { $effect$ = { rank = 237 [[value] value = $value$ ] } }
-rank_up_237_effect = { $effect$ = { rank = 238 [[value] value = $value$ ] } }
-rank_up_238_effect = { $effect$ = { rank = 239 [[value] value = $value$ ] } }
-rank_up_239_effect = { $effect$ = { rank = 240 [[value] value = $value$ ] } }
-rank_up_240_effect = { $effect$ = { rank = 241 [[value] value = $value$ ] } }
-rank_up_241_effect = { $effect$ = { rank = 242 [[value] value = $value$ ] } }
-rank_up_242_effect = { $effect$ = { rank = 243 [[value] value = $value$ ] } }
-rank_up_243_effect = { $effect$ = { rank = 244 [[value] value = $value$ ] } }
-rank_up_244_effect = { $effect$ = { rank = 245 [[value] value = $value$ ] } }
-rank_up_245_effect = { $effect$ = { rank = 246 [[value] value = $value$ ] } }
-rank_up_246_effect = { $effect$ = { rank = 247 [[value] value = $value$ ] } }
-rank_up_247_effect = { $effect$ = { rank = 248 [[value] value = $value$ ] } }
-rank_up_248_effect = { $effect$ = { rank = 249 [[value] value = $value$ ] } }
-rank_up_249_effect = { $effect$ = { rank = 250 [[value] value = $value$ ] } }
-rank_up_250_effect = { $effect$ = { rank = 251 [[value] value = $value$ ] } }
-rank_up_251_effect = { $effect$ = { rank = 252 [[value] value = $value$ ] } }
-rank_up_252_effect = { $effect$ = { rank = 253 [[value] value = $value$ ] } }
-rank_up_253_effect = { $effect$ = { rank = 254 [[value] value = $value$ ] } }
-rank_up_254_effect = { $effect$ = { rank = 255 [[value] value = $value$ ] } }
-rank_up_255_effect = { $effect$ = { rank = 256 [[value] value = $value$ ] } }
-rank_up_256_effect = { $effect$ = { rank = 257 [[value] value = $value$ ] } }
-rank_up_257_effect = { $effect$ = { rank = 258 [[value] value = $value$ ] } }
-rank_up_258_effect = { $effect$ = { rank = 259 [[value] value = $value$ ] } }
-rank_up_259_effect = { $effect$ = { rank = 260 [[value] value = $value$ ] } }
-rank_up_260_effect = { $effect$ = { rank = 261 [[value] value = $value$ ] } }
-rank_up_261_effect = { $effect$ = { rank = 262 [[value] value = $value$ ] } }
-rank_up_262_effect = { $effect$ = { rank = 263 [[value] value = $value$ ] } }
-rank_up_263_effect = { $effect$ = { rank = 264 [[value] value = $value$ ] } }
-rank_up_264_effect = { $effect$ = { rank = 265 [[value] value = $value$ ] } }
-rank_up_265_effect = { $effect$ = { rank = 266 [[value] value = $value$ ] } }
-rank_up_266_effect = { $effect$ = { rank = 267 [[value] value = $value$ ] } }
-rank_up_267_effect = { $effect$ = { rank = 268 [[value] value = $value$ ] } }
-rank_up_268_effect = { $effect$ = { rank = 269 [[value] value = $value$ ] } }
-rank_up_269_effect = { $effect$ = { rank = 270 [[value] value = $value$ ] } }
-rank_up_270_effect = { $effect$ = { rank = 271 [[value] value = $value$ ] } }
-rank_up_271_effect = { $effect$ = { rank = 272 [[value] value = $value$ ] } }
-rank_up_272_effect = { $effect$ = { rank = 273 [[value] value = $value$ ] } }
-rank_up_273_effect = { $effect$ = { rank = 274 [[value] value = $value$ ] } }
-rank_up_274_effect = { $effect$ = { rank = 275 [[value] value = $value$ ] } }
-rank_up_275_effect = { $effect$ = { rank = 276 [[value] value = $value$ ] } }
-rank_up_276_effect = { $effect$ = { rank = 277 [[value] value = $value$ ] } }
-rank_up_277_effect = { $effect$ = { rank = 278 [[value] value = $value$ ] } }
-rank_up_278_effect = { $effect$ = { rank = 279 [[value] value = $value$ ] } }
-rank_up_279_effect = { $effect$ = { rank = 280 [[value] value = $value$ ] } }
-rank_up_280_effect = { $effect$ = { rank = 281 [[value] value = $value$ ] } }
-rank_up_281_effect = { $effect$ = { rank = 282 [[value] value = $value$ ] } }
-rank_up_282_effect = { $effect$ = { rank = 283 [[value] value = $value$ ] } }
-rank_up_283_effect = { $effect$ = { rank = 284 [[value] value = $value$ ] } }
-rank_up_284_effect = { $effect$ = { rank = 285 [[value] value = $value$ ] } }
-rank_up_285_effect = { $effect$ = { rank = 286 [[value] value = $value$ ] } }
-rank_up_286_effect = { $effect$ = { rank = 287 [[value] value = $value$ ] } }
-rank_up_287_effect = { $effect$ = { rank = 288 [[value] value = $value$ ] } }
-rank_up_288_effect = { $effect$ = { rank = 289 [[value] value = $value$ ] } }
-rank_up_289_effect = { $effect$ = { rank = 290 [[value] value = $value$ ] } }
-rank_up_290_effect = { $effect$ = { rank = 291 [[value] value = $value$ ] } }
-rank_up_291_effect = { $effect$ = { rank = 292 [[value] value = $value$ ] } }
-rank_up_292_effect = { $effect$ = { rank = 293 [[value] value = $value$ ] } }
-rank_up_293_effect = { $effect$ = { rank = 294 [[value] value = $value$ ] } }
-rank_up_294_effect = { $effect$ = { rank = 295 [[value] value = $value$ ] } }
-rank_up_295_effect = { $effect$ = { rank = 296 [[value] value = $value$ ] } }
-rank_up_296_effect = { $effect$ = { rank = 297 [[value] value = $value$ ] } }
-rank_up_297_effect = { $effect$ = { rank = 298 [[value] value = $value$ ] } }
-rank_up_298_effect = { $effect$ = { rank = 299 [[value] value = $value$ ] } }
-rank_up_299_effect = { $effect$ = { rank = 300 [[value] value = $value$ ] } }
-rank_up_300_effect = { $effect$ = { rank = 301 [[value] value = $value$ ] } }
-rank_up_301_effect = { $effect$ = { rank = 302 [[value] value = $value$ ] } }
-rank_up_302_effect = { $effect$ = { rank = 303 [[value] value = $value$ ] } }
-rank_up_303_effect = { $effect$ = { rank = 304 [[value] value = $value$ ] } }
-rank_up_304_effect = { $effect$ = { rank = 305 [[value] value = $value$ ] } }
-rank_up_305_effect = { $effect$ = { rank = 306 [[value] value = $value$ ] } }
-rank_up_306_effect = { $effect$ = { rank = 307 [[value] value = $value$ ] } }
-rank_up_307_effect = { $effect$ = { rank = 308 [[value] value = $value$ ] } }
-rank_up_308_effect = { $effect$ = { rank = 309 [[value] value = $value$ ] } }
-rank_up_309_effect = { $effect$ = { rank = 310 [[value] value = $value$ ] } }
-rank_up_310_effect = { $effect$ = { rank = 311 [[value] value = $value$ ] } }
-rank_up_311_effect = { $effect$ = { rank = 312 [[value] value = $value$ ] } }
-rank_up_312_effect = { $effect$ = { rank = 313 [[value] value = $value$ ] } }
-rank_up_313_effect = { $effect$ = { rank = 314 [[value] value = $value$ ] } }
-rank_up_314_effect = { $effect$ = { rank = 315 [[value] value = $value$ ] } }
-rank_up_315_effect = { $effect$ = { rank = 316 [[value] value = $value$ ] } }
-rank_up_316_effect = { $effect$ = { rank = 317 [[value] value = $value$ ] } }
-rank_up_317_effect = { $effect$ = { rank = 318 [[value] value = $value$ ] } }
-rank_up_318_effect = { $effect$ = { rank = 319 [[value] value = $value$ ] } }
-rank_up_319_effect = { $effect$ = { rank = 320 [[value] value = $value$ ] } }
-rank_up_320_effect = { $effect$ = { rank = 321 [[value] value = $value$ ] } }
-rank_up_321_effect = { $effect$ = { rank = 322 [[value] value = $value$ ] } }
-rank_up_322_effect = { $effect$ = { rank = 323 [[value] value = $value$ ] } }
-rank_up_323_effect = { $effect$ = { rank = 324 [[value] value = $value$ ] } }
-rank_up_324_effect = { $effect$ = { rank = 325 [[value] value = $value$ ] } }
-rank_up_325_effect = { $effect$ = { rank = 326 [[value] value = $value$ ] } }
-rank_up_326_effect = { $effect$ = { rank = 327 [[value] value = $value$ ] } }
-rank_up_327_effect = { $effect$ = { rank = 328 [[value] value = $value$ ] } }
-rank_up_328_effect = { $effect$ = { rank = 329 [[value] value = $value$ ] } }
-rank_up_329_effect = { $effect$ = { rank = 330 [[value] value = $value$ ] } }
-rank_up_330_effect = { $effect$ = { rank = 331 [[value] value = $value$ ] } }
-rank_up_331_effect = { $effect$ = { rank = 332 [[value] value = $value$ ] } }
-rank_up_332_effect = { $effect$ = { rank = 333 [[value] value = $value$ ] } }
-rank_up_333_effect = { $effect$ = { rank = 334 [[value] value = $value$ ] } }
+rank_up_0_effect = { $effect$ = { rank = 1 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_1_effect = { $effect$ = { rank = 2 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_2_effect = { $effect$ = { rank = 3 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_3_effect = { $effect$ = { rank = 4 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_4_effect = { $effect$ = { rank = 5 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_5_effect = { $effect$ = { rank = 6 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_6_effect = { $effect$ = { rank = 7 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_7_effect = { $effect$ = { rank = 8 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_8_effect = { $effect$ = { rank = 9 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_9_effect = { $effect$ = { rank = 10 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_10_effect = { $effect$ = { rank = 11 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_11_effect = { $effect$ = { rank = 12 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_12_effect = { $effect$ = { rank = 13 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_13_effect = { $effect$ = { rank = 14 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_14_effect = { $effect$ = { rank = 15 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_15_effect = { $effect$ = { rank = 16 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_16_effect = { $effect$ = { rank = 17 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_17_effect = { $effect$ = { rank = 18 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_18_effect = { $effect$ = { rank = 19 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_19_effect = { $effect$ = { rank = 20 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_20_effect = { $effect$ = { rank = 21 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_21_effect = { $effect$ = { rank = 22 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_22_effect = { $effect$ = { rank = 23 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_23_effect = { $effect$ = { rank = 24 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_24_effect = { $effect$ = { rank = 25 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_25_effect = { $effect$ = { rank = 26 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_26_effect = { $effect$ = { rank = 27 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_27_effect = { $effect$ = { rank = 28 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_28_effect = { $effect$ = { rank = 29 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_29_effect = { $effect$ = { rank = 30 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_30_effect = { $effect$ = { rank = 31 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_31_effect = { $effect$ = { rank = 32 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_32_effect = { $effect$ = { rank = 33 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_33_effect = { $effect$ = { rank = 34 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_34_effect = { $effect$ = { rank = 35 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_35_effect = { $effect$ = { rank = 36 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_36_effect = { $effect$ = { rank = 37 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_37_effect = { $effect$ = { rank = 38 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_38_effect = { $effect$ = { rank = 39 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_39_effect = { $effect$ = { rank = 40 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_40_effect = { $effect$ = { rank = 41 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_41_effect = { $effect$ = { rank = 42 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_42_effect = { $effect$ = { rank = 43 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_43_effect = { $effect$ = { rank = 44 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_44_effect = { $effect$ = { rank = 45 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_45_effect = { $effect$ = { rank = 46 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_46_effect = { $effect$ = { rank = 47 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_47_effect = { $effect$ = { rank = 48 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_48_effect = { $effect$ = { rank = 49 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_49_effect = { $effect$ = { rank = 50 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_50_effect = { $effect$ = { rank = 51 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_51_effect = { $effect$ = { rank = 52 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_52_effect = { $effect$ = { rank = 53 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_53_effect = { $effect$ = { rank = 54 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_54_effect = { $effect$ = { rank = 55 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_55_effect = { $effect$ = { rank = 56 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_56_effect = { $effect$ = { rank = 57 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_57_effect = { $effect$ = { rank = 58 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_58_effect = { $effect$ = { rank = 59 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_59_effect = { $effect$ = { rank = 60 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_60_effect = { $effect$ = { rank = 61 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_61_effect = { $effect$ = { rank = 62 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_62_effect = { $effect$ = { rank = 63 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_63_effect = { $effect$ = { rank = 64 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_64_effect = { $effect$ = { rank = 65 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_65_effect = { $effect$ = { rank = 66 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_66_effect = { $effect$ = { rank = 67 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_67_effect = { $effect$ = { rank = 68 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_68_effect = { $effect$ = { rank = 69 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_69_effect = { $effect$ = { rank = 70 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_70_effect = { $effect$ = { rank = 71 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_71_effect = { $effect$ = { rank = 72 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_72_effect = { $effect$ = { rank = 73 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_73_effect = { $effect$ = { rank = 74 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_74_effect = { $effect$ = { rank = 75 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_75_effect = { $effect$ = { rank = 76 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_76_effect = { $effect$ = { rank = 77 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_77_effect = { $effect$ = { rank = 78 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_78_effect = { $effect$ = { rank = 79 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_79_effect = { $effect$ = { rank = 80 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_80_effect = { $effect$ = { rank = 81 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_81_effect = { $effect$ = { rank = 82 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_82_effect = { $effect$ = { rank = 83 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_83_effect = { $effect$ = { rank = 84 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_84_effect = { $effect$ = { rank = 85 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_85_effect = { $effect$ = { rank = 86 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_86_effect = { $effect$ = { rank = 87 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_87_effect = { $effect$ = { rank = 88 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_88_effect = { $effect$ = { rank = 89 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_89_effect = { $effect$ = { rank = 90 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_90_effect = { $effect$ = { rank = 91 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_91_effect = { $effect$ = { rank = 92 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_92_effect = { $effect$ = { rank = 93 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_93_effect = { $effect$ = { rank = 94 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_94_effect = { $effect$ = { rank = 95 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_95_effect = { $effect$ = { rank = 96 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_96_effect = { $effect$ = { rank = 97 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_97_effect = { $effect$ = { rank = 98 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_98_effect = { $effect$ = { rank = 99 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_99_effect = { $effect$ = { rank = 100 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_100_effect = { $effect$ = { rank = 101 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_101_effect = { $effect$ = { rank = 102 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_102_effect = { $effect$ = { rank = 103 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_103_effect = { $effect$ = { rank = 104 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_104_effect = { $effect$ = { rank = 105 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_105_effect = { $effect$ = { rank = 106 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_106_effect = { $effect$ = { rank = 107 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_107_effect = { $effect$ = { rank = 108 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_108_effect = { $effect$ = { rank = 109 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_109_effect = { $effect$ = { rank = 110 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_110_effect = { $effect$ = { rank = 111 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_111_effect = { $effect$ = { rank = 112 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_112_effect = { $effect$ = { rank = 113 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_113_effect = { $effect$ = { rank = 114 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_114_effect = { $effect$ = { rank = 115 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_115_effect = { $effect$ = { rank = 116 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_116_effect = { $effect$ = { rank = 117 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_117_effect = { $effect$ = { rank = 118 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_118_effect = { $effect$ = { rank = 119 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_119_effect = { $effect$ = { rank = 120 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_120_effect = { $effect$ = { rank = 121 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_121_effect = { $effect$ = { rank = 122 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_122_effect = { $effect$ = { rank = 123 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_123_effect = { $effect$ = { rank = 124 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_124_effect = { $effect$ = { rank = 125 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_125_effect = { $effect$ = { rank = 126 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_126_effect = { $effect$ = { rank = 127 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_127_effect = { $effect$ = { rank = 128 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_128_effect = { $effect$ = { rank = 129 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_129_effect = { $effect$ = { rank = 130 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_130_effect = { $effect$ = { rank = 131 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_131_effect = { $effect$ = { rank = 132 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_132_effect = { $effect$ = { rank = 133 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_133_effect = { $effect$ = { rank = 134 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_134_effect = { $effect$ = { rank = 135 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_135_effect = { $effect$ = { rank = 136 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_136_effect = { $effect$ = { rank = 137 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_137_effect = { $effect$ = { rank = 138 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_138_effect = { $effect$ = { rank = 139 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_139_effect = { $effect$ = { rank = 140 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_140_effect = { $effect$ = { rank = 141 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_141_effect = { $effect$ = { rank = 142 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_142_effect = { $effect$ = { rank = 143 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_143_effect = { $effect$ = { rank = 144 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_144_effect = { $effect$ = { rank = 145 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_145_effect = { $effect$ = { rank = 146 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_146_effect = { $effect$ = { rank = 147 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_147_effect = { $effect$ = { rank = 148 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_148_effect = { $effect$ = { rank = 149 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_149_effect = { $effect$ = { rank = 150 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_150_effect = { $effect$ = { rank = 151 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_151_effect = { $effect$ = { rank = 152 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_152_effect = { $effect$ = { rank = 153 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_153_effect = { $effect$ = { rank = 154 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_154_effect = { $effect$ = { rank = 155 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_155_effect = { $effect$ = { rank = 156 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_156_effect = { $effect$ = { rank = 157 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_157_effect = { $effect$ = { rank = 158 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_158_effect = { $effect$ = { rank = 159 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_159_effect = { $effect$ = { rank = 160 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_160_effect = { $effect$ = { rank = 161 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_161_effect = { $effect$ = { rank = 162 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_162_effect = { $effect$ = { rank = 163 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_163_effect = { $effect$ = { rank = 164 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_164_effect = { $effect$ = { rank = 165 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_165_effect = { $effect$ = { rank = 166 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_166_effect = { $effect$ = { rank = 167 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_167_effect = { $effect$ = { rank = 168 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_168_effect = { $effect$ = { rank = 169 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_169_effect = { $effect$ = { rank = 170 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_170_effect = { $effect$ = { rank = 171 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_171_effect = { $effect$ = { rank = 172 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_172_effect = { $effect$ = { rank = 173 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_173_effect = { $effect$ = { rank = 174 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_174_effect = { $effect$ = { rank = 175 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_175_effect = { $effect$ = { rank = 176 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_176_effect = { $effect$ = { rank = 177 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_177_effect = { $effect$ = { rank = 178 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_178_effect = { $effect$ = { rank = 179 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_179_effect = { $effect$ = { rank = 180 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_180_effect = { $effect$ = { rank = 181 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_181_effect = { $effect$ = { rank = 182 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_182_effect = { $effect$ = { rank = 183 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_183_effect = { $effect$ = { rank = 184 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_184_effect = { $effect$ = { rank = 185 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_185_effect = { $effect$ = { rank = 186 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_186_effect = { $effect$ = { rank = 187 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_187_effect = { $effect$ = { rank = 188 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_188_effect = { $effect$ = { rank = 189 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_189_effect = { $effect$ = { rank = 190 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_190_effect = { $effect$ = { rank = 191 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_191_effect = { $effect$ = { rank = 192 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_192_effect = { $effect$ = { rank = 193 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_193_effect = { $effect$ = { rank = 194 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_194_effect = { $effect$ = { rank = 195 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_195_effect = { $effect$ = { rank = 196 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_196_effect = { $effect$ = { rank = 197 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_197_effect = { $effect$ = { rank = 198 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_198_effect = { $effect$ = { rank = 199 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_199_effect = { $effect$ = { rank = 200 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_200_effect = { $effect$ = { rank = 201 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_201_effect = { $effect$ = { rank = 202 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_202_effect = { $effect$ = { rank = 203 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_203_effect = { $effect$ = { rank = 204 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_204_effect = { $effect$ = { rank = 205 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_205_effect = { $effect$ = { rank = 206 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_206_effect = { $effect$ = { rank = 207 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_207_effect = { $effect$ = { rank = 208 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_208_effect = { $effect$ = { rank = 209 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_209_effect = { $effect$ = { rank = 210 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_210_effect = { $effect$ = { rank = 211 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_211_effect = { $effect$ = { rank = 212 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_212_effect = { $effect$ = { rank = 213 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_213_effect = { $effect$ = { rank = 214 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_214_effect = { $effect$ = { rank = 215 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_215_effect = { $effect$ = { rank = 216 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_216_effect = { $effect$ = { rank = 217 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_217_effect = { $effect$ = { rank = 218 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_218_effect = { $effect$ = { rank = 219 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_219_effect = { $effect$ = { rank = 220 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_220_effect = { $effect$ = { rank = 221 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_221_effect = { $effect$ = { rank = 222 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_222_effect = { $effect$ = { rank = 223 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_223_effect = { $effect$ = { rank = 224 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_224_effect = { $effect$ = { rank = 225 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_225_effect = { $effect$ = { rank = 226 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_226_effect = { $effect$ = { rank = 227 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_227_effect = { $effect$ = { rank = 228 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_228_effect = { $effect$ = { rank = 229 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_229_effect = { $effect$ = { rank = 230 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_230_effect = { $effect$ = { rank = 231 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_231_effect = { $effect$ = { rank = 232 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_232_effect = { $effect$ = { rank = 233 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_233_effect = { $effect$ = { rank = 234 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_234_effect = { $effect$ = { rank = 235 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_235_effect = { $effect$ = { rank = 236 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_236_effect = { $effect$ = { rank = 237 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_237_effect = { $effect$ = { rank = 238 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_238_effect = { $effect$ = { rank = 239 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_239_effect = { $effect$ = { rank = 240 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_240_effect = { $effect$ = { rank = 241 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_241_effect = { $effect$ = { rank = 242 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_242_effect = { $effect$ = { rank = 243 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_243_effect = { $effect$ = { rank = 244 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_244_effect = { $effect$ = { rank = 245 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_245_effect = { $effect$ = { rank = 246 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_246_effect = { $effect$ = { rank = 247 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_247_effect = { $effect$ = { rank = 248 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_248_effect = { $effect$ = { rank = 249 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_249_effect = { $effect$ = { rank = 250 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_250_effect = { $effect$ = { rank = 251 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_251_effect = { $effect$ = { rank = 252 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_252_effect = { $effect$ = { rank = 253 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_253_effect = { $effect$ = { rank = 254 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_254_effect = { $effect$ = { rank = 255 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_255_effect = { $effect$ = { rank = 256 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_256_effect = { $effect$ = { rank = 257 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_257_effect = { $effect$ = { rank = 258 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_258_effect = { $effect$ = { rank = 259 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_259_effect = { $effect$ = { rank = 260 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_260_effect = { $effect$ = { rank = 261 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_261_effect = { $effect$ = { rank = 262 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_262_effect = { $effect$ = { rank = 263 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_263_effect = { $effect$ = { rank = 264 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_264_effect = { $effect$ = { rank = 265 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_265_effect = { $effect$ = { rank = 266 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_266_effect = { $effect$ = { rank = 267 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_267_effect = { $effect$ = { rank = 268 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_268_effect = { $effect$ = { rank = 269 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_269_effect = { $effect$ = { rank = 270 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_270_effect = { $effect$ = { rank = 271 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_271_effect = { $effect$ = { rank = 272 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_272_effect = { $effect$ = { rank = 273 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_273_effect = { $effect$ = { rank = 274 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_274_effect = { $effect$ = { rank = 275 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_275_effect = { $effect$ = { rank = 276 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_276_effect = { $effect$ = { rank = 277 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_277_effect = { $effect$ = { rank = 278 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_278_effect = { $effect$ = { rank = 279 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_279_effect = { $effect$ = { rank = 280 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_280_effect = { $effect$ = { rank = 281 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_281_effect = { $effect$ = { rank = 282 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_282_effect = { $effect$ = { rank = 283 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_283_effect = { $effect$ = { rank = 284 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_284_effect = { $effect$ = { rank = 285 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_285_effect = { $effect$ = { rank = 286 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_286_effect = { $effect$ = { rank = 287 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_287_effect = { $effect$ = { rank = 288 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_288_effect = { $effect$ = { rank = 289 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_289_effect = { $effect$ = { rank = 290 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_290_effect = { $effect$ = { rank = 291 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_291_effect = { $effect$ = { rank = 292 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_292_effect = { $effect$ = { rank = 293 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_293_effect = { $effect$ = { rank = 294 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_294_effect = { $effect$ = { rank = 295 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_295_effect = { $effect$ = { rank = 296 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_296_effect = { $effect$ = { rank = 297 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_297_effect = { $effect$ = { rank = 298 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_298_effect = { $effect$ = { rank = 299 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_299_effect = { $effect$ = { rank = 300 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_300_effect = { $effect$ = { rank = 301 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_301_effect = { $effect$ = { rank = 302 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_302_effect = { $effect$ = { rank = 303 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_303_effect = { $effect$ = { rank = 304 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_304_effect = { $effect$ = { rank = 305 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_305_effect = { $effect$ = { rank = 306 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_306_effect = { $effect$ = { rank = 307 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_307_effect = { $effect$ = { rank = 308 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_308_effect = { $effect$ = { rank = 309 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_309_effect = { $effect$ = { rank = 310 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_310_effect = { $effect$ = { rank = 311 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_311_effect = { $effect$ = { rank = 312 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_312_effect = { $effect$ = { rank = 313 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_313_effect = { $effect$ = { rank = 314 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_314_effect = { $effect$ = { rank = 315 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_315_effect = { $effect$ = { rank = 316 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_316_effect = { $effect$ = { rank = 317 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_317_effect = { $effect$ = { rank = 318 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_318_effect = { $effect$ = { rank = 319 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_319_effect = { $effect$ = { rank = 320 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_320_effect = { $effect$ = { rank = 321 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_321_effect = { $effect$ = { rank = 322 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_322_effect = { $effect$ = { rank = 323 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_323_effect = { $effect$ = { rank = 324 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_324_effect = { $effect$ = { rank = 325 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_325_effect = { $effect$ = { rank = 326 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_326_effect = { $effect$ = { rank = 327 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_327_effect = { $effect$ = { rank = 328 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_328_effect = { $effect$ = { rank = 329 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_329_effect = { $effect$ = { rank = 330 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_330_effect = { $effect$ = { rank = 331 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_331_effect = { $effect$ = { rank = 332 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_332_effect = { $effect$ = { rank = 333 [[value] value = $value$ ] [[type] type= $type$ ] } }
+rank_up_333_effect = { $effect$ = { rank = 334 [[value] value = $value$ ] [[type] type= $type$ ] } }

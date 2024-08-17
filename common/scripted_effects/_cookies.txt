@@ -20,9 +20,15 @@ change_cookie = {
 	}
 }
 
-# COUNTRY = { add_cookie = { rank = $rank$ value = $value$ } }
+# COUNTRY = { add_cookie = { rank = $rank$ [value = $value$] [which = $which$] } }
 add_cookie = {
-	change_cookie = { rank = $rank$ value = $value$ type = change }
+	change_cookie = { rank = $rank$ [[value] value = $value$ ] [[which] which = $which$ ] type = change }
+	validate_rank = { rank = $rank$ }
+}
+
+# COUNTRY = { subtract_cookie = { rank = $rank$ [value = $value$] [which = $which$] } }
+subtract_cookie = {
+	change_cookie = { rank = $rank$ [[value] value = $value$ ] [[which] which = $which$ ] type = subtract }
 	validate_rank = { rank = $rank$ }
 }
 
@@ -94,7 +100,7 @@ clr_old_manual_price = {
 # PROVINCE = { pay_manual_price = { value = $value$ } }
 pay_manual_price = {
 	set_variable = { which = power_$value$ which = manual_power_$value$ }
-	owner = { change_cookie = { rank = $value$ which = PREV type = subtract } }
+	owner = { subtract_cookie = { rank = $value$ which = PREV } }
 	set_variable = { which = power_$value$ value = 0 }
 }
 

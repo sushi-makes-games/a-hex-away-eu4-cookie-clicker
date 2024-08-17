@@ -3,7 +3,10 @@ init_province_cookies = {
 	set_variable = { which = manual_clicks value = 10 }
 	set_variable = { which = manual_subrank value = 0 }
 	set_variable = { which = manual_rank value = 0 }
-	set_variable = { which = manual_power_0 value = 10 }
+
+	set_variable = { which = manual_power_0 which = manual_clicks }
+	set_variable = { which = manual_price which = manual_clicks }
+	set_variable = { which = manual_price_rank which = manual_rank }
 }
 
 # COUNTRY = { init_country_cookies = yes }

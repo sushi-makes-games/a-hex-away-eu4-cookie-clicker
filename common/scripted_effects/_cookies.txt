@@ -81,6 +81,16 @@ click_manual = {
 	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 9 } } owner = { add_cookie = { rank = $value$ value = 512 } } }
 }
 
+# PROVINCE = { set_new_price = { value = $value$ } }
+set_new_manual_price = { 
+	set_variable = { which = manual_power_$value$ which = manual_price }
+}
+
+# PROVINCE = { clr_old_manual_price = { value = $value$ } }
+clr_old_manual_price = { 
+	set_variable = { which = manual_power_$value$ value = 0 }
+}
+
 # PROVINCE = { upgrade_manual = yes }
 upgrade_manual = {
 	change_variable = { which = manual_subrank value = 1 }
@@ -91,5 +101,41 @@ upgrade_manual = {
 		set_variable = { which = manual_subrank value = 0 }
 		change_variable = { which = manual_rank value = 1 }
 	}
+
+	change_variable = { which = manual_clicks value = 1 }
+
+	variable_effect = { which = manual_price_rank effect = clr_old_manual_price }
+
+	# NEW PRICE CALCULATION
+
+	set_variable = { which = manual_price which = manual_clicks }
+	set_variable = { which = manual_price_rank which = manual_rank }
+
+	if = {
+		limit = { check_variable = { which = manual_price value = 1000 } }
+		divide_variable = { which = manual_price value = 1000 }
+		round_variable = { which = manual_price value = 0 }
+		change_variable = { which = manual_price_rank value = 1 }
+	}
+
+	if = { limit = { is_variable_equal = { which = manual_subrank value = 0 } } multiply_variable = { which = manual_price value = 1 } }
+	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 1 } } multiply_variable = { which = manual_price value = 2 } }
+	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 2 } } multiply_variable = { which = manual_price value = 4 } }
+	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 3 } } multiply_variable = { which = manual_price value = 8 } }
+	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 4 } } multiply_variable = { which = manual_price value = 16 } }
+	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 5 } } multiply_variable = { which = manual_price value = 32 } }
+	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 6 } } multiply_variable = { which = manual_price value = 64 } }
+	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 7 } } multiply_variable = { which = manual_price value = 128 } }
+	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 8 } } multiply_variable = { which = manual_price value = 256 } }
+	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 9 } } multiply_variable = { which = manual_price value = 512 } }
+
+	if = {
+		limit = { check_variable = { which = manual_price value = 1000 } }
+		divide_variable = { which = manual_price value = 1000 }
+		round_variable = { which = manual_price value = 0 }
+		change_variable = { which = manual_price_rank value = 1 }
+	}
+
+	variable_effect = { which = manual_price_rank effect = set_new_manual_price }
 }
 

@@ -3517,7 +3517,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					position = { x = 0 y = 0 }
 				}
-	
 				
 				iconType = {
 					name ="ci_province_bg_11"
@@ -3723,12 +3722,58 @@ guiTypes = {
 					scripted = yes
 
 					Orientation = "UPPER_LEFT"
-					position = { x = 0 y = 0 }
+					position = { x = 0 y = -100 }
 
 					maxWidth = 256
 					maxHeight = 32
 					format = center
 					font = "vic_22"
+				}
+
+				windowType = {
+					name = "cw_province_manual"
+					scripted = yes
+		
+					Orientation = "UPPER_LEFT"
+					position = { x = 0 y = 0 }
+					size = { x = 576 y = 64 }
+
+					instantTextBoxType = {
+						name = "ctb_province_manual_value"
+						scripted = yes
+	
+						Orientation = "UPPER_LEFT"
+						position = { x = 64 y = 0 }
+	
+						maxWidth = 384
+						maxHeight = 32
+						format = left
+						font = "vic_22"
+					}
+
+					instantTextBoxType = {
+						name = "ctb_province_manual_price"
+						scripted = yes
+	
+						Orientation = "UPPER_LEFT"
+						position = { x = 64 y = 32 }
+	
+						maxWidth = 384
+						maxHeight = 32
+						format = right
+						font = "vic_22"
+					}
+
+					guiButtonType = {
+						name ="cbt_cookie_manual_upgrade"
+						quadTextureSprite = "GFX_HEX_button_test"
+						scripted = yes
+		
+						Orientation = "UPPER_LEFT"
+						buttonFont = "vic_18"
+						format = center
+						position = { x = 464 y = 16 }
+					}
 				}
 
 				guiButtonType = {
@@ -3739,29 +3784,9 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					buttonFont = "vic_18"
 					format = center
-					position = { x = 100 y = 64 }
-				}
+					position = { x = 608 y = 32 }
 
-				guiButtonType = {
-					name ="cbt_cookie_manual_upgrade"
-					quadTextureSprite = "GFX_HEX_button_test"
-					scripted = yes
-	
-					Orientation = "UPPER_LEFT"
-					buttonFont = "vic_18"
-					format = center
-					position = { x = 150 y = 64 }
-				}
-
-				guiButtonType = {
-					name ="cbt_cookie_manual_minus"
-					quadTextureSprite = "GFX_HEX_button_test"
-					scripted = yes
-	
-					Orientation = "UPPER_LEFT"
-					buttonFont = "vic_18"
-					format = center
-					position = { x = 200 y = 64 }
+					scale = 4
 				}
 			}
 		}

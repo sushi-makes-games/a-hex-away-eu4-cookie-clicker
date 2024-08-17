@@ -171,19 +171,28 @@ custom_text_box = {
 	tooltip = ctb_province_desc_tt
 }
 
+custom_window = {
+	name = cw_province_manual
+	potential = { always = yes }
+}
+
+custom_text_box = {
+	name = ctb_province_manual_value
+	potential = { always = yes }
+	tooltip = ctb_province_manual_value_tt
+}
+
+custom_text_box = {
+	name = ctb_province_manual_price
+	potential = { always = yes }
+	tooltip = ctb_province_manual_price_tt
+}
+
 custom_button = {
 	name = cbt_cookie_manual
 	potential = { always = yes }
 	trigger = { always = yes }
 	effect = { variable_effect = { which = manual_rank effect = click_manual } }
-}
-
-
-custom_button = {
-	name = cbt_cookie_manual_minus
-	potential = { always = yes }
-	trigger = { always = yes }
-	effect = { variable_effect = { which = manual_rank effect = click_manual_minus } }
 }
 
 custom_button = {

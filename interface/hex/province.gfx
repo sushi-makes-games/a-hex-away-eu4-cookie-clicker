@@ -1,8 +1,130 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_HEX_province_bg"
-		texturefile = "gfx/hex/interface/_province_bg.dds"
-		noOfFrames = 32
-		legacy_lazy_load = no
+		name = "GFX_HEX_province_bg_1"
+		texturefile = "gfx/hex/interface/_bg_region_1.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_2"
+		texturefile = "gfx/hex/interface/_bg_region_2.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_3"
+		texturefile = "gfx/hex/interface/_bg_region_3.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_4"
+		texturefile = "gfx/hex/interface/_bg_region_4.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_5"
+		texturefile = "gfx/hex/interface/_bg_region_5.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_6"
+		texturefile = "gfx/hex/interface/_bg_region_6.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_7"
+		texturefile = "gfx/hex/interface/_bg_region_7.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_8"
+		texturefile = "gfx/hex/interface/_bg_region_8.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_9"
+		texturefile = "gfx/hex/interface/_bg_region_9.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_10"
+		texturefile = "gfx/hex/interface/_bg_region_10.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_11"
+		texturefile = "gfx/hex/interface/_bg_region_11.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_12"
+		texturefile = "gfx/hex/interface/_bg_region_12.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_13"
+		texturefile = "gfx/hex/interface/_bg_region_13.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_14"
+		texturefile = "gfx/hex/interface/_bg_region_14.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_15"
+		texturefile = "gfx/hex/interface/_bg_region_15.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_16"
+		texturefile = "gfx/hex/interface/_bg_region_16.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_17"
+		texturefile = "gfx/hex/interface/_bg_region_17.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_18"
+		texturefile = "gfx/hex/interface/_bg_region_18.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_19"
+		texturefile = "gfx/hex/interface/_bg_region_19.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_20"
+		texturefile = "gfx/hex/interface/_bg_region_20.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_21"
+		texturefile = "gfx/hex/interface/_bg_region_21.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_22"
+		texturefile = "gfx/hex/interface/_bg_region_22.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_23"
+		texturefile = "gfx/hex/interface/_bg_region_23.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_24"
+		texturefile = "gfx/hex/interface/_bg_region_24.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_25"
+		texturefile = "gfx/hex/interface/_bg_region_25.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_26"
+		texturefile = "gfx/hex/interface/_bg_region_26.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_27"
+		texturefile = "gfx/hex/interface/_bg_region_27.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_28"
+		texturefile = "gfx/hex/interface/_bg_region_28.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_29"
+		texturefile = "gfx/hex/interface/_bg_region_29.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_30"
+		texturefile = "gfx/hex/interface/_bg_region_30.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_31"
+		texturefile = "gfx/hex/interface/_bg_region_31.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_bg_32"
+		texturefile = "gfx/hex/interface/_bg_region_32.dds"
 	}
 }

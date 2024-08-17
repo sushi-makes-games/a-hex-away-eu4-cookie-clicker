@@ -6,39 +6,161 @@ custom_window = {
 }
 
 custom_icon = {
-	name = ci_colony_bg
-	potential = { always = yes }
+	name = ci_colony_bg_1
+	potential = { ROOT = { area = city_area } }
+}
 
-	frame = { number = 1 trigger = { area = city_area } }
-	frame = { number = 2 trigger = { region = the_city_region } }
-	frame = { number = 3 trigger = { region = great_forest_region } }
-	frame = { number = 4 trigger = { region = grey_mountains_region } }
-	frame = { number = 5 trigger = { region = the_desert_region } }
-	frame = { number = 6 trigger = { region = riverlands_region } }
-	frame = { number = 7 trigger = { region = griffon_hills_region } }
-	frame = { number = 8 trigger = { region = archipelago_region } }
-	frame = { number = 9 trigger = { region = the_maw_region } }
-	frame = { number = 10 trigger = { region = azure_lake_region } }
-	frame = { number = 11 trigger = { region = tempest_sea_region } }
-	frame = { number = 12 trigger = { region = tempest_coast_region } }
-	frame = { number = 13 trigger = { region = violet_steppes_region } }
-	frame = { number = 14 trigger = { region = black_sands_region } }
-	frame = { number = 15 trigger = { region = brimstone_region } }
-	frame = { number = 16 trigger = { region = the_lakes_region } }
-	frame = { number = 17 trigger = { region = sweet_seas_region } }
-	frame = { number = 18 trigger = { region = silk_highlands_region } }
-	frame = { number = 19 trigger = { region = sugar_plains_region } }
-	frame = { number = 20 trigger = { region = vine_coast_region } }
-	frame = { number = 21 trigger = { region = mangrove_shoals_region } }
-	frame = { number = 22 trigger = { region = horizon_ocean_region } }
-	frame = { number = 23 trigger = { region = the_shards_region } }
-	frame = { number = 24 trigger = { region = golden_valley_region } }
-	frame = { number = 25 trigger = { region = deadlands_region } }
-	frame = { number = 26 trigger = { region = blue_mountains_region } }
-	frame = { number = 27 trigger = { region = ghost_sea_region } }
-	frame = { number = 28 trigger = { region = dragontail_mountains_region } }
-	frame = { number = 29 trigger = { region = green_wastes_region } }
-	frame = { number = 30 trigger = { region = red_marshes_region } }
-	frame = { number = 31 trigger = { region = frozen_lands_region } }
-	frame = { number = 32 trigger = { region = the_pale_region } }
+custom_icon = {
+	name = ci_colony_bg_2
+	potential = { ROOT = { region = the_city_region NOT = { area = city_area } } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_3
+	potential = { ROOT = { region = great_forest_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_4
+	potential = { ROOT = { region = grey_mountains_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_5
+	potential = { ROOT = { region = the_desert_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_6
+	potential = { ROOT = { region = riverlands_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_7
+	potential = { ROOT = { region = griffon_hills_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_8
+	potential = { ROOT = { region = archipelago_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_9
+	potential = { ROOT = { region = the_maw_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_10
+	potential = { ROOT = { region = azure_lake_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_11
+	potential = { ROOT = { region = tempest_sea_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_12
+	potential = { ROOT = { region = tempest_coast_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_13
+	potential = { ROOT = { region = violet_steppes_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_14
+	potential = { ROOT = { region = black_sands_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_15
+	potential = { ROOT = { region = brimstone_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_16
+	potential = { ROOT = { region = the_lakes_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_17
+	potential = { ROOT = { region = sweet_seas_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_18
+	potential = { ROOT = { region = silk_highlands_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_19
+	potential = { ROOT = { region = sugar_plains_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_20
+	potential = { ROOT = { region = vine_coast_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_21
+	potential = { ROOT = { region = mangrove_shoals_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_22
+	potential = { ROOT = { region = horizon_ocean_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_23
+	potential = { ROOT = { region = the_shards_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_24
+	potential = { ROOT = { region = golden_valley_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_25
+	potential = { ROOT = { region = deadlands_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_26
+	potential = { ROOT = { region = blue_mountains_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_27
+	potential = { ROOT = { region = ghost_sea_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_28
+	potential = { ROOT = { region = dragontail_mountains_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_29
+	potential = { ROOT = { region = green_wastes_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_30
+	potential = { ROOT = { region = red_marshes_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_31
+	potential = { ROOT = { region = frozen_lands_region } }
+}
+
+custom_icon = {
+	name = ci_colony_bg_32
+	potential = { ROOT = { region = the_pale_region } }
 }

@@ -4,8 +4,8 @@ guiTypes = {
 		backGround=""
 
 		Orientation = "LOWER_LEFT"
-		position = { x = 0 y = -128 }
-		show_position = { x = 0 y = -128 }
+		position = { x = 0 y = -192 }
+		show_position = { x = 0 y = -192 }
 		hide_position = { x = 0 y = 10000 }
 		fullScreen = yes
 
@@ -888,13 +888,293 @@ guiTypes = {
 			fullScreen = yes
 
 			iconType = {
-				name ="ci_colony_bg"
-				spriteType = "GFX_HEX_province_bg"
+				name ="ci_colony_bg_1"
+				spriteType = "GFX_HEX_province_bg_1"
 				scripted = yes
 				
-				Orientation = "CENTER_UP"
-				position = { x = -512 y = 0 }
-				scale = 4
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_2"
+				spriteType = "GFX_HEX_province_bg_2"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_3"
+				spriteType = "GFX_HEX_province_bg_3"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_4"
+				spriteType = "GFX_HEX_province_bg_4"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_5"
+				spriteType = "GFX_HEX_province_bg_5"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_6"
+				spriteType = "GFX_HEX_province_bg_6"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_7"
+				spriteType = "GFX_HEX_province_bg_7"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_8"
+				spriteType = "GFX_HEX_province_bg_8"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_9"
+				spriteType = "GFX_HEX_province_bg_9"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_10"
+				spriteType = "GFX_HEX_province_bg_10"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			
+			iconType = {
+				name ="ci_colony_bg_11"
+				spriteType = "GFX_HEX_province_bg_11"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_12"
+				spriteType = "GFX_HEX_province_bg_12"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_13"
+				spriteType = "GFX_HEX_province_bg_13"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_14"
+				spriteType = "GFX_HEX_province_bg_14"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_15"
+				spriteType = "GFX_HEX_province_bg_15"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_16"
+				spriteType = "GFX_HEX_province_bg_16"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_17"
+				spriteType = "GFX_HEX_province_bg_17"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_18"
+				spriteType = "GFX_HEX_province_bg_18"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_19"
+				spriteType = "GFX_HEX_province_bg_19"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_20"
+				spriteType = "GFX_HEX_province_bg_20"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			
+			iconType = {
+				name ="ci_colony_bg_21"
+				spriteType = "GFX_HEX_province_bg_21"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_22"
+				spriteType = "GFX_HEX_province_bg_22"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_23"
+				spriteType = "GFX_HEX_province_bg_23"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_24"
+				spriteType = "GFX_HEX_province_bg_24"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_25"
+				spriteType = "GFX_HEX_province_bg_25"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_26"
+				spriteType = "GFX_HEX_province_bg_26"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_27"
+				spriteType = "GFX_HEX_province_bg_27"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_28"
+				spriteType = "GFX_HEX_province_bg_28"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_29"
+				spriteType = "GFX_HEX_province_bg_29"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_30"
+				spriteType = "GFX_HEX_province_bg_30"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_31"
+				spriteType = "GFX_HEX_province_bg_31"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			iconType = {
+				name ="ci_colony_bg_32"
+				spriteType = "GFX_HEX_province_bg_32"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
 			}
 		}
 	}

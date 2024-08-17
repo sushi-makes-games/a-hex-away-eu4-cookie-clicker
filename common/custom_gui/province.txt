@@ -178,9 +178,17 @@ custom_button = {
 	effect = { variable_effect = { which = manual_rank effect = click_manual } }
 }
 
+
+custom_button = {
+	name = cbt_cookie_manual_minus
+	potential = { always = yes }
+	trigger = { always = yes }
+	effect = { variable_effect = { which = manual_rank effect = click_manual_minus } }
+}
+
 custom_button = {
 	name = cbt_cookie_manual_upgrade
 	potential = { always = yes }
-	trigger = { always = yes }
+	trigger = { can_upgrade_manual = yes }
 	effect = { upgrade_manual = yes }
 }

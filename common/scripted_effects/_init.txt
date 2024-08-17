@@ -3,12 +3,13 @@ init_province_cookies = {
 	set_variable = { which = manual_clicks value = 10 }
 	set_variable = { which = manual_subrank value = 0 }
 	set_variable = { which = manual_rank value = 0 }
-	set_variable = { which = manual_price value = 10 }
-	set_variable = { which = manual_price_rank value = 0 }
+	set_variable = { which = manual_power_0 value = 10 }
 }
 
 # COUNTRY = { init_country_cookies = yes }
 init_country_cookies = {
+	set_variable = { which = total_rank value = 0 }
+
 	set_variable = { which = power_333 value = 0 }
 	set_variable = { which = power_332 value = 0 }
 	set_variable = { which = power_331 value = 0 }
@@ -332,7 +333,7 @@ init_country_cookies = {
 	set_variable = { which = power_13 value = 0 }
 	set_variable = { which = power_12 value = 0 }
 	set_variable = { which = power_11 value = 0 }
-	set_variable = { which = power_10 value = 1 }
+	set_variable = { which = power_10 value = 0 }
 	set_variable = { which = power_9 value = 0 }
 	set_variable = { which = power_8 value = 0 }
 	set_variable = { which = power_7 value = 0 }

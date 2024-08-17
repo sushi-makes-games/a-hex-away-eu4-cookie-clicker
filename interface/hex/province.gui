@@ -3752,6 +3752,17 @@ guiTypes = {
 					format = center
 					position = { x = 150 y = 64 }
 				}
+
+				guiButtonType = {
+					name ="cbt_cookie_manual_minus"
+					quadTextureSprite = "GFX_HEX_button_test"
+					scripted = yes
+	
+					Orientation = "UPPER_LEFT"
+					buttonFont = "vic_18"
+					format = center
+					position = { x = 200 y = 64 }
+				}
 			}
 		}
 	}

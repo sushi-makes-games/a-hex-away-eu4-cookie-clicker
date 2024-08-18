@@ -3857,25 +3857,22 @@ guiTypes = {
 
 				guiButtonType = {
 					name ="cbt_province_cookie"
-					quadTextureSprite = "GFX_HEX_button_test"
+					quadTextureSprite = "GFX_HEX_cookie"
 					scripted = yes
 	
 					Orientation = "UPPER_LEFT"
 					buttonFont = "vic_18"
 					format = center
 					position = { x = 608 y = 32 }
-
-					scale = 4
 				}
 
 				iconType = {
 					name ="ci_province_cookie"
-					spriteType = "GFX_HEX_button_test"
+					spriteType = "GFX_HEX_cookie"
 					scripted = yes
 					
 					Orientation = "UPPER_LEFT"
 					position = { x = 608 y = 32 }
-					scale = 4
 				}
 			}
 		}

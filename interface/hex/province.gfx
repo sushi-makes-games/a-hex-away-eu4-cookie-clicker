@@ -132,4 +132,8 @@ spriteTypes = {
 		name = "GFX_HEX_button_test"
 		texturefile = "gfx/hex/interface/_button_test.dds"
 	}
+	spriteType = {
+		name = "GFX_HEX_cookie"
+		texturefile = "gfx/hex/interface/_cookie.dds"
+	}
 }

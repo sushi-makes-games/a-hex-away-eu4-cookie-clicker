@@ -1,5 +1,5 @@
 on_global_daily = {
-	potential = { has_saved_global_event_target = Global }
+	potential = { always = yes }
 
 	trigger = { has_province_flag = daily }
 

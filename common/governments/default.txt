@@ -11,17 +11,3 @@ player_type = {
 		}
 	}
 }
-
-special_type = {
-	basic_reform = special_basic_reform
-
-	color = { 179 25 25 }
-
-	reform_levels = {
-		administration = {
-			reforms = {
-				special_reform
-			}
-		}
-	}
-}

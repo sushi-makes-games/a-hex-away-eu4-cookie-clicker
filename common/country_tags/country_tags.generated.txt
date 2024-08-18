@@ -1,7 +1,6 @@
 # This file is generated, any changes made here will be rewritten
 
 NAT = "countries/NAT - Vagabonds.generated.txt"
-OBS = "countries/OBS - Observers.generated.txt"
 PIR = "countries/PIR - Pirates.generated.txt"
 REB = "countries/REB - Nature.generated.txt"
 H00 = "countries/H00 - The City.generated.txt"

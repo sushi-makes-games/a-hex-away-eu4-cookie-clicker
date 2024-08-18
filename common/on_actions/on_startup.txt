@@ -2,7 +2,6 @@ on_startup = {
 	if = {
 		limit = { NOT = { has_global_flag = world_generated } }
 
-		save_global_event_target_as = Global
 		3204 = {
 			save_global_event_target_as = City
 			set_province_flag = daily

@@ -7,6 +7,7 @@ player_basic_reform = {
 
 player_reform = {
 	icon = "the_city"
-	potential = { ai = no }
+	potential = { always = yes }
 	removed_effect = { }
+	nation_designer_cost = 0
 }

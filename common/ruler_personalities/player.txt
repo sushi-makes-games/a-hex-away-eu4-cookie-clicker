@@ -1,0 +1,23 @@
+cookie_1_personality = {
+	ruler_allow = { allow = { always = yes } }
+	heir_allow = { allow = { always = yes } }
+	consort_allow = { allow = { always = yes } }
+
+	nation_designer_cost = 0
+}
+
+cookie_2_personality = {
+	ruler_allow = { allow = { always = yes } }
+	heir_allow = { allow = { always = yes } }
+	consort_allow = { allow = { always = yes } }
+
+	nation_designer_cost = 0
+}
+
+cookie_3_personality = {
+	ruler_allow = { allow = { always = yes } }
+	heir_allow = { allow = { always = yes } }
+	consort_allow = { allow = { always = yes } }
+
+	nation_designer_cost = 0
+}

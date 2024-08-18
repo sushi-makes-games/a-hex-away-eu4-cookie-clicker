@@ -1,15 +1,15 @@
 ﻿l_english:
   ctb_province_manual_value:0 "£dip£ [CL_MANUAL_AMOUNT][CL_MANUAL_RANK] cookies (e[Root.manual_rank.GetValue])"
-  ctb_province_manual_value_tt:0 "§YCookies per Click§![CL_DIVIDER]Current amount of cookies gained per click.\n§MKeep clciking to gain more!§!"
+  ctb_province_manual_value_tt:0 "§YCookies per Click§![CL_DIVIDER]Current amount of cookies gained per click.\n§MKeep clciking to bake more cookies!§!"
   ctb_province_manual_price:0 "£dip£ [Root.manual_price.GetValue][CL_MANUAL_PRICE_RANK] cookies (e[Root.manual_price_rank.GetValue])"
-  ctb_province_manual_price_tt:0 "§YUpgrade Cost§![CL_DIVIDER]Current cost to increase cookies gained per click.\n§MSpend cookies to gain cookies!§!"
+  ctb_province_manual_price_tt:0 "§YUpgrade Cost§![CL_DIVIDER]Current cost to increase cookies gained per click.\n§MSpend cookies to bake cookies!§!"
 
   ctb_province_passive_value:0 "£dip£ [CL_PASSIVE_AMOUNT][CL_PASSIVE_RANK] cookies (e[Root.passive_rank.GetValue])"
-  ctb_province_passive_value_tt:0 "§YCookies per Click§![CL_DIVIDER]Current amount of cookies gained per click.\n§MKeep clciking to gain more!§!"
+  ctb_province_passive_value_tt:0 "§YCookies per Day§![CL_DIVIDER]Current amount of cookies gained passively per day.\n§MFor when you're tired of baking alone.§!"
   ctb_province_passive_price:0 "£dip£ [Root.passive_price.GetValue][CL_PASSIVE_PRICE_RANK] cookies (e[Root.passive_price_rank.GetValue])"
-  ctb_province_passive_price_tt:0 "§YUpgrade Cost§![CL_DIVIDER]Current cost to increase cookies gained per click.\n§MSpend cookies to gain cookies!§!"
+  ctb_province_passive_price_tt:0 "§YUpgrade Cost§![CL_DIVIDER]Current cost to increase cookies gained pssively per day.\n§MJust a bit more extra hands to bake cookies.§!"
 
   ctb_province_sponsor_value:0 "£dip£ [CL_SPONSOR_AMOUNT][CL_SPONSOR_RANK] cookies (e[Root.sponsor_rank.GetValue])"
-  ctb_province_sponsor_value_tt:0 "§YCookies per Click§![CL_DIVIDER]Current amount of cookies gained per click.\n§MKeep clciking to gain more!§!"
+  ctb_province_sponsor_value_tt:0 "§YCookies per Month§![CL_DIVIDER]Current amount of cookies gained passively per month.\n§MA gift from respectable bakers.§!"
   ctb_province_sponsor_price:0 "£dip£ [Root.sponsor_price.GetValue][CL_SPONSOR_PRICE_RANK] cookies (e[Root.sponsor_price_rank.GetValue])"
-  ctb_province_sponsor_price_tt:0 "§YUpgrade Cost§![CL_DIVIDER]Current cost to increase cookies gained per click.\n§MSpend cookies to gain cookies!§!"
+  ctb_province_sponsor_price_tt:0 "§YUpgrade Cost§![CL_DIVIDER]Current cost to increase cookies gained passively per month.\n§MThere are always more bakeries to reach to.§!"

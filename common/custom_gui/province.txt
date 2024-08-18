@@ -185,8 +185,8 @@ custom_text_box = {
 custom_button = {
 	name = cbt_cookie_manual_upgrade
 	potential = { always = yes }
-	trigger = { can_upgrade_manual = yes }
-	effect = { upgrade_manual = yes }
+	trigger = { hidden_trigger = { can_upgrade_manual = yes } }
+	effect = { hidden_effect = { upgrade_type = { type = manual increase = 1 } } }
 }
 
 custom_window = {
@@ -209,8 +209,8 @@ custom_text_box = {
 custom_button = {
 	name = cbt_cookie_passive_upgrade
 	potential = { always = yes }
-	trigger = { can_upgrade_passive = yes }
-	effect = { upgrade_passive = yes }
+	trigger = { hidden_trigger = { can_upgrade_passive = yes } }
+	effect = { hidden_effect = { upgrade_type = { type = passive increase = 2 } } }
 }
 
 custom_window = {
@@ -233,13 +233,13 @@ custom_text_box = {
 custom_button = {
 	name = cbt_cookie_sponsor_upgrade
 	potential = { always = yes }
-	trigger = { can_upgrade_sponsor = yes }
-	effect = { upgrade_sponsor = yes }
+	trigger = { hidden_trigger = { can_upgrade_sponsor = yes } }
+	effect = { hidden_effect = { upgrade_type = { type = sponsor increase = 4 } } }
 }
 
 custom_button = {
 	name = cbt_cookie_manual
 	potential = { always = yes }
-	trigger = { always = yes }
-	effect = { variable_effect = { which = manual_rank effect = click_manual } }
+	trigger = { hidden_trigger = { always = yes } }
+	effect = { hidden_effect = { variable_effect = { which = manual_rank effect = click_manual } } }
 }

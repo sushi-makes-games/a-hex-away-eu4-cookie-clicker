@@ -126,153 +126,52 @@ pay_sponsor_price = {
 	set_variable = { which = power_$value$ value = 0 }
 }
 
-# PROVINCE = { upgrade_manual = yes }
-upgrade_manual = {
-	variable_effect = { which = manual_price_rank effect = pay_manual_price }
+# PROVINCE = { upgrade_type = { type = $type$ increase = $increase$ } }
+upgrade_type = {
+	variable_effect = { which = $type$_price_rank effect = pay_$type$_price }
 
-	change_variable = { which = manual_subrank value = 1 }
+	change_variable = { which = $type$_subrank value = 1 }
 	add_base_tax = 1
 
 	if = {
-		limit = { check_variable = { which = manual_subrank value = 10 } }
-		set_variable = { which = manual_subrank value = 0 }
-		change_variable = { which = manual_rank value = 1 }
+		limit = { check_variable = { which = $type$_subrank value = 10 } }
+		set_variable = { which = $type$_subrank value = 0 }
+		change_variable = { which = $type$_rank value = 1 }
 	}
 
-	change_variable = { which = manual_clicks value = 1 }
+	change_variable = { which = $type$_clicks value = $increase$ }
 
-	variable_effect = { which = manual_price_rank effect = clr_old_manual_price }
+	variable_effect = { which = $type$_price_rank effect = clr_old_$type$_price }
 
 	# NEW PRICE CALCULATION
 
-	set_variable = { which = manual_price which = manual_clicks }
-	set_variable = { which = manual_price_rank which = manual_rank }
+	set_variable = { which = $type$_price which = $type$_clicks }
+	set_variable = { which = $type$_price_rank which = $type$_rank }
 
 	if = {
-		limit = { check_variable = { which = manual_price value = 1000 } }
-		divide_variable = { which = manual_price value = 1000 }
-		round_variable = { which = manual_price value = 0 }
-		change_variable = { which = manual_price_rank value = 1 }
+		limit = { check_variable = { which = $type$_price value = 1000 } }
+		divide_variable = { which = $type$_price value = 1000 }
+		round_variable = { which = $type$_price value = 0 }
+		change_variable = { which = $type$_price_rank value = 1 }
 	}
 
-	if = { limit = { is_variable_equal = { which = manual_subrank value = 0 } } multiply_variable = { which = manual_price value = 1 } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 1 } } multiply_variable = { which = manual_price value = 2 } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 2 } } multiply_variable = { which = manual_price value = 4 } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 3 } } multiply_variable = { which = manual_price value = 8 } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 4 } } multiply_variable = { which = manual_price value = 16 } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 5 } } multiply_variable = { which = manual_price value = 32 } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 6 } } multiply_variable = { which = manual_price value = 64 } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 7 } } multiply_variable = { which = manual_price value = 128 } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 8 } } multiply_variable = { which = manual_price value = 256 } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 9 } } multiply_variable = { which = manual_price value = 512 } }
+	if = { limit = { is_variable_equal = { which = $type$_subrank value = 0 } } multiply_variable = { which = $type$_price value = 1 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 1 } } multiply_variable = { which = $type$_price value = 2 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 2 } } multiply_variable = { which = $type$_price value = 4 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 3 } } multiply_variable = { which = $type$_price value = 8 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 4 } } multiply_variable = { which = $type$_price value = 16 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 5 } } multiply_variable = { which = $type$_price value = 32 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 6 } } multiply_variable = { which = $type$_price value = 64 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 7 } } multiply_variable = { which = $type$_price value = 128 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 8 } } multiply_variable = { which = $type$_price value = 256 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 9 } } multiply_variable = { which = $type$_price value = 512 } }
 
 	if = {
-		limit = { check_variable = { which = manual_price value = 1000 } }
-		divide_variable = { which = manual_price value = 1000 }
-		round_variable = { which = manual_price value = 0 }
-		change_variable = { which = manual_price_rank value = 1 }
+		limit = { check_variable = { which = $type$_price value = 1000 } }
+		divide_variable = { which = $type$_price value = 1000 }
+		round_variable = { which = $type$_price value = 0 }
+		change_variable = { which = $type$_price_rank value = 1 }
 	}
 
-	variable_effect = { which = manual_price_rank effect = set_new_manual_price }
+	variable_effect = { which = $type$_price_rank effect = set_new_$type$_price }
 }
-
-# PROVINCE = { upgrade_passive = yes }
-upgrade_passive = {
-	variable_effect = { which = passive_price_rank effect = pay_passive_price }
-
-	change_variable = { which = passive_subrank value = 1 }
-	add_base_tax = 1
-
-	if = {
-		limit = { check_variable = { which = passive_subrank value = 10 } }
-		set_variable = { which = passive_subrank value = 0 }
-		change_variable = { which = passive_rank value = 1 }
-	}
-
-	change_variable = { which = passive_clicks value = 2 }
-
-	variable_effect = { which = passive_price_rank effect = clr_old_passive_price }
-
-	# NEW PRICE CALCULATION
-
-	set_variable = { which = passive_price which = passive_clicks }
-	set_variable = { which = passive_price_rank which = passive_rank }
-
-	if = {
-		limit = { check_variable = { which = passive_price value = 1000 } }
-		divide_variable = { which = passive_price value = 1000 }
-		round_variable = { which = passive_price value = 0 }
-		change_variable = { which = passive_price_rank value = 1 }
-	}
-
-	if = { limit = { is_variable_equal = { which = passive_subrank value = 0 } } multiply_variable = { which = passive_price value = 1 } }
-	else_if = { limit = { is_variable_equal = { which = passive_subrank value = 1 } } multiply_variable = { which = passive_price value = 2 } }
-	else_if = { limit = { is_variable_equal = { which = passive_subrank value = 2 } } multiply_variable = { which = passive_price value = 4 } }
-	else_if = { limit = { is_variable_equal = { which = passive_subrank value = 3 } } multiply_variable = { which = passive_price value = 8 } }
-	else_if = { limit = { is_variable_equal = { which = passive_subrank value = 4 } } multiply_variable = { which = passive_price value = 16 } }
-	else_if = { limit = { is_variable_equal = { which = passive_subrank value = 5 } } multiply_variable = { which = passive_price value = 32 } }
-	else_if = { limit = { is_variable_equal = { which = passive_subrank value = 6 } } multiply_variable = { which = passive_price value = 64 } }
-	else_if = { limit = { is_variable_equal = { which = passive_subrank value = 7 } } multiply_variable = { which = passive_price value = 128 } }
-	else_if = { limit = { is_variable_equal = { which = passive_subrank value = 8 } } multiply_variable = { which = passive_price value = 256 } }
-	else_if = { limit = { is_variable_equal = { which = passive_subrank value = 9 } } multiply_variable = { which = passive_price value = 512 } }
-
-	if = {
-		limit = { check_variable = { which = passive_price value = 1000 } }
-		divide_variable = { which = passive_price value = 1000 }
-		round_variable = { which = passive_price value = 0 }
-		change_variable = { which = passive_price_rank value = 1 }
-	}
-
-	variable_effect = { which = passive_price_rank effect = set_new_passive_price }
-}
-
-# PROVINCE = { upgrade_sponsor = yes }
-upgrade_sponsor = {
-	variable_effect = { which = sponsor_price_rank effect = pay_sponsor_price }
-
-	change_variable = { which = sponsor_subrank value = 1 }
-	add_base_tax = 1
-
-	if = {
-		limit = { check_variable = { which = sponsor_subrank value = 10 } }
-		set_variable = { which = sponsor_subrank value = 0 }
-		change_variable = { which = sponsor_rank value = 1 }
-	}
-
-	change_variable = { which = sponsor_clicks value = 4 }
-
-	variable_effect = { which = sponsor_price_rank effect = clr_old_sponsor_price }
-
-	# NEW PRICE CALCULATION
-
-	set_variable = { which = sponsor_price which = sponsor_clicks }
-	set_variable = { which = sponsor_price_rank which = sponsor_rank }
-
-	if = {
-		limit = { check_variable = { which = sponsor_price value = 1000 } }
-		divide_variable = { which = sponsor_price value = 1000 }
-		round_variable = { which = sponsor_price value = 0 }
-		change_variable = { which = sponsor_price_rank value = 1 }
-	}
-
-	if = { limit = { is_variable_equal = { which = sponsor_subrank value = 0 } } multiply_variable = { which = sponsor_price value = 1 } }
-	else_if = { limit = { is_variable_equal = { which = sponsor_subrank value = 1 } } multiply_variable = { which = sponsor_price value = 2 } }
-	else_if = { limit = { is_variable_equal = { which = sponsor_subrank value = 2 } } multiply_variable = { which = sponsor_price value = 4 } }
-	else_if = { limit = { is_variable_equal = { which = sponsor_subrank value = 3 } } multiply_variable = { which = sponsor_price value = 8 } }
-	else_if = { limit = { is_variable_equal = { which = sponsor_subrank value = 4 } } multiply_variable = { which = sponsor_price value = 16 } }
-	else_if = { limit = { is_variable_equal = { which = sponsor_subrank value = 5 } } multiply_variable = { which = sponsor_price value = 32 } }
-	else_if = { limit = { is_variable_equal = { which = sponsor_subrank value = 6 } } multiply_variable = { which = sponsor_price value = 64 } }
-	else_if = { limit = { is_variable_equal = { which = sponsor_subrank value = 7 } } multiply_variable = { which = sponsor_price value = 128 } }
-	else_if = { limit = { is_variable_equal = { which = sponsor_subrank value = 8 } } multiply_variable = { which = sponsor_price value = 256 } }
-	else_if = { limit = { is_variable_equal = { which = sponsor_subrank value = 9 } } multiply_variable = { which = sponsor_price value = 512 } }
-
-	if = {
-		limit = { check_variable = { which = sponsor_price value = 1000 } }
-		divide_variable = { which = sponsor_price value = 1000 }
-		round_variable = { which = sponsor_price value = 0 }
-		change_variable = { which = sponsor_price_rank value = 1 }
-	}
-
-	variable_effect = { which = sponsor_price_rank effect = set_new_sponsor_price }
-}
-

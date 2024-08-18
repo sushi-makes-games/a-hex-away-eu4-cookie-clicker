@@ -1,0 +1,6 @@
+owner = H01
+add_core = H01
+
+culture = race_humans
+religion = faith_faithless
+trade_goods = unknown

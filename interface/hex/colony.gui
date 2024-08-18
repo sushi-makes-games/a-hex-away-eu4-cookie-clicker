@@ -1176,6 +1176,16 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				position = { x = 0 y = 0 }
 			}
+
+			iconType = {
+				name ="ci_colony_cookie"
+				spriteType = "GFX_HEX_button_test"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 608 y = 32 }
+				scale = 4
+			}
 		}
 	}
 }

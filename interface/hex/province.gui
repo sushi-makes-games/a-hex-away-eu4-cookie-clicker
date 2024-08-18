@@ -3718,7 +3718,7 @@ guiTypes = {
 				}
 
 				windowType = {
-					name = "cw_province_manual"
+					name = "cw_cookie_manual"
 					scripted = yes
 		
 					Orientation = "UPPER_LEFT"
@@ -3726,7 +3726,7 @@ guiTypes = {
 					size = { x = 576 y = 64 }
 
 					instantTextBoxType = {
-						name = "ctb_province_manual_value"
+						name = "ctb_cookie_manual_value"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3739,7 +3739,7 @@ guiTypes = {
 					}
 
 					instantTextBoxType = {
-						name = "ctb_province_manual_price"
+						name = "ctb_cookie_manual_price"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3764,7 +3764,7 @@ guiTypes = {
 				}
 
 				windowType = {
-					name = "cw_province_passive"
+					name = "cw_cookie_passive"
 					scripted = yes
 		
 					Orientation = "UPPER_LEFT"
@@ -3772,7 +3772,7 @@ guiTypes = {
 					size = { x = 576 y = 64 }
 
 					instantTextBoxType = {
-						name = "ctb_province_passive_value"
+						name = "ctb_cookie_passive_value"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3785,7 +3785,7 @@ guiTypes = {
 					}
 
 					instantTextBoxType = {
-						name = "ctb_province_passive_price"
+						name = "ctb_cookie_passive_price"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3810,7 +3810,7 @@ guiTypes = {
 				}
 
 				windowType = {
-					name = "cw_province_sponsor"
+					name = "cw_cookie_sponsor"
 					scripted = yes
 		
 					Orientation = "UPPER_LEFT"
@@ -3818,7 +3818,7 @@ guiTypes = {
 					size = { x = 576 y = 64 }
 
 					instantTextBoxType = {
-						name = "ctb_province_sponsor_value"
+						name = "ctb_cookie_sponsor_value"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3831,7 +3831,7 @@ guiTypes = {
 					}
 
 					instantTextBoxType = {
-						name = "ctb_province_sponsor_price"
+						name = "ctb_cookie_sponsor_price"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3856,7 +3856,7 @@ guiTypes = {
 				}
 
 				guiButtonType = {
-					name ="cbt_cookie_manual"
+					name ="cbt_province_cookie"
 					quadTextureSprite = "GFX_HEX_button_test"
 					scripted = yes
 	
@@ -3865,6 +3865,16 @@ guiTypes = {
 					format = center
 					position = { x = 608 y = 32 }
 
+					scale = 4
+				}
+
+				iconType = {
+					name ="ci_province_cookie"
+					spriteType = "GFX_HEX_button_test"
+					scripted = yes
+					
+					Orientation = "UPPER_LEFT"
+					position = { x = 608 y = 32 }
 					scale = 4
 				}
 			}

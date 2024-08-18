@@ -164,3 +164,9 @@ custom_icon = {
 	name = ci_colony_bg_32
 	potential = { ROOT = { region = the_pale_region } }
 }
+
+custom_icon = {
+	name = ci_colony_cookie
+	potential = { always = yes }
+	tooltip = ci_colony_cookie_tt
+}

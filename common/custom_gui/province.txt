@@ -166,20 +166,20 @@ custom_icon = {
 }
 
 custom_window = {
-	name = cw_province_manual
-	potential = { always = yes }
+	name = cw_cookie_manual
+	potential = { owner = { tag = FROM } }
 }
 
 custom_text_box = {
-	name = ctb_province_manual_value
+	name = ctb_cookie_manual_value
 	potential = { always = yes }
-	tooltip = ctb_province_manual_value_tt
+	tooltip = ctb_cookie_manual_value_tt
 }
 
 custom_text_box = {
-	name = ctb_province_manual_price
+	name = ctb_cookie_manual_price
 	potential = { always = yes }
-	tooltip = ctb_province_manual_price_tt
+	tooltip = ctb_cookie_manual_price_tt
 }
 
 custom_button = {
@@ -190,20 +190,20 @@ custom_button = {
 }
 
 custom_window = {
-	name = cw_province_passive
-	potential = { always = yes }
+	name = cw_cookie_passive
+	potential = { owner = { tag = FROM } }
 }
 
 custom_text_box = {
-	name = ctb_province_passive_value
+	name = ctb_cookie_passive_value
 	potential = { always = yes }
-	tooltip = ctb_province_passive_value_tt
+	tooltip = ctb_cookie_passive_value_tt
 }
 
 custom_text_box = {
-	name = ctb_province_passive_price
+	name = ctb_cookie_passive_price
 	potential = { always = yes }
-	tooltip = ctb_province_passive_price_tt
+	tooltip = ctb_cookie_passive_price_tt
 }
 
 custom_button = {
@@ -214,20 +214,20 @@ custom_button = {
 }
 
 custom_window = {
-	name = cw_province_sponsor
-	potential = { always = yes }
+	name = cw_cookie_sponsor
+	potential = { owner = { tag = FROM } }
 }
 
 custom_text_box = {
-	name = ctb_province_sponsor_value
+	name = ctb_cookie_sponsor_value
 	potential = { always = yes }
-	tooltip = ctb_province_sponsor_value_tt
+	tooltip = ctb_cookie_sponsor_value_tt
 }
 
 custom_text_box = {
-	name = ctb_province_sponsor_price
+	name = ctb_cookie_sponsor_price
 	potential = { always = yes }
-	tooltip = ctb_province_sponsor_price_tt
+	tooltip = ctb_cookie_sponsor_price_tt
 }
 
 custom_button = {
@@ -238,8 +238,15 @@ custom_button = {
 }
 
 custom_button = {
-	name = cbt_cookie_manual
-	potential = { always = yes }
+	name = cbt_province_cookie
+	potential = { owner = { tag = FROM } }
 	trigger = { hidden_trigger = { always = yes } }
 	effect = { hidden_effect = { variable_effect = { which = manual_rank effect = click_manual } } }
+	tooltip = cbt_province_cookie_tt
+}
+
+custom_icon = {
+	name = ci_province_cookie
+	potential = { NOT = { owner = { tag = FROM } } }
+	tooltip = ci_province_cookie_tt
 }

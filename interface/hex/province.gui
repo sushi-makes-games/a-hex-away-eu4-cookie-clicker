@@ -3716,19 +3716,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					position = { x = 0 y = 0 }
 				}
-	
-				instantTextBoxType = {
-					name = "ctb_province_desc"
-					scripted = yes
-
-					Orientation = "UPPER_LEFT"
-					position = { x = 0 y = -100 }
-
-					maxWidth = 256
-					maxHeight = 32
-					format = center
-					font = "vic_22"
-				}
 
 				windowType = {
 					name = "cw_province_manual"
@@ -3743,11 +3730,11 @@ guiTypes = {
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
-						position = { x = 64 y = 0 }
+						position = { x = 0 y = 0 }
 	
-						maxWidth = 384
+						maxWidth = 480
 						maxHeight = 32
-						format = left
+						format = right
 						font = "vic_22"
 					}
 
@@ -3756,9 +3743,9 @@ guiTypes = {
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
-						position = { x = 64 y = 32 }
+						position = { x = 0 y = 32 }
 	
-						maxWidth = 384
+						maxWidth = 480
 						maxHeight = 32
 						format = right
 						font = "vic_22"
@@ -3772,7 +3759,7 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						buttonFont = "vic_18"
 						format = center
-						position = { x = 464 y = 16 }
+						position = { x = 496 y = 16 }
 					}
 				}
 

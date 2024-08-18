@@ -186,7 +186,7 @@ custom_button = {
 	name = cbt_cookie_manual_upgrade
 	potential = { always = yes }
 	trigger = { hidden_trigger = { can_upgrade_manual = yes } }
-	effect = { hidden_effect = { upgrade_type = { type = manual increase = 1 } } }
+	effect = { hidden_effect = { upgrade_manual_click = yes } }
 }
 
 custom_window = {
@@ -210,7 +210,7 @@ custom_button = {
 	name = cbt_cookie_daily_upgrade
 	potential = { always = yes }
 	trigger = { hidden_trigger = { can_upgrade_daily = yes } }
-	effect = { hidden_effect = { upgrade_type = { type = daily increase = 2 } } }
+	effect = { hidden_effect = { upgrade_daily_click = yes } }
 }
 
 custom_window = {
@@ -234,7 +234,7 @@ custom_button = {
 	name = cbt_cookie_monthly_upgrade
 	potential = { always = yes }
 	trigger = { hidden_trigger = { can_upgrade_monthly = yes } }
-	effect = { hidden_effect = { upgrade_type = { type = monthly increase = 4 } } }
+	effect = { hidden_effect = { upgrade_monthly_click = yes } }
 }
 
 custom_button = {

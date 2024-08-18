@@ -1,0 +1,109 @@
+# PROVINCE = { simulate_click = { value = $value$ type = $type$  } }
+simulate_click = {
+	if = { limit = { is_variable_equal = { which = $type$_subrank value = 0 } } owner = { add_cookie = { rank = $value$ value = 1 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 1 } } owner = { add_cookie = { rank = $value$ value = 2 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 2 } } owner = { add_cookie = { rank = $value$ value = 4 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 3 } } owner = { add_cookie = { rank = $value$ value = 8 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 4 } } owner = { add_cookie = { rank = $value$ value = 16 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 5 } } owner = { add_cookie = { rank = $value$ value = 32 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 6 } } owner = { add_cookie = { rank = $value$ value = 64 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 7 } } owner = { add_cookie = { rank = $value$ value = 128 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 8 } } owner = { add_cookie = { rank = $value$ value = 256 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 9 } } owner = { add_cookie = { rank = $value$ value = 512 } } }
+}
+
+# PROVINCE = { simulate_$type$_click = { value = $value$ } }
+simulate_manual_click = { simulate_click = { value = $value$ type = manual } }
+simulate_daily_click = { simulate_click = { value = $value$ type = daily } }
+simulate_monthly_click = { simulate_click = { value = $value$ type = monthly } }
+
+# PROVINCE = { set_new_price = { value = $value$ type = $type$ } }
+set_new_price = { set_variable = { which = $type$_power_$value$ which = $type$_price } }
+
+# PROVINCE = { set_new_$type$_price = { value = $value$ } }
+set_new_manual_price = { set_new_price = { value = $value$ type = manual } }
+set_new_daily_price = { set_new_price = { value = $value$ type = daily } }
+set_new_monthly_price = { set_new_price = { value = $value$ type = monthly } }
+
+# PROVINCE = { clr_old_price = { value = $value$ type = $type$ } }
+clr_old_price = { set_variable = { which = $type$_power_$value$ value = 0 } }
+
+# PROVINCE = { clr_old_$type$_price = { value = $value$ } }
+clr_old_manual_price = { clr_old_price = { value = $value$ type = manual } }
+clr_old_daily_price = { clr_old_price = { value = $value$ type = daily } }
+clr_old_monthly_price = { clr_old_price = { value = $value$ type = monthly } }
+
+# PROVINCE = { pay_price = { value = $value$ type = $type$ } }
+pay_price = {
+	set_variable = { which = power_$value$ which = $type$_power_$value$ }
+	owner = { subtract_cookie = { rank = $value$ which = PREV } }
+	set_variable = { which = power_$value$ value = 0 }
+}
+
+# PROVINCE = { pay_$type$_price = { value = $value$ } }
+pay_manual_price = { pay_price = { value = $value$ type = manual } }
+pay_daily_price = { pay_price = { value = $value$ type = daily } }
+pay_monthly_price = { pay_price = { value = $value$ type = monthly } }
+
+# PROVINCE = { calculate_price = { type = $type$ } }
+calculate_price = {
+	set_variable = { which = $type$_price which = $type$_clicks }
+	set_variable = { which = $type$_price_rank which = $type$_rank }
+
+	if = {
+		limit = { check_variable = { which = $type$_price value = 1000 } }
+		divide_variable = { which = $type$_price value = 1000 }
+		round_variable = { which = $type$_price value = 0 }
+		change_variable = { which = $type$_price_rank value = 1 }
+	}
+
+	if = { limit = { is_variable_equal = { which = $type$_subrank value = 0 } } multiply_variable = { which = $type$_price value = 1 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 1 } } multiply_variable = { which = $type$_price value = 2 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 2 } } multiply_variable = { which = $type$_price value = 4 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 3 } } multiply_variable = { which = $type$_price value = 8 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 4 } } multiply_variable = { which = $type$_price value = 16 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 5 } } multiply_variable = { which = $type$_price value = 32 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 6 } } multiply_variable = { which = $type$_price value = 64 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 7 } } multiply_variable = { which = $type$_price value = 128 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 8 } } multiply_variable = { which = $type$_price value = 256 } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 9 } } multiply_variable = { which = $type$_price value = 512 } }
+
+	if = {
+		limit = { check_variable = { which = $type$_price value = 1000 } }
+		divide_variable = { which = $type$_price value = 1000 }
+		round_variable = { which = $type$_price value = 0 }
+		change_variable = { which = $type$_price_rank value = 1 }
+	}
+
+	variable_effect = { which = $type$_price_rank effect = set_new_$type$_price }
+}
+
+# PROVINCE = { calculate_$type$_price = yes }
+calculate_manual_price = { calculate_price = { type = manual } }
+calculate_daily_price = { calculate_price = { type = daily } }
+calculate_monthly_price = { calculate_price = { type = monthly } }
+
+# PROVINCE = { upgrade_click = { type = $type$ increase = $increase$ } }
+upgrade_click = {
+	variable_effect = { which = $type$_price_rank effect = pay_$type$_price }
+
+	change_variable = { which = $type$_subrank value = 1 }
+	add_base_tax = 1
+
+	if = {
+		limit = { check_variable = { which = $type$_subrank value = 10 } }
+		set_variable = { which = $type$_subrank value = 0 }
+		change_variable = { which = $type$_rank value = 1 }
+	}
+
+	change_variable = { which = $type$_clicks value = $increase$ }
+
+	variable_effect = { which = $type$_price_rank effect = clr_old_$type$_price }
+
+	calculate_$type$_price = yes
+}
+
+# PROVINCE = { upgrade_$type$_click = yes }
+upgrade_manual_click = { upgrade_click = { type = manual increase = 1 } }
+upgrade_daily_click = { upgrade_click = { type = daily increase = 2 } }
+upgrade_monthly_click = { upgrade_click = { type = monthly increase = 4 } }

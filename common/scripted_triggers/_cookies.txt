@@ -23,22 +23,22 @@ has_enough_cookies_manual = {
 	}
 }
 
-# COUNTRY = { has_enough_cookies_passive = { value = $value$ } }
-has_enough_cookies_passive = {
+# COUNTRY = { has_enough_cookies_daily = { value = $value$ } }
+has_enough_cookies_daily = {
 	owner = {
 		OR = {
 			rank_up_$value$_trigger = { trigger = has_total_rank }
-			check_variable = { which = passive_power_$value$ which = PREV }
+			check_variable = { which = daily_power_$value$ which = PREV }
 		}
 	}
 }
 
-# COUNTRY = { has_enough_cookies_sponsor = { value = $value$ } }
-has_enough_cookies_sponsor = {
+# COUNTRY = { has_enough_cookies_monthly = { value = $value$ } }
+has_enough_cookies_monthly = {
 	owner = {
 		OR = {
 			rank_up_$value$_trigger = { trigger = has_total_rank }
-			check_variable = { which = sponsor_power_$value$ which = PREV }
+			check_variable = { which = monthly_power_$value$ which = PREV }
 		}
 	}
 }
@@ -48,12 +48,12 @@ can_upgrade_manual = {
 	variable_trigger = { which = manual_price_rank trigger = has_enough_cookies_manual }
 }
 
-# PROVINCE = { can_upgrade_passive = yes }
-can_upgrade_passive = {
-	variable_trigger = { which = passive_price_rank trigger = has_enough_cookies_passive }
+# PROVINCE = { can_upgrade_daily = yes }
+can_upgrade_daily = {
+	variable_trigger = { which = daily_price_rank trigger = has_enough_cookies_daily }
 }
 
-# PROVINCE = { can_upgrade_sponsor = yes }
-can_upgrade_sponsor = {
-	variable_trigger = { which = sponsor_price_rank trigger = has_enough_cookies_sponsor }
+# PROVINCE = { can_upgrade_monthly = yes }
+can_upgrade_monthly = {
+	variable_trigger = { which = monthly_price_rank trigger = has_enough_cookies_monthly }
 }

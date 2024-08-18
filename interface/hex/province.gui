@@ -3764,7 +3764,7 @@ guiTypes = {
 				}
 
 				windowType = {
-					name = "cw_cookie_passive"
+					name = "cw_cookie_daily"
 					scripted = yes
 		
 					Orientation = "UPPER_LEFT"
@@ -3772,7 +3772,7 @@ guiTypes = {
 					size = { x = 576 y = 64 }
 
 					instantTextBoxType = {
-						name = "ctb_cookie_passive_value"
+						name = "ctb_cookie_daily_value"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3785,7 +3785,7 @@ guiTypes = {
 					}
 
 					instantTextBoxType = {
-						name = "ctb_cookie_passive_price"
+						name = "ctb_cookie_daily_price"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3798,7 +3798,7 @@ guiTypes = {
 					}
 
 					guiButtonType = {
-						name ="cbt_cookie_passive_upgrade"
+						name ="cbt_cookie_daily_upgrade"
 						quadTextureSprite = "GFX_HEX_button_test"
 						scripted = yes
 		
@@ -3810,7 +3810,7 @@ guiTypes = {
 				}
 
 				windowType = {
-					name = "cw_cookie_sponsor"
+					name = "cw_cookie_monthly"
 					scripted = yes
 		
 					Orientation = "UPPER_LEFT"
@@ -3818,7 +3818,7 @@ guiTypes = {
 					size = { x = 576 y = 64 }
 
 					instantTextBoxType = {
-						name = "ctb_cookie_sponsor_value"
+						name = "ctb_cookie_monthly_value"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3831,7 +3831,7 @@ guiTypes = {
 					}
 
 					instantTextBoxType = {
-						name = "ctb_cookie_sponsor_price"
+						name = "ctb_cookie_monthly_price"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
@@ -3844,7 +3844,7 @@ guiTypes = {
 					}
 
 					guiButtonType = {
-						name ="cbt_cookie_sponsor_upgrade"
+						name ="cbt_cookie_monthly_upgrade"
 						quadTextureSprite = "GFX_HEX_button_test"
 						scripted = yes
 		

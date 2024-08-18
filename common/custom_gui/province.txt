@@ -190,51 +190,51 @@ custom_button = {
 }
 
 custom_window = {
-	name = cw_cookie_passive
+	name = cw_cookie_daily
 	potential = { owner = { tag = FROM } }
 }
 
 custom_text_box = {
-	name = ctb_cookie_passive_value
+	name = ctb_cookie_daily_value
 	potential = { always = yes }
-	tooltip = ctb_cookie_passive_value_tt
+	tooltip = ctb_cookie_daily_value_tt
 }
 
 custom_text_box = {
-	name = ctb_cookie_passive_price
+	name = ctb_cookie_daily_price
 	potential = { always = yes }
-	tooltip = ctb_cookie_passive_price_tt
+	tooltip = ctb_cookie_daily_price_tt
 }
 
 custom_button = {
-	name = cbt_cookie_passive_upgrade
+	name = cbt_cookie_daily_upgrade
 	potential = { always = yes }
-	trigger = { hidden_trigger = { can_upgrade_passive = yes } }
-	effect = { hidden_effect = { upgrade_type = { type = passive increase = 2 } } }
+	trigger = { hidden_trigger = { can_upgrade_daily = yes } }
+	effect = { hidden_effect = { upgrade_type = { type = daily increase = 2 } } }
 }
 
 custom_window = {
-	name = cw_cookie_sponsor
+	name = cw_cookie_monthly
 	potential = { owner = { tag = FROM } }
 }
 
 custom_text_box = {
-	name = ctb_cookie_sponsor_value
+	name = ctb_cookie_monthly_value
 	potential = { always = yes }
-	tooltip = ctb_cookie_sponsor_value_tt
+	tooltip = ctb_cookie_monthly_value_tt
 }
 
 custom_text_box = {
-	name = ctb_cookie_sponsor_price
+	name = ctb_cookie_monthly_price
 	potential = { always = yes }
-	tooltip = ctb_cookie_sponsor_price_tt
+	tooltip = ctb_cookie_monthly_price_tt
 }
 
 custom_button = {
-	name = cbt_cookie_sponsor_upgrade
+	name = cbt_cookie_monthly_upgrade
 	potential = { always = yes }
-	trigger = { hidden_trigger = { can_upgrade_sponsor = yes } }
-	effect = { hidden_effect = { upgrade_type = { type = sponsor increase = 4 } } }
+	trigger = { hidden_trigger = { can_upgrade_monthly = yes } }
+	effect = { hidden_effect = { upgrade_type = { type = monthly increase = 4 } } }
 }
 
 custom_button = {

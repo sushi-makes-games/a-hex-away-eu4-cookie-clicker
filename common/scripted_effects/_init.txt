@@ -7,19 +7,19 @@ init_province_cookies = {
 	set_variable = { which = manual_price which = manual_clicks }
 	set_variable = { which = manual_price_rank which = manual_rank }
 
-	set_variable = { which = passive_clicks value = 20 }
-	set_variable = { which = passive_subrank value = 0 }
-	set_variable = { which = passive_rank value = 0 }
-	set_variable = { which = passive_power_0 which = passive_clicks }
-	set_variable = { which = passive_price which = passive_clicks }
-	set_variable = { which = passive_price_rank which = passive_rank }
+	set_variable = { which = daily_clicks value = 20 }
+	set_variable = { which = daily_subrank value = 0 }
+	set_variable = { which = daily_rank value = 0 }
+	set_variable = { which = daily_power_0 which = daily_clicks }
+	set_variable = { which = daily_price which = daily_clicks }
+	set_variable = { which = daily_price_rank which = daily_rank }
 
-	set_variable = { which = sponsor_clicks value = 40 }
-	set_variable = { which = sponsor_subrank value = 0 }
-	set_variable = { which = sponsor_rank value = 0 }
-	set_variable = { which = sponsor_power_0 which = sponsor_clicks }
-	set_variable = { which = sponsor_price which = sponsor_clicks }
-	set_variable = { which = sponsor_price_rank which = sponsor_rank }
+	set_variable = { which = monthly_clicks value = 40 }
+	set_variable = { which = monthly_subrank value = 0 }
+	set_variable = { which = monthly_rank value = 0 }
+	set_variable = { which = monthly_power_0 which = monthly_clicks }
+	set_variable = { which = monthly_price which = monthly_clicks }
+	set_variable = { which = monthly_price_rank which = monthly_rank }
 }
 
 # COUNTRY = { init_country_cookies = yes }

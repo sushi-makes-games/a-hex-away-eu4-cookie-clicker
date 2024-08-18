@@ -2,7 +2,7 @@
 on_global_daily = {
 	every_province = {
 		limit = { is_city = yes }
-		hidden_effect = { variable_effect = { which = passive_rank effect = simulate_daily_click } }
+		hidden_effect = { variable_effect = { which = daily_rank effect = simulate_daily_click } }
 	}
 }
 
@@ -10,6 +10,6 @@ on_global_daily = {
 on_global_monthly = {
 	every_province = {
 		limit = { is_city = yes }
-		hidden_effect = { variable_effect = { which = sponsor_rank effect = simulate_monthly_click } }
+		hidden_effect = { variable_effect = { which = monthly_rank effect = simulate_monthly_click } }
 	}
 }

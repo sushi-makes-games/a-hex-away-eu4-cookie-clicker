@@ -8,8 +8,8 @@ decrease_total_rank = { change_variable = { which = total_rank value = -1 } }
 change_cookie = {
 	$type$_variable = { which = power_$rank$ [[value] value = $value$ ] [[which] which = $which$ ] }
 	set_variable = { which = manual_power_$rank$ which = power_$rank$ }
-	set_variable = { which = passive_power_$rank$ which = power_$rank$ }
-	set_variable = { which = sponsor_power_$rank$ which = power_$rank$ }
+	set_variable = { which = daily_power_$rank$ which = power_$rank$ }
+	set_variable = { which = monthly_power_$rank$ which = power_$rank$ }
 
 	if = {
 		limit = { has_cookies_at_rank = { rank = $rank$ } NOT = { has_total_rank = { rank = $rank$ } } }
@@ -76,8 +76,8 @@ simulate_click = {
 }
 
 simulate_manual_click = { simulate_click = { value = $value$ type = manual } }
-simulate_daily_click = { simulate_click = { value = $value$ type = passive } }
-simulate_monthly_click = { simulate_click = { value = $value$ type = sponsor } }
+simulate_daily_click = { simulate_click = { value = $value$ type = daily } }
+simulate_monthly_click = { simulate_click = { value = $value$ type = monthly } }
 
 # PROVINCE = { set_new_price = { value = $value$ } }
 set_new_manual_price = { 
@@ -85,13 +85,13 @@ set_new_manual_price = {
 }
 
 # PROVINCE = { set_new_price = { value = $value$ } }
-set_new_passive_price = { 
-	set_variable = { which = passive_power_$value$ which = passive_price }
+set_new_daily_price = { 
+	set_variable = { which = daily_power_$value$ which = daily_price }
 }
 
 # PROVINCE = { set_new_price = { value = $value$ } }
-set_new_sponsor_price = { 
-	set_variable = { which = sponsor_power_$value$ which = sponsor_price }
+set_new_monthly_price = { 
+	set_variable = { which = monthly_power_$value$ which = monthly_price }
 }
 
 # PROVINCE = { clr_old_manual_price = { value = $value$ } }
@@ -99,14 +99,14 @@ clr_old_manual_price = {
 	set_variable = { which = manual_power_$value$ value = 0 }
 }
 
-# PROVINCE = { clr_old_passive_price = { value = $value$ } }
-clr_old_passive_price = { 
-	set_variable = { which = passive_power_$value$ value = 0 }
+# PROVINCE = { clr_old_daily_price = { value = $value$ } }
+clr_old_daily_price = { 
+	set_variable = { which = daily_power_$value$ value = 0 }
 }
 
-# PROVINCE = { clr_old_sponsor_price = { value = $value$ } }
-clr_old_sponsor_price = { 
-	set_variable = { which = sponsor_power_$value$ value = 0 }
+# PROVINCE = { clr_old_monthly_price = { value = $value$ } }
+clr_old_monthly_price = { 
+	set_variable = { which = monthly_power_$value$ value = 0 }
 }
 
 # PROVINCE = { pay_manual_price = { value = $value$ } }
@@ -116,16 +116,16 @@ pay_manual_price = {
 	set_variable = { which = power_$value$ value = 0 }
 }
 
-# PROVINCE = { pay_passive_price = { value = $value$ } }
-pay_passive_price = {
-	set_variable = { which = power_$value$ which = passive_power_$value$ }
+# PROVINCE = { pay_daily_price = { value = $value$ } }
+pay_daily_price = {
+	set_variable = { which = power_$value$ which = daily_power_$value$ }
 	owner = { subtract_cookie = { rank = $value$ which = PREV } }
 	set_variable = { which = power_$value$ value = 0 }
 }
 
-# PROVINCE = { pay_sponsor_price = { value = $value$ } }
-pay_sponsor_price = {
-	set_variable = { which = power_$value$ which = sponsor_power_$value$ }
+# PROVINCE = { pay_monthly_price = { value = $value$ } }
+pay_monthly_price = {
+	set_variable = { which = power_$value$ which = monthly_power_$value$ }
 	owner = { subtract_cookie = { rank = $value$ which = PREV } }
 	set_variable = { which = power_$value$ value = 0 }
 }

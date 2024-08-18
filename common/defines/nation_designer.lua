@@ -9,9 +9,9 @@
 -- NDefines.NNationDesigner.FLAT_MP_AMOUNT = 3
 -- NDefines.NNationDesigner.FLAT_TAX_AMOUNT = 4
 -- NDefines.NNationDesigner.GOLD_PROVINCE_COST_MULTIPLIER = 3
--- NDefines.NNationDesigner.GOVERNMENT_RANK_COST_1 = -10
--- NDefines.NNationDesigner.GOVERNMENT_RANK_COST_2 = 0
--- NDefines.NNationDesigner.GOVERNMENT_RANK_COST_3 = 30
+NDefines.NNationDesigner.GOVERNMENT_RANK_COST_1 = 0
+NDefines.NNationDesigner.GOVERNMENT_RANK_COST_2 = 0
+NDefines.NNationDesigner.GOVERNMENT_RANK_COST_3 = 0
 -- NDefines.NNationDesigner.HEIR_BASE_AGE = 15
 -- NDefines.NNationDesigner.HEIR_MAX_AGE = 30
 -- NDefines.NNationDesigner.HEIR_MIN_AGE = 0
@@ -32,7 +32,7 @@
 -- NDefines.NNationDesigner.MANPOWER_COST_MODIFIER = 0.5
 -- NDefines.NNationDesigner.MAX_DISCOVERED_PROVINCE_DISTANCE = 500
 -- NDefines.NNationDesigner.MAX_DISTANCE_TO_OWNER_AREA = 400
--- NDefines.NNationDesigner.MAX_GOVERNMENT_RANK = 3
+NDefines.NNationDesigner.MAX_GOVERNMENT_RANK = 1
 -- NDefines.NNationDesigner.MEMBER_OF_HRE_COST = 20
 -- NDefines.NNationDesigner.MEMBER_OF_HRE_PROVINCE_COST = 0.2
 -- NDefines.NNationDesigner.POINTS_AVAILABLE = 200

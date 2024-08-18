@@ -7,7 +7,7 @@
 -- NDefines.NMilitary.ARMY_DRILL_SKILL_MONTHS = 120
 -- NDefines.NMilitary.ARMY_DRILL_YEARLY_DECAY = -1.0
 -- NDefines.NMilitary.ARMY_DRILL_YEARLY_GAIN = 10.0
--- NDefines.NMilitary.ARTILLERY_COST = 30.0
+NDefines.NMilitary.ARTILLERY_COST = 0
 -- NDefines.NMilitary.ARTILLERY_SPEED = 0.7
 -- NDefines.NMilitary.ARTILLERY_TIME = 120
 -- NDefines.NMilitary.ART_LOOT = 0.05
@@ -42,7 +42,7 @@
 -- NDefines.NMilitary.CAROLEAN_STARTING_STRENGTH = 1.0
 -- NDefines.NMilitary.CAROLEAN_USES_CONSTRUCTION = 1
 -- NDefines.NMilitary.CAVALRY_BREAKTHROUGH = 0.0
--- NDefines.NMilitary.CAVALRY_COST = 25.0
+NDefines.NMilitary.CAVALRY_COST = 0
 -- NDefines.NMilitary.CAVALRY_SPEED = 0.7
 -- NDefines.NMilitary.CAVALRY_TIME = 90
 -- NDefines.NMilitary.CAV_LOOT = 0.3
@@ -121,7 +121,7 @@ NDefines.NMilitary.CONTROL_DEVASTATION_IMPACT = 0
 -- NDefines.NMilitary.HUSSARS_STARTING_STRENGTH = 1.0
 -- NDefines.NMilitary.HUSSARS_USES_CONSTRUCTION = 1
 -- NDefines.NMilitary.INFANTRY_BREAKTHROUGH = 0.0	--
--- NDefines.NMilitary.INFANTRY_COST = 10.0
+NDefines.NMilitary.INFANTRY_COST = 0
 -- NDefines.NMilitary.INFANTRY_SPEED = 0.7
 -- NDefines.NMilitary.INFANTRY_TIME = 60
 -- NDefines.NMilitary.INF_LOOT = 0.1

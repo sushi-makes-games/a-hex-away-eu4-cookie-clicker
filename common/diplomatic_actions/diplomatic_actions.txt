@@ -1,46 +1,9 @@
-# INSTRUCTIONS:
-#
-# condition				A diplomatic action can have any number of condition blocks, each with its own
-#						tooltip, potential and allow section
-#
-# 	tooltip					Sets a custom text string similar to the hardcoded limits
-# 							If no tooltip is scripted, the tooltip for the actual trigger will be shown
-#							Note that the custom tooltip is only shown if the allow trigger is NOT met
-#
-# 	potential				Determines if the trigger is applicable or not
-# 	allow					Determines if the action is valid or not
-#
-# effect				A diplomatic action can only have one effect block
-
-# ROOT					actor
-# FROM					target
-
-########################################
-# DIPLOMATIC ACTIONS
-########################################
-# royal_marriage
-# declarewar
 # requestpeace
 # support_independence_action
-# allianceaction
-# embargoaction
 # annexationaction
 # integrationaction
-# vassalaction
-# guaranteeaction
-# warningaction
-# threaten_war
-# milaccess
-# fleet_access
-# offer_fleet_access
-# offermilaccess
-# insultaction
-# giftaction
 # claimaction
 # callaction
-# offerloan
-# warsubsidy
-# sellprov
 # imperial_relations_action
 # imperial_realm_war_action
 # religious_unity_action
@@ -51,82 +14,377 @@
 # demand_unlawful_territory_action
 # call_crusade_action
 # excommunicate_action
-# enforce_peace
-# improve_relation
-# fabricate_claim
-# justify_trade_conflict
-# transfer_trade_power
-# infiltrate_administration
-# sabotage_reputation
-# support_rebels
-# sow_discontent
-# agitate_for_liberty
-# form_coalition
 # request_to_join_federation
 # invite_to_federation
 # support_heir
 # break_marriage
 # designate_march
 # ask_for_march
-# sell_ships_action
 # abandon_union
-# takeondebt
-# influence_nation
 # claim_states
-# steer_trade
-# stealmap
-# spy_network
 # invite_to_trade_league
-# request_to_join_trade_league
-# sharemap
-# intervene_in_war
-# break_alliance
-# tributary_state_action
-# ask_for_tributary_state_action
-# knowledge_sharing
+# request_to_join_trade_league 
 
-declarewar = { }
+# WAR ACTIONS
 
-allianceaction = { }
+declarewar = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-enforce_peace =  { }
+# ALLIANCE ACTIONS
 
-royal_marriage =  { }
+allianceaction = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-guaranteeaction = { }
+form_coalition = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-threaten_war = { }
+# Offer Conottieri
 
-insultaction = { }
+# INFLUENCE ACTIONS
 
-giftaction = { }
+enforce_peace = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-fabricate_claim =  { }
+vassalaction = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-break_marriage = { }
+tributary_state_action = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-takeondebt = { }
+# Curry Favors
 
-influence_nation = { }
+ask_for_tributary_state_action = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-intervene_in_war = { }
+guaranteeaction = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-annexationaction = { }
+warningaction = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-integrationaction = { }
+threaten_war = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-vassalaction = { }
+# RELATIONS ACTIONS
 
-abandon_union = { }
+improve_relation = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-form_coalition = { }
+insultaction = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-request_to_join_trade_league = { }
+# DYNASTIC ACTIONS
 
-invite_to_trade_league = { }
+royal_marriage = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-tributary_state_action = { }
+# COVERT ACTIONS
 
-ask_for_tributary_state_action = { }
+spy_network = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
 
-break_alliance = { }
+# Counterespionage
+
+fabricate_claim = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+justify_trade_conflict = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+support_rebels = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+stealmap = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+# Slander Merchants
+
+# Sabotage Recruitment
+
+sow_discontent = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+sabotage_reputation = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+# Corrupt Officials
+
+infiltrate_administration = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+agitate_for_liberty = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+# ECONOMY ACTIONS
+
+transfer_trade_power = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+steer_trade = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+embargoaction = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+knowledge_sharing = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+sell_ships_action = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+sharemap = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+giftaction = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+offerloan = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+warsubsidy = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+sellprov = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+# Charter Company
+
+# ACCESS ACTIONS
+
+milaccess = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+offermilaccess = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+fleet_access = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+offer_fleet_access = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+# FAVORS
+
+# Favors for ducats
+# Favors for soldiers
+# Favors for sailors
+# Relative as heir
+# Favors for trust
+# Prepare for war
+# Break Alliance
+# Reduce Opinion
+# Return Core Province
+
+# GREAT POWER ACTIONS
+
+takeondebt = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+influence_nation = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+intervene_in_war = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}
+
+break_alliance = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
+}

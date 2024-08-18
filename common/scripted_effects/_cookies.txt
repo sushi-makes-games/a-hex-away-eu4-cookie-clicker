@@ -57,7 +57,7 @@ validate_rank = {
 			}
 		}
 		set_country_flag = overflow_check
-		country_event = { id = overflow.0 }
+		country_event = { id = overflow_events.0 }
 	}
 }
 

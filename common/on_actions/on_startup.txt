@@ -8,7 +8,10 @@ on_startup = {
 			set_province_flag = daily
 		}
 	
-		every_province = { init_province_cookies = yes }
+		every_province = {
+			init_province_cookies = yes
+			set_in_empire = no
+		}
 		set_global_flag = world_generated
 	}
 

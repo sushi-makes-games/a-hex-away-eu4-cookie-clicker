@@ -1,7 +1,10 @@
-namespace = overflow
+namespace = overflow_events
 
 country_event = {
-	id = overflow.0
+	id = overflow_events.0
+	title = overflow_events.0.t
+	desc = overflow_events.0.d
+	picture = MERCHANTS_TALKING_eventPicture
 
 	hidden = yes
 	is_triggered_only = yes
@@ -342,9 +345,9 @@ country_event = {
 		validate_rank = { rank = 332 }
 		validate_rank = { rank = 333 }
 	}
-	after = { clr_country_flag = overflow_check }
+	after = { clr_country_flag = overflow_events_check }
 
 	option = {
-		name = overflow.0.a
+		name = overflow_events.0.a
 	}
 }

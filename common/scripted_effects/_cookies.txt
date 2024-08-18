@@ -61,19 +61,23 @@ validate_rank = {
 	}
 }
 
-# PROVINCE = { click_manual = { value = $value$ } }
-click_manual = {
-	if = { limit = { is_variable_equal = { which = manual_subrank value = 0 } } owner = { add_cookie = { rank = $value$ value = 1 } } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 1 } } owner = { add_cookie = { rank = $value$ value = 2 } } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 2 } } owner = { add_cookie = { rank = $value$ value = 4 } } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 3 } } owner = { add_cookie = { rank = $value$ value = 8 } } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 4 } } owner = { add_cookie = { rank = $value$ value = 16 } } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 5 } } owner = { add_cookie = { rank = $value$ value = 32 } } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 6 } } owner = { add_cookie = { rank = $value$ value = 64 } } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 7 } } owner = { add_cookie = { rank = $value$ value = 128 } } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 8 } } owner = { add_cookie = { rank = $value$ value = 256 } } }
-	else_if = { limit = { is_variable_equal = { which = manual_subrank value = 9 } } owner = { add_cookie = { rank = $value$ value = 512 } } }
+# PROVINCE = { click_manual = { value = $value$ type = $type$  } }
+simulate_click = {
+	if = { limit = { is_variable_equal = { which = $type$_subrank value = 0 } } owner = { add_cookie = { rank = $value$ value = 1 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 1 } } owner = { add_cookie = { rank = $value$ value = 2 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 2 } } owner = { add_cookie = { rank = $value$ value = 4 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 3 } } owner = { add_cookie = { rank = $value$ value = 8 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 4 } } owner = { add_cookie = { rank = $value$ value = 16 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 5 } } owner = { add_cookie = { rank = $value$ value = 32 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 6 } } owner = { add_cookie = { rank = $value$ value = 64 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 7 } } owner = { add_cookie = { rank = $value$ value = 128 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 8 } } owner = { add_cookie = { rank = $value$ value = 256 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 9 } } owner = { add_cookie = { rank = $value$ value = 512 } } }
 }
+
+simulate_manual_click = { simulate_click = { value = $value$ type = manual } }
+simulate_daily_click = { simulate_click = { value = $value$ type = passive } }
+simulate_monthly_click = { simulate_click = { value = $value$ type = sponsor } }
 
 # PROVINCE = { set_new_price = { value = $value$ } }
 set_new_manual_price = { 

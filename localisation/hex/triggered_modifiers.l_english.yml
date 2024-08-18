@@ -1,3 +1,5 @@
 ﻿l_english:
   on_global_daily:0 "Daily Pulse"
   desc_on_global_daily:0 "Triggered daily"
+  on_global_monthly:0 "Monthly Pulse"
+  desc_on_global_monthly:0 "Triggered monthly"

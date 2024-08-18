@@ -1,4 +1,0 @@
-# # GLOBAL = { on_global_monthly = yes }
-on_global_daily = {
-
-}

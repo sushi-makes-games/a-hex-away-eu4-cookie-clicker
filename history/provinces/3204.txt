@@ -6,3 +6,4 @@ religion = faith_faithless
 trade_goods = unknown
 
 add_province_triggered_modifier = on_global_daily
+add_province_triggered_modifier = on_global_monthly

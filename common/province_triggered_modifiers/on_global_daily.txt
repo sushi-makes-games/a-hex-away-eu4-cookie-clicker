@@ -1,8 +1,0 @@
-on_global_daily = {
-	potential = { always = yes }
-
-	trigger = { has_province_flag = daily }
-
-	on_activation = { on_global_daily = yes clr_province_flag = daily }
-	on_deactivation = {	on_global_daily = yes set_province_flag = daily }
-}

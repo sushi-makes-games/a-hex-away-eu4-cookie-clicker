@@ -3763,6 +3763,98 @@ guiTypes = {
 					}
 				}
 
+				windowType = {
+					name = "cw_province_passive"
+					scripted = yes
+		
+					Orientation = "UPPER_LEFT"
+					position = { x = 0 y = 64 }
+					size = { x = 576 y = 64 }
+
+					instantTextBoxType = {
+						name = "ctb_province_passive_value"
+						scripted = yes
+	
+						Orientation = "UPPER_LEFT"
+						position = { x = 0 y = 0 }
+	
+						maxWidth = 480
+						maxHeight = 32
+						format = right
+						font = "vic_22"
+					}
+
+					instantTextBoxType = {
+						name = "ctb_province_passive_price"
+						scripted = yes
+	
+						Orientation = "UPPER_LEFT"
+						position = { x = 0 y = 32 }
+	
+						maxWidth = 480
+						maxHeight = 32
+						format = right
+						font = "vic_22"
+					}
+
+					guiButtonType = {
+						name ="cbt_cookie_passive_upgrade"
+						quadTextureSprite = "GFX_HEX_button_test"
+						scripted = yes
+		
+						Orientation = "UPPER_LEFT"
+						buttonFont = "vic_18"
+						format = center
+						position = { x = 496 y = 16 }
+					}
+				}
+
+				windowType = {
+					name = "cw_province_sponsor"
+					scripted = yes
+		
+					Orientation = "UPPER_LEFT"
+					position = { x = 0 y = 128 }
+					size = { x = 576 y = 64 }
+
+					instantTextBoxType = {
+						name = "ctb_province_sponsor_value"
+						scripted = yes
+	
+						Orientation = "UPPER_LEFT"
+						position = { x = 0 y = 0 }
+	
+						maxWidth = 480
+						maxHeight = 32
+						format = right
+						font = "vic_22"
+					}
+
+					instantTextBoxType = {
+						name = "ctb_province_sponsor_price"
+						scripted = yes
+	
+						Orientation = "UPPER_LEFT"
+						position = { x = 0 y = 32 }
+	
+						maxWidth = 480
+						maxHeight = 32
+						format = right
+						font = "vic_22"
+					}
+
+					guiButtonType = {
+						name ="cbt_cookie_sponsor_upgrade"
+						quadTextureSprite = "GFX_HEX_button_test"
+						scripted = yes
+		
+						Orientation = "UPPER_LEFT"
+						buttonFont = "vic_18"
+						format = center
+						position = { x = 496 y = 16 }
+					}
+				}
+
 				guiButtonType = {
 					name ="cbt_cookie_manual"
 					quadTextureSprite = "GFX_HEX_button_test"

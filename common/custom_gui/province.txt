@@ -183,15 +183,63 @@ custom_text_box = {
 }
 
 custom_button = {
-	name = cbt_cookie_manual
-	potential = { always = yes }
-	trigger = { always = yes }
-	effect = { variable_effect = { which = manual_rank effect = click_manual } }
-}
-
-custom_button = {
 	name = cbt_cookie_manual_upgrade
 	potential = { always = yes }
 	trigger = { can_upgrade_manual = yes }
 	effect = { upgrade_manual = yes }
+}
+
+custom_window = {
+	name = cw_province_passive
+	potential = { always = yes }
+}
+
+custom_text_box = {
+	name = ctb_province_passive_value
+	potential = { always = yes }
+	tooltip = ctb_province_passive_value_tt
+}
+
+custom_text_box = {
+	name = ctb_province_passive_price
+	potential = { always = yes }
+	tooltip = ctb_province_passive_price_tt
+}
+
+custom_button = {
+	name = cbt_cookie_passive_upgrade
+	potential = { always = yes }
+	trigger = { can_upgrade_passive = yes }
+	effect = { upgrade_passive = yes }
+}
+
+custom_window = {
+	name = cw_province_sponsor
+	potential = { always = yes }
+}
+
+custom_text_box = {
+	name = ctb_province_sponsor_value
+	potential = { always = yes }
+	tooltip = ctb_province_sponsor_value_tt
+}
+
+custom_text_box = {
+	name = ctb_province_sponsor_price
+	potential = { always = yes }
+	tooltip = ctb_province_sponsor_price_tt
+}
+
+custom_button = {
+	name = cbt_cookie_sponsor_upgrade
+	potential = { always = yes }
+	trigger = { can_upgrade_sponsor = yes }
+	effect = { upgrade_sponsor = yes }
+}
+
+custom_button = {
+	name = cbt_cookie_manual
+	potential = { always = yes }
+	trigger = { always = yes }
+	effect = { variable_effect = { which = manual_rank effect = click_manual } }
 }

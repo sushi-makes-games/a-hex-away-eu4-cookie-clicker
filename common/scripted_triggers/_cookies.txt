@@ -13,7 +13,7 @@ has_total_rank = { check_variable = { which = total_rank value = $rank$ } }
 # COUNTRY = { has_exact_rank = { rank = $rank$ } }
 has_exact_rank = { is_variable_equal = { which = total_rank value = $rank$ } }
 
-# COUNTRY = { has_enough_cookies = { value = $value$ } }
+# COUNTRY = { has_enough_cookies_manual = { value = $value$ } }
 has_enough_cookies_manual = {
 	owner = {
 		OR = {
@@ -23,7 +23,37 @@ has_enough_cookies_manual = {
 	}
 }
 
+# COUNTRY = { has_enough_cookies_passive = { value = $value$ } }
+has_enough_cookies_passive = {
+	owner = {
+		OR = {
+			rank_up_$value$_trigger = { trigger = has_total_rank }
+			check_variable = { which = passive_power_$value$ which = PREV }
+		}
+	}
+}
+
+# COUNTRY = { has_enough_cookies_sponsor = { value = $value$ } }
+has_enough_cookies_sponsor = {
+	owner = {
+		OR = {
+			rank_up_$value$_trigger = { trigger = has_total_rank }
+			check_variable = { which = sponsor_power_$value$ which = PREV }
+		}
+	}
+}
+
 # PROVINCE = { can_upgrade_manual = yes }
 can_upgrade_manual = {
 	variable_trigger = { which = manual_price_rank trigger = has_enough_cookies_manual }
+}
+
+# PROVINCE = { can_upgrade_passive = yes }
+can_upgrade_passive = {
+	variable_trigger = { which = passive_price_rank trigger = has_enough_cookies_passive }
+}
+
+# PROVINCE = { can_upgrade_sponsor = yes }
+can_upgrade_sponsor = {
+	variable_trigger = { which = sponsor_price_rank trigger = has_enough_cookies_sponsor }
 }

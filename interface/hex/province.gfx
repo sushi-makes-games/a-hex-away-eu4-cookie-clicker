@@ -135,5 +135,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_HEX_cookie"
 		texturefile = "gfx/hex/interface/_cookie.dds"
+		noOfFrames = 32
 	}
 }

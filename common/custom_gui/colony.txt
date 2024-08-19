@@ -222,3 +222,13 @@ custom_button = {
 	trigger = { hidden_trigger = { FROM = { can_take_colony = yes } } }
 	effect = { hidden_effect = { FROM = { take_colony_click = yes } } }
 }
+
+custom_icon = {
+	name = ci_colony_name
+	potential = { always = yes }
+}
+
+custom_text_box = {
+	name = ctb_colony_name
+	potential = { always = yes }
+}

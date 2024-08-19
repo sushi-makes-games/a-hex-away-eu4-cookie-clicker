@@ -1235,6 +1235,28 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				position = { x = 608 y = 32 }
 			}
+
+			iconType = {
+				name ="ci_colony_name"
+				spriteType = "GFX_HEX_province_name"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = -32 }
+			}
+
+			instantTextBoxType = {
+				name = "ctb_colony_name"
+				scripted = yes
+
+				Orientation = "UPPER_LEFT"
+				position = { x = 32 y = -30 }
+
+				maxWidth = 224
+				maxHeight = 32
+				format = left
+				font = "vic_22"
+			}
 		}
 	}
 }

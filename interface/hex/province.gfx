@@ -162,4 +162,13 @@ spriteTypes = {
 		name = "GFX_HEX_cookie_sabotage"
 		texturefile = "gfx/hex/interface/_cookie_action_sabotage.dds"
 	}
+
+	spriteType = {
+		name = "GFX_HEX_province_sabotaged"
+		texturefile = "gfx/hex/interface/_province_sabotaged.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_province_name"
+		texturefile = "gfx/hex/interface/_province_name.dds"
+	}
 }

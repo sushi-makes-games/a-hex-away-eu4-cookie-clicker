@@ -2,3 +2,7 @@
   ctb_colony_take_price:0 "£dip£ 1 [CL_COLONY_RANK] cookies (e[From.cities.GetValue])"
   ctb_colony_take_price_tt:0 "§YClaim Cost§![CL_DIVIDER]Current cost to claim uncolonize provinces.\n§MBecause we need more space to bake cookies.§!"
   cbt_colony_take:0 "Claim"
+
+  ctb_colony_name:0 "[CL_PROVINCE_NAME]"
+  colony_name_special:0 "[Root.GetName]"
+  colony_name_regular:0 "[Root.GetName] Bakery"

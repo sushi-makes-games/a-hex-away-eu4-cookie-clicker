@@ -2085,3 +2085,11 @@ defined_text = {
 	text = { trigger = { is_variable_equal = { which = monthly_rank value = 332 } } localisation_key = power_332 }
 	text = { trigger = { is_variable_equal = { which = monthly_rank value = 333 } } localisation_key = power_333 }
 }
+
+defined_text = {
+	name = CL_PROVINCE_NAME
+	random = no
+
+	text = { trigger = { has_province_flag = special } localisation_key = province_name_special }
+	text = { localisation_key = province_name_regular }
+}

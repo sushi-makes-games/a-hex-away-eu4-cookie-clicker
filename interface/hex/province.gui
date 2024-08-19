@@ -3953,6 +3953,50 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					position = { x = 608 y = 32 }
 				}
+
+				iconType = {
+					name ="ci_province_name"
+					spriteType = "GFX_HEX_province_name"
+					scripted = yes
+					
+					Orientation = "UPPER_LEFT"
+					position = { x = 0 y = -32 }
+				}
+
+				instantTextBoxType = {
+					name = "ctb_province_name"
+					scripted = yes
+
+					Orientation = "UPPER_LEFT"
+					position = { x = 32 y = -30 }
+
+					maxWidth = 224
+					maxHeight = 32
+					format = left
+					font = "vic_22"
+				}
+
+				iconType = {
+					name ="ci_province_sabotaged"
+					spriteType = "GFX_HEX_province_sabotaged"
+					scripted = yes
+					
+					Orientation = "UPPER_LEFT"
+					position = { x = 512 y = -32 }
+				}
+
+				instantTextBoxType = {
+					name = "ctb_province_sabotaged"
+					scripted = yes
+
+					Orientation = "UPPER_LEFT"
+					position = { x = 512 y = -30 }
+
+					maxWidth = 224
+					maxHeight = 32
+					format = right
+					font = "vic_22"
+				}
 			}
 		}
 	}

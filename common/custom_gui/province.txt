@@ -334,3 +334,23 @@ custom_button = {
 	trigger = { hidden_trigger = { can_sabotage = { scope = FROM } } }
 	effect = { hidden_effect = { sabotage_click = { scope = FROM } } }
 }
+
+custom_icon = {
+	name = ci_province_name
+	potential = { always = yes }
+}
+
+custom_text_box = {
+	name = ctb_province_name
+	potential = { always = yes }
+}
+
+custom_icon = {
+	name = ci_province_sabotaged
+	potential = { is_sabotaged = yes }
+}
+
+custom_text_box = {
+	name = ctb_province_sabotaged
+	potential = { is_sabotaged = yes }
+}

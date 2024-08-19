@@ -20,3 +20,9 @@
   ctb_cookie_sabotage_price:0 "£dip£ [Root.manual_price.GetValue][CL_MANUAL_PRICE_RANK] cookies (e[Root.manual_price_rank.GetValue])"
   ctb_cookie_sabotage_price_tt:0 "§YSabotage Cost§![CL_DIVIDER]Current cost to sabotage cookies gained passively per day an month for 60 days.\n§MAre you a little naughty?§!"
   cbt_cookie_sabotage:0 "Sabotage"
+
+  ctb_province_sabotaged:0 "§RSabotaged§!"
+
+  ctb_province_name:0 "[CL_PROVINCE_NAME]"
+  province_name_special:0 "[Root.GetName]"
+  province_name_regular:0 "[Root.GetName] Bakery"

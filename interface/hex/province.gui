@@ -3786,7 +3786,7 @@ guiTypes = {
 					scripted = yes
 		
 					Orientation = "UPPER_LEFT"
-					position = { x = 0 y = 64 }
+					position = { x = 0 y = 128 }
 					size = { x = 576 y = 64 }
 
 					iconType = {
@@ -3841,7 +3841,7 @@ guiTypes = {
 					scripted = yes
 		
 					Orientation = "UPPER_LEFT"
-					position = { x = 0 y = 128 }
+					position = { x = 0 y = 64 }
 					size = { x = 576 y = 64 }
 
 					iconType = {

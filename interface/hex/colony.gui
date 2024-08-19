@@ -1208,7 +1208,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					position = { x = 0 y = 20 }
 
-					maxWidth = 480
+					maxWidth = 464
 					maxHeight = 32
 					format = right
 					font = "vic_22"
@@ -1223,7 +1223,7 @@ guiTypes = {
 					buttonFont = "vic_18"
 					buttonText = cbt_colony_take
 					format = center
-					position = { x = 496 y = 16 }
+					position = { x = 468 y = 16 }
 				}
 			}
 

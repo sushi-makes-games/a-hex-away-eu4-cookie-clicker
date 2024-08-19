@@ -127,6 +127,10 @@ spriteTypes = {
 		name = "GFX_HEX_province_bg_32"
 		texturefile = "gfx/hex/interface/_bg_region_32.dds"
 	}
+	spriteType = {
+		name = "GFX_HEX_province_bg"
+		texturefile = "gfx/hex/interface/_province_bg.dds"
+	}
 
 	spriteType = {
 		name = "GFX_HEX_button_test"
@@ -136,5 +140,26 @@ spriteTypes = {
 		name = "GFX_HEX_cookie"
 		texturefile = "gfx/hex/interface/_cookie.dds"
 		noOfFrames = 32
+	}
+
+	spriteType = {
+		name = "GFX_HEX_cookie_colony"
+		texturefile = "gfx/hex/interface/_cookie_action_colony.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_cookie_daily"
+		texturefile = "gfx/hex/interface/_cookie_action_daily.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_cookie_manual"
+		texturefile = "gfx/hex/interface/_cookie_action_manual.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_cookie_monthly"
+		texturefile = "gfx/hex/interface/_cookie_action_monthly.dds"
+	}
+	spriteType = {
+		name = "GFX_HEX_cookie_sabotage"
+		texturefile = "gfx/hex/interface/_cookie_action_sabotage.dds"
 	}
 }

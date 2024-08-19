@@ -3717,6 +3717,14 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 				}
 
+				iconType = {
+					name ="ci_province_bg"
+					spriteType = "GFX_HEX_province_bg"
+					
+					Orientation = "UPPER_LEFT"
+					position = { x = 0 y = 0 }
+				}
+
 				windowType = {
 					name = "cw_cookie_manual"
 					scripted = yes
@@ -3725,14 +3733,23 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 					size = { x = 576 y = 64 }
 
+					iconType = {
+						name ="ci_cookie_manual"
+						spriteType = "GFX_HEX_cookie_manual"
+						
+						Orientation = "UPPER_LEFT"
+						position = { x = 8 y = 4 }
+					}
+
+
 					instantTextBoxType = {
 						name = "ctb_cookie_manual_value"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
-						position = { x = 0 y = 0 }
+						position = { x = 0 y = 8 }
 	
-						maxWidth = 480
+						maxWidth = 464
 						maxHeight = 32
 						format = right
 						font = "vic_22"
@@ -3743,9 +3760,9 @@ guiTypes = {
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
-						position = { x = 0 y = 32 }
+						position = { x = 0 y = 36 }
 	
-						maxWidth = 480
+						maxWidth = 464
 						maxHeight = 32
 						format = right
 						font = "vic_22"
@@ -3758,8 +3775,9 @@ guiTypes = {
 		
 						Orientation = "UPPER_LEFT"
 						buttonFont = "vic_18"
+						buttonText = cbt_cookie_manual_upgrade
 						format = center
-						position = { x = 496 y = 16 }
+						position = { x = 468 y = 16 }
 					}
 				}
 
@@ -3771,14 +3789,22 @@ guiTypes = {
 					position = { x = 0 y = 64 }
 					size = { x = 576 y = 64 }
 
+					iconType = {
+						name ="ci_cookie_daily"
+						spriteType = "GFX_HEX_cookie_daily"
+						
+						Orientation = "UPPER_LEFT"
+						position = { x = 8 y = 4 }
+					}
+
 					instantTextBoxType = {
 						name = "ctb_cookie_daily_value"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
-						position = { x = 0 y = 0 }
+						position = { x = 0 y = 8 }
 	
-						maxWidth = 480
+						maxWidth = 464
 						maxHeight = 32
 						format = right
 						font = "vic_22"
@@ -3789,9 +3815,9 @@ guiTypes = {
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
-						position = { x = 0 y = 32 }
+						position = { x = 0 y = 36 }
 	
-						maxWidth = 480
+						maxWidth = 464
 						maxHeight = 32
 						format = right
 						font = "vic_22"
@@ -3804,8 +3830,9 @@ guiTypes = {
 		
 						Orientation = "UPPER_LEFT"
 						buttonFont = "vic_18"
+						buttonText = cbt_cookie_daily_upgrade
 						format = center
-						position = { x = 496 y = 16 }
+						position = { x = 468 y = 16 }
 					}
 				}
 
@@ -3817,14 +3844,23 @@ guiTypes = {
 					position = { x = 0 y = 128 }
 					size = { x = 576 y = 64 }
 
+					iconType = {
+						name ="ci_cookie_monthly"
+						spriteType = "GFX_HEX_cookie_monthly"
+						
+						Orientation = "UPPER_LEFT"
+						position = { x = 8 y = 4 }
+					}
+
+
 					instantTextBoxType = {
 						name = "ctb_cookie_monthly_value"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
-						position = { x = 0 y = 0 }
+						position = { x = 0 y = 8 }
 	
-						maxWidth = 480
+						maxWidth = 464
 						maxHeight = 32
 						format = right
 						font = "vic_22"
@@ -3835,9 +3871,9 @@ guiTypes = {
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
-						position = { x = 0 y = 32 }
+						position = { x = 0 y = 36 }
 	
-						maxWidth = 480
+						maxWidth = 464
 						maxHeight = 32
 						format = right
 						font = "vic_22"
@@ -3850,8 +3886,9 @@ guiTypes = {
 		
 						Orientation = "UPPER_LEFT"
 						buttonFont = "vic_18"
+						buttonText = cbt_cookie_monthly_upgrade
 						format = center
-						position = { x = 496 y = 16 }
+						position = { x = 468 y = 16 }
 					}
 				}
 
@@ -3863,15 +3900,22 @@ guiTypes = {
 					position = { x = 0 y = 128 }
 					size = { x = 576 y = 64 }
 
+					iconType = {
+						name ="ci_cookie_sabotage"
+						spriteType = "GFX_HEX_cookie_sabotage"
+						
+						Orientation = "UPPER_LEFT"
+						position = { x = 8 y = 4 }
+					}
 
 					instantTextBoxType = {
 						name = "ctb_cookie_sabotage_price"
 						scripted = yes
 	
 						Orientation = "UPPER_LEFT"
-						position = { x = 0 y = 16 }
+						position = { x = 0 y = 20 }
 	
-						maxWidth = 480
+						maxWidth = 464
 						maxHeight = 32
 						format = right
 						font = "vic_22"
@@ -3884,8 +3928,9 @@ guiTypes = {
 		
 						Orientation = "UPPER_LEFT"
 						buttonFont = "vic_18"
+						buttonText = cbt_cookie_sabotage
 						format = center
-						position = { x = 496 y = 16 }
+						position = { x = 468 y = 16 }
 					}
 				}
 

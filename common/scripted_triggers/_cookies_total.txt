@@ -1,0 +1,14 @@
+# COUNTRY = { cookie_overflow = { rank = $rank$ } }
+cookie_overflow = { check_variable = { which = power_$rank$ value = 1000 } }
+
+# COUNTRY = { cookie_underflow = { rank = $rank$ } }
+cookie_underflow = { NOT = { check_variable = { which = power_$rank$ value = 0 } } }
+
+# COUNTRY = { has_cookies_at_rank = { rank = $rank$ } }
+has_cookies_at_rank = { check_variable = { which = power_$rank$ value = 1 } }
+
+# COUNTRY = { has_total_rank = { rank = $rank$ } }
+has_total_rank = { check_variable = { which = total_rank value = $rank$ } }
+
+# COUNTRY = { has_exact_rank = { rank = $rank$ } }
+has_exact_rank = { is_variable_equal = { which = total_rank value = $rank$ } }

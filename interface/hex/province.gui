@@ -3855,6 +3855,40 @@ guiTypes = {
 					}
 				}
 
+				windowType = {
+					name = "cw_cookie_sabotage"
+					scripted = yes
+		
+					Orientation = "UPPER_LEFT"
+					position = { x = 0 y = 128 }
+					size = { x = 576 y = 64 }
+
+
+					instantTextBoxType = {
+						name = "ctb_cookie_sabotage_price"
+						scripted = yes
+	
+						Orientation = "UPPER_LEFT"
+						position = { x = 0 y = 16 }
+	
+						maxWidth = 480
+						maxHeight = 32
+						format = right
+						font = "vic_22"
+					}
+
+					guiButtonType = {
+						name ="cbt_cookie_sabotage"
+						quadTextureSprite = "GFX_HEX_button_test"
+						scripted = yes
+		
+						Orientation = "UPPER_LEFT"
+						buttonFont = "vic_18"
+						format = center
+						position = { x = 496 y = 16 }
+					}
+				}
+
 				guiButtonType = {
 					name ="cbt_province_cookie"
 					quadTextureSprite = "GFX_HEX_cookie"

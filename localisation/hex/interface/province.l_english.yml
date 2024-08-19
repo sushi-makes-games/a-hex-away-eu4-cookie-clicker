@@ -13,3 +13,6 @@
   ctb_cookie_monthly_value_tt:0 "§YCookies per Month§![CL_DIVIDER]Current amount of cookies gained passively per month.\n§MA gift from respectable bakers.§!"
   ctb_cookie_monthly_price:0 "£dip£ [Root.monthly_price.GetValue][CL_SPONSOR_PRICE_RANK] cookies (e[Root.monthly_price_rank.GetValue])"
   ctb_cookie_monthly_price_tt:0 "§YUpgrade Cost§![CL_DIVIDER]Current cost to increase cookies gained passively per month.\n§MThere are always more bakeries to reach to.§!"
+
+  ctb_cookie_sabotage_price:0 "£dip£ [Root.manual_price.GetValue][CL_MANUAL_PRICE_RANK] cookies (e[Root.manual_price_rank.GetValue])"
+  ctb_cookie_sabotage_price_tt:0 "§YSabotage Cost§![CL_DIVIDER]Current cost to sabotage cookies gained passively per day an month for 60 days.\n§MAre you a little naughty?§!"

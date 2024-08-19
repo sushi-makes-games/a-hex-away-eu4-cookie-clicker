@@ -1,7 +1,7 @@
 # # GLOBAL = { on_global_daily = yes }
 on_global_daily = {
 	every_province = {
-		limit = { is_city = yes }
+		limit = { is_city = yes NOT = { has_province_flag = sabotaged } }
 		hidden_effect = { variable_effect = { which = daily_rank effect = simulate_daily_click } }
 	}
 }
@@ -9,7 +9,7 @@ on_global_daily = {
 # # GLOBAL = { on_global_monthly = yes }
 on_global_monthly = {
 	every_province = {
-		limit = { is_city = yes }
+		limit = { is_city = yes NOT = { has_province_flag = sabotaged } }
 		hidden_effect = { variable_effect = { which = monthly_rank effect = simulate_monthly_click } }
 	}
 }

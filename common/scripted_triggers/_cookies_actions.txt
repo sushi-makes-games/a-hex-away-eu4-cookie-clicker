@@ -1,0 +1,38 @@
+# COUNTRY = { has_enough_cookies = { value = $value$ type = $type$ scope = $scope$ } }
+has_enough_cookies = {
+	$scope$ = {
+		OR = {
+			rank_up_$value$_trigger = { trigger = has_total_rank }
+			check_variable = { which = $type$_power_$value$ which = PREV }
+		}
+	}
+}
+
+has_enough_cookies_manual = { has_enough_cookies = { value = $value$ type = manual scope = owner } }
+has_enough_cookies_daily = { has_enough_cookies = { value = $value$ type = daily scope = owner } }
+has_enough_cookies_monthly = { has_enough_cookies = { value = $value$ type = monthly scope = owner } }
+has_enough_cookies_sabotage = { has_enough_cookies = { value = $value$ type = manual scope = FROM } }
+
+# PROVINCE = { can_upgrade_manual = yes }
+can_upgrade_manual = {
+	variable_trigger = { which = manual_price_rank trigger = has_enough_cookies_manual }
+}
+
+# PROVINCE = { can_upgrade_daily = yes }
+can_upgrade_daily = {
+	variable_trigger = { which = daily_price_rank trigger = has_enough_cookies_daily }
+}
+
+# PROVINCE = { can_upgrade_monthly = yes }
+can_upgrade_monthly = {
+	variable_trigger = { which = monthly_price_rank trigger = has_enough_cookies_monthly }
+}
+
+# PROVINCE = { can_sabotage = yes }
+can_sabotage = {
+	OR = {
+		NOT = { has_province_flag = sabotaged }
+		had_province_flag = { flag = sabotaged days = 60 }
+	}
+	variable_trigger = { which = manual_price_rank trigger = has_enough_cookies_sabotage }
+}

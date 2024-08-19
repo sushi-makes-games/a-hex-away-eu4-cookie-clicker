@@ -316,3 +316,21 @@ custom_icon = {
 	frame = { number = 31 trigger = { region = frozen_lands_region } }
 	frame = { number = 32 trigger = { region = the_pale_region } }
 }
+
+custom_window = {
+	name = cw_cookie_sabotage
+	potential = { NOT = { owner = { tag = FROM } } }
+}
+
+custom_text_box = {
+	name = ctb_cookie_sabotage_price
+	potential = { always = yes }
+	tooltip = ctb_cookie_sabotage_price_tt
+}
+
+custom_button = {
+	name = cbt_cookie_sabotage
+	potential = { always = yes }
+	trigger = { hidden_trigger = { can_sabotage = yes } }
+	effect = { hidden_effect = { sabotage_click = yes } }
+}

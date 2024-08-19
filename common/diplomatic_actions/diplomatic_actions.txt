@@ -1,4 +1,4 @@
-# requestpeace
+# 
 # support_independence_action
 # annexationaction
 # integrationaction
@@ -29,6 +29,14 @@
 
 declarewar = {
 
+}
+
+requestpeace = {
+	condition = {
+		tooltip = HEX_DISABLED_TT
+		potential = { always = yes }
+		allow = { always = no }
+	}
 }
 
 # ALLIANCE ACTIONS

@@ -6,7 +6,10 @@ wargoal_dummy = {
 		prestige_factor = 1
 		peace_cost_factor = 1
 
-		peace_options = { po_gold }
+		peace_options = {
+			po_gold
+			po_demand_provinces
+		}
 	}
 	
 	defender = {
@@ -14,6 +17,9 @@ wargoal_dummy = {
 		prestige_factor = 1
 		peace_cost_factor = 1
 
-		peace_options = { po_gold }
+		peace_options = {
+			po_gold
+			po_demand_provinces
+		}
 	}
 }

@@ -108,24 +108,6 @@ on_company_disolved ={
 on_battle_lost_province = {
 }
 
-# country
-# root = winning country, from = location
-on_siege_won_country = {}
-
-# country
-# root = losing country, from = location
-on_siege_lost_country = {
-}
-
-# province
-# root = location, from = losing country
-on_siege_won_province = {}
-
-# province
-# root = location, from = winning country
-on_siege_lost_province =  {
-}
-
 # province
 # root = location, from = country that abandons colony
 # Fired right before the colony is abandoned.

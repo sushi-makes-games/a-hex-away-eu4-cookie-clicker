@@ -1,0 +1,19 @@
+wargoal_cookie = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 0
+		prestige_factor = 0
+		peace_cost_factor = 1
+
+		peace_options = { po_gold }
+	}
+	
+	defender = {
+		badboy_factor = 0
+		prestige_factor = 0
+		peace_cost_factor = 1
+
+		peace_options = { po_gold }
+	}
+}

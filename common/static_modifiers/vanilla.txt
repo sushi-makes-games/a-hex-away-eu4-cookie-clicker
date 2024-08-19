@@ -9,6 +9,7 @@ development = {
 
 city = {
 	fort_level = 1
+	garrison_growth = 1
 }
 
 manpower = {

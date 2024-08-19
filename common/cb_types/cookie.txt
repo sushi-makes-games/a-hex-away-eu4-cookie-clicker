@@ -1,0 +1,5 @@
+cb_coookie = {
+	war_goal = wargoal_cookie
+
+	prerequisites = { is_neighbor_of = FROM }
+}

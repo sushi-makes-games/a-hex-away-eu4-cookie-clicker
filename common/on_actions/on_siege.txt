@@ -1,0 +1,28 @@
+# country
+# root = winning country, from = location
+on_siege_won_country = {
+	FROM = {
+		if = {
+			limit = { is_capital = no }
+			cede_province = ROOT
+			add_core = ROOT
+		}
+	}
+}
+
+# country
+# root = losing country, from = location
+on_siege_lost_country = {
+	if = {
+		limit = { FROM = { is_capital = yes } }
+		every_war_enemy_country = { white_peace = ROOT }
+	}
+}
+
+# province
+# root = location, from = losing country
+on_siege_won_province = { }
+
+# province
+# root = location, from = winning country
+on_siege_lost_province =  { }

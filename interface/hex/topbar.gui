@@ -733,11 +733,11 @@ guiTypes = {
 				scripted = yes
 
 				Orientation = "UPPER_LEFT"
-				position = { x = 64 y = 0 }
+				position = { x = 0 y = 8 }
 
-				maxWidth = 192
+				maxWidth = 384
 				maxHeight = 32
-				format = left
+				format = center
 				font = "vic_22"
 			}
 		}

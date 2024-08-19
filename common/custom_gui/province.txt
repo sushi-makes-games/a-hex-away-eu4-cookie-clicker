@@ -331,6 +331,6 @@ custom_text_box = {
 custom_button = {
 	name = cbt_cookie_sabotage
 	potential = { always = yes }
-	trigger = { hidden_trigger = { can_sabotage = yes } }
-	effect = { hidden_effect = { sabotage_click = yes } }
+	trigger = { hidden_trigger = { can_sabotage = { scope = FROM } } }
+	effect = { hidden_effect = { sabotage_click = { scope = FROM } } }
 }

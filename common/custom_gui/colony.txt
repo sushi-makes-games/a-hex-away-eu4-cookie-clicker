@@ -219,6 +219,6 @@ custom_text_box = {
 custom_button = {
 	name = cbt_colony_take
 	potential = { always = yes }
-	trigger = { hidden_trigger = { can_take_colony = yes } }
-	effect = { hidden_effect = { take_colony_click = yes } }
+	trigger = { hidden_trigger = { FROM = { can_take_colony = yes } } }
+	effect = { hidden_effect = { FROM = { take_colony_click = yes } } }
 }

@@ -44,7 +44,9 @@ pay_price = {
 pay_manual_price = { pay_price = { value = $value$ type = manual scope = owner } }
 pay_daily_price = { pay_price = { value = $value$ type = daily  scope = owner } }
 pay_monthly_price = { pay_price = { value = $value$ type = monthly scope = owner } }
-pay_sabotage_price = { pay_price = { value = $value$ type = manual scope = FROM } }
+
+pay_sabotage_price_FROM = { pay_price = { value = $value$ type = manual scope = FROM } }
+pay_sabotage_price_ROOT = { pay_price = { value = $value$ type = manual scope = ROOT } }
 
 
 # PROVINCE = { calculate_price = { type = $type$ } }
@@ -96,7 +98,7 @@ upgrade_click = {
 		limit = { check_variable = { which = $type$_subrank value = 10 } }
 		set_variable = { which = $type$_subrank value = 0 }
 		change_variable = { which = $type$_rank value = 1 }
-		[[spawn_army] infantry = FROM ] 
+		[[spawn_army] owner = { PREV = { infantry = PREV } } ] 
 	}
 
 	change_variable = { which = $type$_clicks value = $increase$ }
@@ -109,26 +111,27 @@ upgrade_manual_click = { upgrade_click = { type = manual increase = 1 base = tax
 upgrade_daily_click = { upgrade_click = { type = daily increase = 2 base = manpower } }
 upgrade_monthly_click = { upgrade_click = { type = monthly increase = 4 base = production } }
 
-# PROVINCE = { sabotage_click = yes }
+# PROVINCE = { sabotage_click = { scope = $scope$ } }
 sabotage_click = {
-	variable_effect = { which = manual_price_rank effect = pay_sabotage_price }
+	variable_effect = { which = manual_price_rank effect = pay_sabotage_price_$scope$ }
+	if = { limit = { has_province_flag = sabotaged } clr_province_flag = sabotaged }
 	set_province_flag = sabotaged
 }
 
 # COUNTRY = { pay_colony_price = { value = $value$ } }
 pay_colony_price = { subtract_cookie = { rank = $value$ value = 1 } }
 
-# PROVINCE = { take_colony_click = yes }
+# PROVINCE = { COUNTRY = { take_colony_click = yes } }
 take_colony_click = {
-	FROM = {
-		if = { limit = { NOT = { num_of_cities = 2000 } } variable_effect = { which = cities effect = pay_colony_price } }
-		else = { FROM = { pay_colony_price = { value = 200 } } }
-	}
+	if = { limit = { NOT = { num_of_cities = 2000 } } variable_effect = { which = cities effect = pay_colony_price } }
+	else = { pay_colony_price = { value = 200 } }
 
-	change_trade_goods = unknown
-	add_core = FROM
-	cede_province = FROM
-	change_religion = FROM
-	change_culture = FROM
+	PREV = {
+		change_trade_goods = unknown
+		add_core = PREV
+		cede_province = PREV
+		change_religion = PREV
+		change_culture = PREV
+	}
 }
 

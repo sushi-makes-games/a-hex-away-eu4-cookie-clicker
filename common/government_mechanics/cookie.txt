@@ -1,0 +1,81 @@
+cookie_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 1
+	available = { always = yes }
+
+	interactions = {
+		ai_manual_upgrade = {
+			potential = { ai = yes }
+			trigger = { any_owned_province = { can_upgrade_manual = yes }	}
+			effect = {
+				random_owned_province = {
+					limit = { can_upgrade_manual = yes }
+					upgrade_manual_click = yes
+				}
+			}
+			ai_chance = { factor = 50 }
+		}
+		ai_daily_upgrade = {
+			potential = { ai = yes }
+			trigger = { any_owned_province = { can_upgrade_daily = yes } }
+			effect = {
+				random_owned_province = {
+					limit = { can_upgrade_daily = yes }
+					upgrade_daily_click = yes
+				}
+			}
+			ai_chance = { factor = 100 }
+		}
+		ai_monthly_upgrade = {
+			potential = { ai = yes }
+			trigger = { any_owned_province = { can_upgrade_monthly = yes } }
+			effect = {
+				random_owned_province = {
+					limit = { can_upgrade_monthly = yes }
+					upgrade_monthly_click = yes
+				}
+			}
+			ai_chance = { factor = 75 }
+		}
+		ai_take_colony = {
+			potential = { ai = yes }
+			trigger = {
+				can_take_colony = yes
+				any_owned_province = { has_empty_adjacent_province = yes }
+			}
+			effect = {
+				random_owned_province = {
+					limit = { has_empty_adjacent_province = yes }
+					random_empty_neighbor_province = { ROOT = { take_colony_click = yes } }
+				}
+			}
+			ai_chance = { factor = 20 }
+			cooldown_years = 1
+		}
+		ai_sabotage = {
+			potential = { ai = yes }
+			trigger = {
+				any_owned_province = {
+					any_neighbor_province = { is_city = yes can_sabotage = { scope = ROOT } }
+				}
+			}
+			effect = {
+				random_owned_province = {
+					limit = { any_neighbor_province = { is_city = yes can_sabotage = { scope = ROOT } } }
+					random_neighbor_province = {
+						limit = { is_city = yes can_sabotage = { scope = ROOT } }
+						sabotage_click = { scope = ROOT }
+					}
+				}
+			}
+			ai_chance = { factor = 20 }
+			cooldown_years = 1
+		}
+		ai_manual_click = {
+			potential = { ai = yes }
+			trigger = { always = yes }
+			effect = { random_owned_province = { variable_effect = { which = manual_rank effect = simulate_manual_click } } }
+			ai_chance = { factor = 1 }
+		}
+	}
+}

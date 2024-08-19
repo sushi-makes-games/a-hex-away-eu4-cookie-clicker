@@ -1,0 +1,17 @@
+namespace = white_peace_events
+
+country_event = {
+	id = white_peace_events.0
+	title = white_peace_events.0.t
+	desc = white_peace_events.0.d
+	picture = MERCHANTS_TALKING_eventPicture
+
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = { every_war_enemy_country = { white_peace = ROOT } }
+
+	option = {
+		name = white_peace_events.0.a
+	}
+}

@@ -28,21 +28,13 @@
 # WAR ACTIONS
 
 declarewar = {
-	condition = {
-		tooltip = HEX_DISABLED_TT
-		potential = { always = yes }
-		allow = { always = no }
-	}
+
 }
 
 # ALLIANCE ACTIONS
 
 allianceaction = {
-	condition = {
-		tooltip = HEX_DISABLED_TT
-		potential = { always = yes }
-		allow = { always = no }
-	}
+
 }
 
 form_coalition = {

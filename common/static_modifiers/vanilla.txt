@@ -1,3 +1,20 @@
+base_values = {
+	diplomats = 2
+	diplomatic_upkeep = 3
+}
+
+development = {
+	fort_level = 0.01
+}
+
+city = {
+	fort_level = 1
+}
+
+manpower = {
+	land_forcelimit = 0.1
+}
+
 difficulty_very_easy_player = {
 }
 
@@ -26,9 +43,6 @@ difficulty_hard_ai = {
 }
 
 difficulty_very_hard_ai = {
-}
-
-city = {
 }
 
 port = {
@@ -112,15 +126,12 @@ knowledge_sharing = {
 cardinals_spread_institution = {
 }
 
-manpower = {
-}
 
 province_razed = {
 	picture = "province_razed"
 }
 
-development = {
-}
+
 
 development_scaled = {
 }
@@ -244,8 +255,7 @@ left_trade_company = {
 scorched_earth = {
 }
 
-base_values = {
-}
+
 
 ai_nation = {
 }

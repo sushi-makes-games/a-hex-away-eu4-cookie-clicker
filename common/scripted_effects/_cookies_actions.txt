@@ -96,6 +96,7 @@ upgrade_click = {
 		limit = { check_variable = { which = $type$_subrank value = 10 } }
 		set_variable = { which = $type$_subrank value = 0 }
 		change_variable = { which = $type$_rank value = 1 }
+		[[spawn_army] infantry = FROM ] 
 	}
 
 	change_variable = { which = $type$_clicks value = $increase$ }
@@ -104,7 +105,7 @@ upgrade_click = {
 }
 
 # PROVINCE = { upgrade_$type$_click = yes }
-upgrade_manual_click = { upgrade_click = { type = manual increase = 1 base = tax } }
+upgrade_manual_click = { upgrade_click = { type = manual increase = 1 base = tax spawn_army = yes } }
 upgrade_daily_click = { upgrade_click = { type = daily increase = 2 base = manpower } }
 upgrade_monthly_click = { upgrade_click = { type = monthly increase = 4 base = production } }
 

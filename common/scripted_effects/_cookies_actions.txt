@@ -135,3 +135,32 @@ take_colony_click = {
 	}
 }
 
+# PROVINCE = { downgrade_click = { type = $type$ increase = $increase$ base = $base$ } }
+downgrade_click = {
+	if = {
+		limit = {
+			OR = {
+				check_variable = { which = $type$_rank value = 1 }
+				check_variable = { which = $type$_subrank value = 1 }	
+			}
+		}
+
+		if = {
+			limit = { check_variable = { which = $type$_subrank value = 1 }	}
+			change_variable = { which = $type$_subrank value = -1 }
+		}
+		else = {
+			set_variable = { which = $type$_subrank value = 9 }
+			change_variable = { which = $type$_rank value = -1 }
+		}
+
+		change_variable = { which = $type$_clicks value = -$increase$ }
+		add_base_$base$ = -1
+		calculate_$type$_price = yes
+	}
+}
+
+# PROVINCE = { downgrade_$type$_click = yes }
+downgrade_manual_click = { downgrade_click = { type = manual increase = 1 base = tax } }
+downgrade_daily_click = { downgrade_click = { type = daily increase = 2 base = manpower } }
+downgrade_monthly_click = { downgrade_click = { type = monthly increase = 4 base = production } }

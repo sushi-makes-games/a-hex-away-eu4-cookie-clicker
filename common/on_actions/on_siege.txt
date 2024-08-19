@@ -25,4 +25,8 @@ on_siege_won_province = { }
 
 # province
 # root = location, from = winning country
-on_siege_lost_province =  { }
+on_siege_lost_province =  {
+	downgrade_manual_click = yes
+	downgrade_daily_click = yes
+	downgrade_monthly_click = yes
+}

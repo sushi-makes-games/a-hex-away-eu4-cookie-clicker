@@ -13,8 +13,6 @@ on_yearly_pulse_5 = { }
 
 on_new_term_election = { }
 
-on_province_owner_change = { }
-
 # country
 on_religion_change = { }
 

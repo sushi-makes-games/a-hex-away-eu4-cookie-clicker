@@ -46,6 +46,7 @@ pay_daily_price = { pay_price = { value = $value$ type = daily  scope = owner } 
 pay_monthly_price = { pay_price = { value = $value$ type = monthly scope = owner } }
 pay_sabotage_price = { pay_price = { value = $value$ type = manual scope = FROM } }
 
+
 # PROVINCE = { calculate_price = { type = $type$ } }
 calculate_price = {
 	set_variable = { which = $type$_price which = $type$_clicks }
@@ -114,3 +115,21 @@ sabotage_click = {
 	variable_effect = { which = manual_price_rank effect = pay_sabotage_price }
 	set_province_flag = sabotaged
 }
+
+# COUNTRY = { pay_colony_price = { value = $value$ } }
+pay_colony_price = { subtract_cookie = { rank = $value$ value = 1 } }
+
+# PROVINCE = { take_colony_click = yes }
+take_colony_click = {
+	FROM = {
+		if = { limit = { NOT = { num_of_cities = 2000 } } variable_effect = { which = cities effect = pay_colony_price } }
+		else = { FROM = { pay_colony_price = { value = 200 } } }
+	}
+
+	change_trade_goods = unknown
+	add_core = FROM
+	cede_province = FROM
+	change_religion = FROM
+	change_culture = FROM
+}
+

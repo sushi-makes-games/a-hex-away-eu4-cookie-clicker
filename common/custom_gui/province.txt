@@ -319,7 +319,7 @@ custom_icon = {
 
 custom_window = {
 	name = cw_cookie_sabotage
-	potential = { NOT = { owner = { tag = FROM } } }
+	potential = { NOT = { owner = { tag = FROM } } is_neighbor_of = FROM }
 }
 
 custom_text_box = {

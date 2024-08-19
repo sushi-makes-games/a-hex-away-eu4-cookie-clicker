@@ -1,0 +1,4 @@
+on_province_owner_change = {
+	FROM = { if = { limit = { exists = yes } update_cities = yes } }
+	owner = { if = { limit = { exists = yes } update_cities = yes } }
+}

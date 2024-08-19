@@ -36,3 +36,11 @@ can_sabotage = {
 	}
 	variable_trigger = { which = manual_price_rank trigger = has_enough_cookies_sabotage }
 }
+
+# PROVINCE = { can_take_colony = yes }
+can_take_colony = {
+	FROM = {
+		if = { limit = { NOT = { num_of_cities = 2000 } } check_variable = { which = total_rank which = cities } }
+		else = { check_variable = { which = total_rank value = 200 } }
+	}
+}

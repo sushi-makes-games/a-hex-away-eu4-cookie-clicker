@@ -60,3 +60,10 @@ validate_rank = {
 		country_event = { id = overflow_events.0 }
 	}
 }
+
+# COUNTRY = { update_cities = yes }
+update_cities = {
+	set_variable = { which = cities value = 0 }
+	every_owned_province = { PREV = { change_variable = { which = cities value = 0.1 } } }
+	round_variable = { which = cities value = 1 }
+}

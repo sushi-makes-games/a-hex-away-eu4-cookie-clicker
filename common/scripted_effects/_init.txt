@@ -24,6 +24,7 @@ init_province_cookies = {
 
 # COUNTRY = { init_country_cookies = yes }
 init_country_cookies = {
+	update_cities = yes
 	set_variable = { which = total_rank value = 0 }
 
 	set_variable = { which = power_333 value = 0 }

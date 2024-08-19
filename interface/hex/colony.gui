@@ -1177,6 +1177,40 @@ guiTypes = {
 				position = { x = 0 y = 0 }
 			}
 
+			windowType = {
+				name = "cw_colony_take"
+				scripted = yes
+	
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 128 }
+				size = { x = 576 y = 64 }
+
+
+				instantTextBoxType = {
+					name = "ctb_colony_take_price"
+					scripted = yes
+
+					Orientation = "UPPER_LEFT"
+					position = { x = 0 y = 16 }
+
+					maxWidth = 480
+					maxHeight = 32
+					format = right
+					font = "vic_22"
+				}
+
+				guiButtonType = {
+					name ="cbt_colony_take"
+					quadTextureSprite = "GFX_HEX_button_test"
+					scripted = yes
+	
+					Orientation = "UPPER_LEFT"
+					buttonFont = "vic_18"
+					format = center
+					position = { x = 496 y = 16 }
+				}
+			}
+
 			iconType = {
 				name ="ci_colony_cookie"
 				spriteType = "GFX_HEX_cookie"

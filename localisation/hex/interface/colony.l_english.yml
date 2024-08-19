@@ -1,0 +1,3 @@
+﻿l_english:
+  ctb_colony_take_price:0 "£dip£ 1 [CL_COLONY_RANK] cookies (e[From.cities.GetValue])"
+  ctb_colony_take_price_tt:0 "§YClaim Cost§![CL_DIVIDER]Current cost to claim uncolonize provinces.\n§MBecause we need more space to bake cookies.§!"

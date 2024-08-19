@@ -203,3 +203,22 @@ custom_icon = {
 	frame = { number = 31 trigger = { region = frozen_lands_region } }
 	frame = { number = 32 trigger = { region = the_pale_region } }
 }
+
+
+custom_window = {
+	name = cw_colony_take
+	potential = { is_neighbor_of = FROM }
+}
+
+custom_text_box = {
+	name = ctb_colony_take_price
+	potential = { always = yes }
+	tooltip = ctb_colony_take_price_tt
+}
+
+custom_button = {
+	name = cbt_colony_take
+	potential = { always = yes }
+	trigger = { hidden_trigger = { can_take_colony = yes } }
+	effect = { hidden_effect = { take_colony_click = yes } }
+}

@@ -1,0 +1,11 @@
+spriteTypes = {		
+	spriteType = {
+		name = "GFX_HEX_ages"
+		texturefile = "gfx/hex/interface/_ages.dds"
+	}
+
+	spriteType = {
+		name = "GFX_HEX_player_bg"
+		texturefile = "gfx/hex/interface/_player_bg.dds"
+	}
+}

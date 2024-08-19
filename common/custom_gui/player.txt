@@ -1,0 +1,12 @@
+## PLAYER WINDOW
+
+custom_window = {
+	name = cw_player
+	potential = { always = yes }
+}
+
+custom_text_box = {
+	name = ctb_player_name
+	potential = { always = yes }
+	tooltip = ctb_player_name_tt
+}

@@ -1,0 +1,82 @@
+guiTypes = {
+	windowType = {
+		name = "timeline_controls"
+		position = { x= 0 y = 0 }
+		show_position = { x=0 y=-0 }
+		hide_position = { x=-200 y=-100 }
+		animation_type = "linear"
+		animation_time = 300
+
+		Orientation = "UPPER_LEFT"
+		
+		iconType =
+		{
+			name ="icon_date_bg"
+			spriteType = "GFX_timeline_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = {
+			name = "timeline_title"
+			position = { x = 78 y = 10 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 4 y = 4}
+			text = "TIMELINE_TITLE"	
+			maxWidth = 370
+			maxHeight = 32
+			format = center
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		guiButtonType = {
+			name = "timeline_pause"
+			quadTextureSprite ="GFX_timeline_button_pause"
+			position = { x = 69 y = 53 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "timeline_slow"
+			quadTextureSprite ="GFX_timeline_button_speed1"
+			position = { x = 111 y = 53 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "timeline_medium"
+			quadTextureSprite ="GFX_timeline_button_speed2"
+			position = { x = 153 y = 53 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "timeline_fast"
+			quadTextureSprite ="GFX_timeline_button_speed3"
+			position = { x = 195 y = 53 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "timeline_veryfast"
+			quadTextureSprite ="GFX_timeline_button_speed4"
+			position = { x = 237 y = 53 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextBoxType = { 
+			name = "timeline_date"
+			position = { x = 284 y = 62 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "NO DATE!!!"	
+			maxWidth = 170
+			maxHeight = 32	
+			format = left
+			Orientation = "UPPER_RIGHT"
+		}		
+	}
+}
+

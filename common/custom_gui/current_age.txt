@@ -1,0 +1,21 @@
+custom_window = {
+	name = cw_current_age
+	potential = { always = yes }
+}
+
+custom_icon = {
+	name = ci_current_age
+	potential = { always = yes }
+}
+
+custom_text_box = {
+	name = ctb_current_age
+	potential = { always = yes }
+	tooltip = ctb_current_age_tt
+}
+
+custom_text_box = {
+	name = ctb_current_arc
+	potential = { always = yes }
+	tooltip = ctb_current_arc_tt
+}

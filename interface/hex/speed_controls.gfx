@@ -1,0 +1,27 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_HEX_speed_controls"
+		texturefile = "gfx/hex/interface/_speed_controls.dds"
+	}
+
+	spriteType = {
+		name = "GFX_HEX_speed_indicator"
+		texturefile = "gfx/hex/interface/_speed_indicator.dds"
+		noOfFrames = 10
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_HEX_button_plus"
+		texturefile = "gfx/hex/interface/_button_plus.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_HEX_button_minus"
+		texturefile = "gfx/hex/interface/_button_minus.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

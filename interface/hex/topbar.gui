@@ -1,0 +1,745 @@
+guiTypes = {
+	windowType = {
+		name = "topbar"
+		backGround =""
+		position = { x = 0 y =-1 }
+		size = { x = 2048 y = 100 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = yes
+
+		show_position = { x = 0 y = -1 }
+		hide_position = { x = 0 y = -165 }
+		animation_type = "decelerated"
+		animation_time = 600
+
+		# HIDDEN
+
+		iconType = {
+			name ="topbar_1"
+			spriteType = "GFX_remove"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		iconType = {
+			name ="topbar_2"
+			spriteType = "GFX_remove"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		iconType = {
+			name ="topbar_3"
+			spriteType = "GFX_remove"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		guiButtonType = {
+			name = "player_shield"
+			quadTextureSprite ="GFX_shield_fancy"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		iconType = {
+			name = "player_shield_glow"
+			quadTextureSprite ="GFX_shield_fancy_great_power_glow"
+		
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "government_reforms_button_base"
+			quadTextureSprite ="GFX_government_reforms_button_base"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "open_build_interface_button"
+			quadTextureSprite ="GFX_open_build_interface"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			
+			buttonFont = "Main_14_black"
+		}
+		
+		iconType = {
+			name = "great_power_button_base"
+			quadTextureSprite ="GFX_great_power_button_base"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "great_power_button"
+			quadTextureSprite ="GFX_great_power_button"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			
+			buttonFont = "Main_14_black"
+		}
+
+		iconType = {
+			name = "government_reforms_progress"
+			quadTextureSprite ="GFX_government_reforms_progress"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "government_reforms_button"
+			quadTextureSprite ="GFX_government_reforms_button"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			buttonFont = "Main_14_black"
+		}
+
+		guiButtonType = {
+			name ="icon_merchant"
+			quadTextureSprite = "GFX_icon_merchant"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		guiButtonType = {
+			name ="icon_settler"
+			quadTextureSprite = "GFX_icon_settler"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		guiButtonType = {
+			name ="icon_diplomat"
+			quadTextureSprite = "GFX_icon_diplomat"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		guiButtonType = {
+			name ="icon_missionary"
+			quadTextureSprite = "GFX_icon_missionary"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_merchants"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 42
+			maxHeight = 32
+			format = center
+			font = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "text_settlers"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 42
+			maxHeight = 32
+			format = center
+			font = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "text_diplomats"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 42
+			maxHeight = 32
+			format = center
+			font = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "text_missionaries"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 42
+			maxHeight = 32
+			format = center
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_manpower"
+			spriteType = "GFX_icon_manpower"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_manpower"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			
+			maxWidth = 50
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_sailors"
+			spriteType = "GFX_icon_sailors"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_sailors"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 50
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_stability"
+			spriteType = "GFX_icon_stability"
+			
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_stability"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_prestige"
+			spriteType = "GFX_icon_prestige"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_prestige"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_dev"
+			spriteType = "GFX_icon_legitimacy"
+			frame = 3
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_dev"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_meritocracy"
+			spriteType = "GFX_icon_legitimacy"
+			frame = 5
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_meritocracy"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_leg"
+			spriteType = "GFX_icon_legitimacy"
+			frame = 1
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_leg"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_rep"
+			spriteType = "GFX_icon_legitimacy"
+			frame = 2
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_rep"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_unity"
+			spriteType = "GFX_icon_legitimacy"
+			frame = 4
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_unity"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_corruption"
+			spriteType = "GFX_icon_corruption_small"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_corruption"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 46
+			maxHeight = 32
+			format = right
+			font = "vic_18"
+		}
+
+		instantTextBoxType = {
+			name = "text_ADM"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 36
+			maxHeight = 32
+			format = left
+			font = "vic_18"
+		}
+
+		iconType = {
+			name ="icon_ADM"
+			spriteType = "GFX_icon_powers_administrative"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_DIP"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 36
+			maxHeight = 32
+			format = left
+			font = "vic_18"
+		}
+		
+		iconType = {
+			name ="icon_DIP"
+			spriteType = "GFX_icon_powers_diplomatic"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "text_MIL"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 36
+			maxHeight = 32
+			format = left
+			font = "vic_18"
+		}
+
+		iconType = {
+			name = "icon_MIL"
+			spriteType ="GFX_icon_powers_military"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		windowType = {
+			name = "powerprojection_topbar"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			size = { x = 100 y = 100 }
+
+			iconType = {
+				name ="topbar_liberty_overlay"
+				spriteType = "GFX_topbar_liberty_overlay"
+				position = { x = 491 y = -1 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name ="icon_powerprojection"
+				spriteType = "GFX_icon_powerprojection"
+				position = { x = 518 y = 10 }
+				Orientation = "UPPER_LEFT"
+				hint_tag = "hint_powerprojection"
+			}
+
+			instantTextBoxType = {
+				name = "text_powerprojection"
+				position = { x = 527 y = 13 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = { x = 4 y = 4 }
+				text = ""
+				maxWidth = 40
+				maxHeight = 32
+				format = right
+			}
+		}
+
+		windowType = {
+			name = "liberty_desire_topbar"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			size = { x = 100 y = 100 }
+
+			iconType = {
+				name ="topbar_liberty_overlay"
+				spriteType = "GFX_topbar_liberty_overlay"
+				position = { x = 491 y = -1 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name ="topbar_liberty_icon"
+				spriteType = "GFX_liberty_icon"
+				position = { x = 512 y = 10 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "topbar_liberty_value"
+				position = { x = 527 y = 13 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = { x = 4 y = 4 }
+				text = "100"
+				maxWidth = 40
+				maxHeight = 32
+				format = right
+			}
+		}
+
+		iconType = {
+			name = "button_base"
+			spriteType ="GFX_age_frame_addon"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "current_age_button"
+			quadTextureSprite ="GFX_age_button"
+			
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		guiButtonType = {
+			name = "age_icon"
+			spriteType ="GFX_icon_age_s"
+			frame = 1
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		instantTextBoxType = {
+			name = "age_title"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+
+			maxWidth = 160
+			maxHeight = 32
+			format = left
+			font = "vic_18"
+
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "brown_bg"
+			spriteType ="GFX_brown_bg"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name ="topbar_upper_left_bg"
+			spriteType = "GFX_topbar_bg"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="topbar_upper_left_bg4"
+			spriteType = "GFX_topbar_banner"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="topbar_upper_left_bg2"
+			spriteType = "GFX_topbar_portrait_value_bg"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name ="icon_gold"
+			spriteType = "GFX_icon_gold_strip"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_ducats"
+		}
+
+		instantTextBoxType = {
+			name = "text_gold"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			textureFile = ""
+			font = "vic_18"
+			borderSize = { x = 4 y = 4 }
+			text = ""
+			maxWidth = 60
+			maxHeight = 32
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "PlayerNationText"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			textureFile = ""
+			font = "vic_22"
+			borderSize = { x = 4 y = 4 }
+			text = ""
+			maxWidth = 340
+			maxHeight = 32
+			fixedsize = yes
+		}
+
+		windowType = {
+			name = "pause_window"
+			backGround =""
+			position = { x = -10000 y = 0 }	# HIDDEN
+			size = { x = 406 y = 70 }
+			dontRender = ""
+			horizontalBorder = ""
+			verticalBorder = ""
+			fullScreen = no
+			moveable = 0
+			Orientation = "CENTER_UP"
+
+			iconType ={
+				name ="pause_banner"
+				spriteType = "GFX_pause_banner"
+				position = { x = 0 y = -15 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "pause_banner_text"
+				position = { x = 140 y = 9 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = { x = 4 y = 4 }
+				text = "CORE_PAUSED"
+				maxWidth = 120
+				maxHeight = 32
+				format = center
+			}
+		}
+
+		# SCRIPTED
+
+		windowType = {
+			name = "cw_current_age"
+			scripted = yes
+
+			Orientation = "CENTER_UP"
+			position = { x = -128 y = 0 }
+			size = { x = 256 y = 0 }
+
+			iconType = {
+				name ="ci_current_age"
+				spriteType = "GFX_HEX_ages"
+				scripted = yes
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			instantTextBoxType = {
+				name = "ctb_current_age"
+				scripted = yes
+
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+
+				maxWidth = 256
+				maxHeight = 32
+				format = center
+				font = "vic_29s"
+			}
+
+			instantTextBoxType = {
+				name = "ctb_current_arc"
+				scripted = yes
+
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 36 }
+
+				maxWidth = 256
+				maxHeight = 32
+				format = center
+				font = "vic_22"
+			}
+		}
+
+		windowType = {
+			name = "cw_player"
+			scripted = yes
+
+			Orientation = "UPPER_LEFT"
+			position = { x = 0 y = 0 }
+			size = { x = 128 y = 64 }
+
+			iconType = {
+				name ="ci_player_bg"
+				spriteType = "GFX_HEX_player_bg"
+				
+				Orientation = "UPPER_LEFT"
+				position = { x = 0 y = 0 }
+			}
+
+			instantTextBoxType = {
+				name = "ctb_player_name"
+				scripted = yes
+
+				Orientation = "UPPER_LEFT"
+				position = { x = 64 y = 0 }
+
+				maxWidth = 192
+				maxHeight = 32
+				format = left
+				font = "vic_22"
+			}
+		}
+	}
+}

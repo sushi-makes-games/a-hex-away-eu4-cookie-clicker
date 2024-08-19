@@ -1,0 +1,127 @@
+guiTypes = {
+	windowType = {
+		name = "speed_controls"
+
+		Orientation = "CENTER_UP"
+		position = { x = -128 y = 64 }
+
+		# HIDDEN
+
+		iconType = {
+			name ="icon_score"
+			spriteType = "GFX_icon_score"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			Orientation = "UPPER_RIGHT"
+			hint_tag = "hint_score"
+		}
+
+		instantTextBoxType = {
+			name = "text_score"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 4 y = 4}
+			text = "100"	
+			maxWidth = 50
+			maxHeight = 32
+			format = right
+			Orientation = "UPPER_RIGHT"
+		}
+
+		instantTextBoxType = {
+			name = "text_score_rank"
+			position = { x = -10000 y = 0 }	# HIDDEN
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 4 y = 4}
+			text = "100"	
+			maxWidth = 60
+			maxHeight = 32
+			format = centre
+			Orientation = "UPPER_RIGHT"
+		}
+
+		guiButtonType = {
+			name = "button_achievements"
+			quadTextureSprite ="GFX_button_achievements"
+
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}		
+
+		guiButtonType = {
+			name = "button_outliner"
+			quadTextureSprite ="GFX_button_outliner"
+
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		guiButtonType = {
+			name = "button_nextsong"
+			quadTextureSprite ="GFX_next_song_button"
+
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		guiButtonType = {
+			name = "button_timeline"
+			quadTextureSprite ="GFX_view_timeline_button"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		iconType = {
+			name ="icon_date_bg"
+			spriteType = "GFX_date_bg"
+			
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }	# HIDDEN
+		}
+
+		# SORTED
+
+		guiButtonType = {
+			name = "button_pause"
+			quadTextureSprite ="GFX_HEX_speed_controls"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = 0 y = 0 }
+		}	
+
+		instantTextBoxType = { 
+			name = "DateText"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = 0 y = 8 }
+
+			maxWidth = 256
+			maxHeight = 32	
+			format = center
+			font = "vic_18"
+		}
+
+		guiButtonType = {
+			name = "speed_indicator"
+			quadTextureSprite ="GFX_HEX_speed_indicator"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = 96 y = 30 }
+		}
+
+		guiButtonType = {
+			name = "button_speeddown"
+			quadTextureSprite ="GFX_HEX_button_minus"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = 0 y = 4 }
+		}
+
+		guiButtonType = {
+			name = "button_speedup"
+			quadTextureSprite ="GFX_HEX_button_plus"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = 224 y = 4 }
+		}
+	}
+}

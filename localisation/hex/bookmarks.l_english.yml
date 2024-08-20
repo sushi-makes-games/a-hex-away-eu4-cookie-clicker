@@ -1,3 +1,12 @@
 ﻿l_english:
-  awakening_arc:0 "Awakening Arc"
-  awakening_arc_desc:0 "TBD"
+  bookmark_the_city:0 "The City"
+  bookmark_the_city_desc:0 "§GBest suited for singleplayer§!\nStarting from a single city, make the whole World bake your cookies, without fear of AI nations."
+
+  bookmark_the_beyond:0 "The Beyond"
+  bookmark_the_beyond_desc:0 "§GSuited for singleplayer or multiplayer§!\nStarting from a single city, make the whole World bake your cookies, with a little bit of resisance from 6+ player and AI nations nearby."
+
+  bookmark_the_frontier:0 "The Frontier"
+  bookmark_the_frontier_desc:0 "§GSuited for singleplayer or multiplayer§!\nStarting from a single city, make the whole World bake your cookies, fighting against distant 20+ player and AI nation."
+
+  bookmark_the_world:0 "The World"
+  bookmark_the_world_desc:0 "§GBest suited for multiplayer§!\nStarting from a single city, make the whole World bake your cookies, fighting against 300+ player and AI nations."

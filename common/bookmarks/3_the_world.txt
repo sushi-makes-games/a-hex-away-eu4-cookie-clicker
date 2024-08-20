@@ -1,0 +1,7 @@
+bookmark = {
+	name = bookmark_the_world
+	desc = bookmark_the_world_desc
+	date = 3.1.4
+	
+	country = H00
+}

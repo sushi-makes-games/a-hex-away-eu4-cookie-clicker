@@ -1,5 +1,3 @@
-owner = H00
-add_core = H00
 
 culture = race_humans
 religion = faith_faithless
@@ -9,3 +7,8 @@ add_province_triggered_modifier = on_global_daily
 add_province_triggered_modifier = on_global_monthly
 
 set_province_flag = special
+
+2.1.1 = {
+	owner = H00
+	add_core = H00
+}

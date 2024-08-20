@@ -1,0 +1,10 @@
+# This file is generated, any changes made here will be rewritten
+
+graphical_culture = westerngfx
+color = { 52 146 13 }
+leader_names = { * * * * * * * * * * }
+ship_names = { * * * * * * * * * * }
+monarch_names = {
+	"* #0" = 1
+	"* #0" = -1
+}

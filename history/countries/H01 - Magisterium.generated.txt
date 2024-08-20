@@ -8,6 +8,4 @@ add_government_reform = player_reform
 primary_culture = race_humans
 religion = faith_faithless
 
-
-
-2.1.1 = { monarch = { name = "(Regency)" dynasty = "(Regency)" adm = 0 mil = 0 dip = 0 regent = yes } }
+2.1.1 = { monarch = { name = "(Regency)" dynasty = "(Regency)" adm = 0 mil = 0 dip = 0 } }

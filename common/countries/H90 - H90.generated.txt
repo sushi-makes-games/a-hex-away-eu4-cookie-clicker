@@ -1,7 +1,7 @@
 # This file is generated, any changes made here will be rewritten
 
 graphical_culture = westerngfx
-color = { 1 136 114 }
+color = { 134 196 26 }
 leader_names = { * * * * * * * * * * }
 ship_names = { * * * * * * * * * * }
 monarch_names = {

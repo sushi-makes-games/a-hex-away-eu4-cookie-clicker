@@ -1,0 +1,10 @@
+# This file is generated, any changes made here will be rewritten
+
+trade_goods = unknown
+
+3.1.4 = {
+  owner = H9W
+  add_core = H9W
+  culture = race_mechanim
+  religion = faith_faithless
+}

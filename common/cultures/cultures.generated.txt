@@ -1,6 +1,11 @@
 # This file is generated, any changes made here will be rewritten
 
 race_group_humans = {
-	graphical_culture = westerngfx
-  race_humans = { }
+  graphical_culture = westerngfx
+  race_human = { }
+}
+
+race_group_mechanim = {
+  graphical_culture = westerngfx
+  race_mechanim = { }
 }

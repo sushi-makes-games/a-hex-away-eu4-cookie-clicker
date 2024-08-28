@@ -5,9 +5,9 @@ technology_group = tech_group_default
 government = player_type
 add_government_reform = player_reform
 
-primary_culture = race_humans
+primary_culture = race_human
 religion = faith_faithless
 
 capital = 3204
 
-2.1.1 = { monarch = { name = "(Regency)" dynasty = "(Regency)" adm = 0 mil = 0 dip = 0 regent = yes } }
+2.1.1 = { monarch = { name = "First" dynasty = "..." adm = 0 mil = 0 dip = 0  } }

@@ -1,8 +1,0 @@
-culture = race_humans
-religion = faith_faithless
-trade_goods = unknown
-
-3.1.2 = {
-	owner = H01
-	add_core = H01
-}

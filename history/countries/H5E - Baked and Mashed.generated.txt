@@ -1,0 +1,13 @@
+# This file is generated, any changes made here will be rewritten
+
+technology_group = tech_group_default
+
+government = player_type
+add_government_reform = player_reform
+
+primary_culture = race_human
+religion = faith_faithless
+
+capital = 2087
+
+2.1.1 = { monarch = { name = "Potato" dynasty = "..." adm = 0 mil = 0 dip = 0  } }

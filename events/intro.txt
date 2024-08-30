@@ -42,6 +42,16 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			if = { limit = { event_started = no } start_event = yes }
+
+      if = { limit = { current_step = { value = 1 } } play_sound = intro_events_1_1 }
+      else_if = { limit = { current_step = { value = 2 } } play_sound = intro_events_1_2 }
+      else_if = { limit = { current_step = { value = 3 } } play_sound = intro_events_1_3 }
+      else_if = { limit = { current_step = { value = 4 } } play_sound = intro_events_1_4 }
+      else_if = { limit = { current_step = { value = 5 } } play_sound = intro_events_1_5 }
+      else_if = { limit = { current_step = { value = 6 } } play_sound = intro_events_1_6 }
+      else_if = { limit = { current_step = { value = 7 } } play_sound = intro_events_1_7 }
+      else_if = { limit = { current_step = { value = 8 } } play_sound = intro_events_1_8 }
+      else_if = { limit = { current_step = { value = 9 } } play_sound = intro_events_1_9 }
 		}
 	}
 	after = {

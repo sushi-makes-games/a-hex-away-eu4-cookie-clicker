@@ -1,4 +1,4 @@
-add_province_triggered_modifier = on_arc_start
+add_province_triggered_modifier = on_global_daily
 add_province_triggered_modifier = on_global_monthly
 
 trade_goods = unknown

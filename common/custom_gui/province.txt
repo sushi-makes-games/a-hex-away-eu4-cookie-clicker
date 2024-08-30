@@ -186,7 +186,7 @@ custom_button = {
 	name = cbt_cookie_manual_upgrade
 	potential = { always = yes }
 	trigger = { hidden_trigger = { can_upgrade_manual = yes } }
-	effect = { hidden_effect = { upgrade_manual_click = yes } }
+	effect = { hidden_effect = { upgrade_click = { type = manual manual = yes } } }
 }
 
 custom_window = {
@@ -210,7 +210,7 @@ custom_button = {
 	name = cbt_cookie_daily_upgrade
 	potential = { always = yes }
 	trigger = { hidden_trigger = { can_upgrade_daily = yes } }
-	effect = { hidden_effect = { upgrade_daily_click = yes } }
+	effect = { hidden_effect = { upgrade_click = { type = daily daily = yes }} }
 }
 
 custom_window = {
@@ -234,14 +234,14 @@ custom_button = {
 	name = cbt_cookie_monthly_upgrade
 	potential = { always = yes }
 	trigger = { hidden_trigger = { can_upgrade_monthly = yes } }
-	effect = { hidden_effect = { upgrade_monthly_click = yes } }
+	effect = { hidden_effect = { upgrade_click = { type = monthly monthly = yes } } }
 }
 
 custom_button = {
 	name = cbt_province_cookie
 	potential = { owner = { tag = FROM } }
 	trigger = { hidden_trigger = { always = yes } }
-	effect = { hidden_effect = { variable_effect = { which = manual_rank effect = simulate_manual_click } } }
+	effect = { hidden_effect = { simulate_click = { type = manual } } }
 	tooltip = cbt_province_cookie_tt
 
 	frame = { number = 1 trigger = { area = city_area } }

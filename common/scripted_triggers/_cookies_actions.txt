@@ -1,34 +1,7 @@
-# COUNTRY = { has_enough_cookies = { value = $value$ type = $type$ scope = $scope$ } }
-has_enough_cookies = {
-	$scope$ = {
-		OR = {
-			rank_up_$value$_trigger = { trigger = has_total_rank }
-			check_variable = { which = $type$_power_$value$ which = PREV }
-		}
-	}
-}
-
-has_enough_cookies_manual = { has_enough_cookies = { value = $value$ type = manual scope = owner } }
-has_enough_cookies_daily = { has_enough_cookies = { value = $value$ type = daily scope = owner } }
-has_enough_cookies_monthly = { has_enough_cookies = { value = $value$ type = monthly scope = owner } }
-
-has_enough_cookies_sabotage_FROM = { has_enough_cookies = { value = $value$ type = manual scope = FROM } }
-has_enough_cookies_sabotage_ROOT = { has_enough_cookies = { value = $value$ type = manual scope = ROOT } }
-
 # PROVINCE = { can_upgrade_manual = yes }
-can_upgrade_manual = {
-	variable_trigger = { which = manual_price_rank trigger = has_enough_cookies_manual }
-}
-
-# PROVINCE = { can_upgrade_daily = yes }
-can_upgrade_daily = {
-	variable_trigger = { which = daily_price_rank trigger = has_enough_cookies_daily }
-}
-
-# PROVINCE = { can_upgrade_monthly = yes }
-can_upgrade_monthly = {
-	variable_trigger = { which = monthly_price_rank trigger = has_enough_cookies_monthly }
-}
+can_upgrade_manual = { owner = { check_variable = { which = manual which = PREV } } }
+can_upgrade_daily = { owner = { check_variable = { which = daily which = PREV } } }
+can_upgrade_monthly = { owner = { check_variable = { which = monthly which = PREV } } }
 
 # PROVINCE = { is_sabotaged = yes }
 is_sabotaged = {
@@ -39,11 +12,8 @@ is_sabotaged = {
 # PROVINCE = { can_sabotage = { scope = $scope$ } }
 can_sabotage = {
 	is_sabotaged = no
-	variable_trigger = { which = manual_price_rank trigger = has_enough_cookies_sabotage_$scope$ }
+	$scope$ = { check_variable = { which = manual which = PREV } }
 }
 
 # COUNTRY = { can_take_colony = yes }
-can_take_colony = {
-	if = { limit = { NOT = { num_of_cities = 2000 } } check_variable = { which = total_rank which = cities } }
-	else = { check_variable = { which = total_rank value = 200 } }
-}
+can_take_colony = { check_variable = { which = rank which = cities } }

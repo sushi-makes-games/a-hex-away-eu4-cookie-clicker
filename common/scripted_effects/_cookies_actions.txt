@@ -1,59 +1,43 @@
-# PROVINCE = { simulate_click = { value = $value$ type = $type$  } }
+# PROVINCE = { simulate_click = { type = $type$ } }
 simulate_click = {
-	if = { limit = { is_variable_equal = { which = $type$_subrank value = 0 } } owner = { add_cookie = { rank = $value$ value = 1 } } }
-	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 1 } } owner = { add_cookie = { rank = $value$ value = 2 } } }
-	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 2 } } owner = { add_cookie = { rank = $value$ value = 4 } } }
-	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 3 } } owner = { add_cookie = { rank = $value$ value = 8 } } }
-	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 4 } } owner = { add_cookie = { rank = $value$ value = 16 } } }
-	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 5 } } owner = { add_cookie = { rank = $value$ value = 32 } } }
-	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 6 } } owner = { add_cookie = { rank = $value$ value = 64 } } }
-	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 7 } } owner = { add_cookie = { rank = $value$ value = 128 } } }
-	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 8 } } owner = { add_cookie = { rank = $value$ value = 256 } } }
-	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 9 } } owner = { add_cookie = { rank = $value$ value = 512 } } }
+	if = { limit = { is_variable_equal = { which = $type$_subrank value = 0 } } owner = { set_variable = { which = temp_value value = 1 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 1 } } owner = { set_variable = { which = temp_value value = 2 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 2 } } owner = { set_variable = { which = temp_value value = 4 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 3 } } owner = { set_variable = { which = temp_value value = 8 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 4 } } owner = { set_variable = { which = temp_value value = 16 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 5 } } owner = { set_variable = { which = temp_value value = 32 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 6 } } owner = { set_variable = { which = temp_value value = 64 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 7 } } owner = { set_variable = { which = temp_value value = 128 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 8 } } owner = { set_variable = { which = temp_value value = 256 } } }
+	else_if = { limit = { is_variable_equal = { which = $type$_subrank value = 9 } } owner = { set_variable = { which = temp_value value = 512 } } }
+	set_variable = { which = temp_rank which = $type$_rank }
+
+	owner = {
+		set_variable = { which = temp_rank which = PREV }
+		add_cookies = yes
+	}
 }
 
-# PROVINCE = { simulate_$type$_click = { value = $value$ } }
-simulate_manual_click = { simulate_click = { value = $value$ type = manual } }
-simulate_daily_click = { simulate_click = { value = $value$ type = daily } }
-simulate_monthly_click = { simulate_click = { value = $value$ type = monthly } }
-
-# PROVINCE = { set_new_price = { value = $value$ type = $type$ } }
-set_new_price = { set_variable = { which = $type$_power_$value$ which = $type$_price } }
-
-# PROVINCE = { set_new_$type$_price = { value = $value$ } }
-set_new_manual_price = { set_new_price = { value = $value$ type = manual } }
-set_new_daily_price = { set_new_price = { value = $value$ type = daily } }
-set_new_monthly_price = { set_new_price = { value = $value$ type = monthly } }
-
-# PROVINCE = { clr_old_price = { value = $value$ type = $type$ } }
-clr_old_price = { set_variable = { which = $type$_power_$value$ value = 0 } }
-
-# PROVINCE = { clr_old_$type$_price = { value = $value$ } }
-clr_old_manual_price = { clr_old_price = { value = $value$ type = manual } }
-clr_old_daily_price = { clr_old_price = { value = $value$ type = daily } }
-clr_old_monthly_price = { clr_old_price = { value = $value$ type = monthly } }
-
-# PROVINCE = { pay_price = { value = $value$ type = $type$ scope = $scope$ } }
+# PROVINCE = { pay_price = { type = $type$ scope = $scope$ } }
 pay_price = {
-	set_variable = { which = power_$value$ which = $type$_power_$value$ }
-	$scope$ = { subtract_cookie = { rank = $value$ which = PREV } }
-	set_variable = { which = power_$value$ value = 0 }
+	set_variable = { which = temp_value which = $type$_price }
+	set_variable = { which = temp_rank which = $type$_rank }
+
+	$scope$ = {
+		set_variable = { which = temp_value which = PREV }
+		set_variable = { which = temp_rank which = PREV }
+		subtract_cookies = yes
+	}
 }
 
-# PROVINCE = { pay_$type$_price = { value = $value$ } }
-pay_manual_price = { pay_price = { value = $value$ type = manual scope = owner } }
-pay_daily_price = { pay_price = { value = $value$ type = daily  scope = owner } }
-pay_monthly_price = { pay_price = { value = $value$ type = monthly scope = owner } }
-
-pay_sabotage_price_FROM = { pay_price = { value = $value$ type = manual scope = FROM } }
-pay_sabotage_price_ROOT = { pay_price = { value = $value$ type = manual scope = ROOT } }
-
-
-# PROVINCE = { calculate_price = { type = $type$ } }
+# PROVINCE = { calculate_price = { type = $type$ $type$ = yes } }
 calculate_price = {
-	variable_effect = { which = $type$_price_rank effect = clr_old_$type$_price }
+	set_variable = { which = $type$_price value = 10 }
+	change_variable = { which = $type$_price which = $type$ }
+	[[manual] multiply_variable = { which = $type$_price value = 1 } ]
+	[[monthly] multiply_variable = { which = $type$_price value = 2 } ]
+	[[daily] multiply_variable = { which = $type$_price value = 4 } ]
 
-	set_variable = { which = $type$_price which = $type$_clicks }
 	set_variable = { which = $type$_price_rank which = $type$_rank }
 
 	if = {
@@ -80,51 +64,40 @@ calculate_price = {
 		round_variable = { which = $type$_price value = 0 }
 		change_variable = { which = $type$_price_rank value = 1 }
 	}
-
-	variable_effect = { which = $type$_price_rank effect = set_new_$type$_price }
 }
 
-# PROVINCE = { calculate_$type$_price = yes }
-calculate_manual_price = { calculate_price = { type = manual } }
-calculate_daily_price = { calculate_price = { type = daily } }
-calculate_monthly_price = { calculate_price = { type = monthly } }
-
-# PROVINCE = { upgrade_click = { type = $type$ increase = $increase$ base = $base$ } }
+# PROVINCE = { upgrade_click = { type = $type$ $type$ = yes } }
 upgrade_click = {
-	variable_effect = { which = $type$_price_rank effect = pay_$type$_price }
+	pay_price = { type = $type$ scope = owner }
 
+	change_variable = { which = $type$ value = 1 }
 	change_variable = { which = $type$_subrank value = 1 }
 	if = {
 		limit = { check_variable = { which = $type$_subrank value = 10 } }
 		set_variable = { which = $type$_subrank value = 0 }
 		change_variable = { which = $type$_rank value = 1 }
-		[[spawn_army] owner = { PREV = { infantry = PREV } } ] 
+		[[manual] owner = { PREV = { infantry = PREV } } ] 
 	}
 
-	change_variable = { which = $type$_clicks value = $increase$ }
-	add_base_$base$ = 1
-	calculate_$type$_price = yes
-}
+	[[manual] add_base_tax = 1 ]
+	[[monthly] add_base_production = 1 ]
+	[[daily] add_base_manpower = 1 ]
 
-# PROVINCE = { upgrade_$type$_click = yes }
-upgrade_manual_click = { upgrade_click = { type = manual increase = 1 base = tax spawn_army = yes } }
-upgrade_daily_click = { upgrade_click = { type = daily increase = 2 base = manpower } }
-upgrade_monthly_click = { upgrade_click = { type = monthly increase = 4 base = production } }
+	calculate_price = { type = $type$ $type$ = yes }
+}
 
 # PROVINCE = { sabotage_click = { scope = $scope$ } }
 sabotage_click = {
-	variable_effect = { which = manual_price_rank effect = pay_sabotage_price_$scope$ }
+	pay_price = { type = manual scope = $scope$ }
 	if = { limit = { has_province_flag = sabotaged } clr_province_flag = sabotaged }
 	set_province_flag = sabotaged
 }
 
-# COUNTRY = { pay_colony_price = { value = $value$ } }
-pay_colony_price = { subtract_cookie = { rank = $value$ value = 1 } }
-
 # PROVINCE = { COUNTRY = { take_colony_click = yes } }
 take_colony_click = {
-	if = { limit = { NOT = { num_of_cities = 2000 } } variable_effect = { which = cities effect = pay_colony_price } }
-	else = { pay_colony_price = { value = 200 } }
+	set_variable = { which = temp_value value = 1 }
+	set_variable = { which = temp_rank which = rank }
+	subtract_cookies = yes
 
 	PREV = {
 		change_trade_goods = unknown
@@ -135,7 +108,7 @@ take_colony_click = {
 	}
 }
 
-# PROVINCE = { downgrade_click = { type = $type$ increase = $increase$ base = $base$ } }
+# PROVINCE = { downgrade_click = { type = $type$ $type$ = yes } }
 downgrade_click = {
 	if = {
 		limit = {
@@ -145,22 +118,79 @@ downgrade_click = {
 			}
 		}
 
-		if = {
-			limit = { check_variable = { which = $type$_subrank value = 1 }	}
-			change_variable = { which = $type$_subrank value = -1 }
-		}
-		else = {
-			set_variable = { which = $type$_subrank value = 9 }
-			change_variable = { which = $type$_rank value = -1 }
-		}
+		remove_current_upgrade = { type = $type$ }
 
-		change_variable = { which = $type$_clicks value = -$increase$ }
-		add_base_$base$ = -1
-		calculate_$type$_price = yes
+		[[manual] add_base_tax = -1 ]
+		[[monthly] add_base_production = -1 ]
+		[[daily] add_base_manpower = -1 ]
+
+		calculate_price = { type = $type$ $type$ = yes }
 	}
 }
 
-# PROVINCE = { downgrade_$type$_click = yes }
-downgrade_manual_click = { downgrade_click = { type = manual increase = 1 base = tax } }
-downgrade_daily_click = { downgrade_click = { type = daily increase = 2 base = manpower } }
-downgrade_monthly_click = { downgrade_click = { type = monthly increase = 4 base = production } }
+# COUNTRY = { add_current_upgrade = { type = $type$ } }
+add_current_upgrade = {
+	change_variable = { which = $type$ value = 1 }
+	change_variable = { which = $type$_subrank value = 1 }
+	if = {
+		limit = { check_variable = { which = $type$_subrank value = 10 } }
+		set_variable = { which = $type$_subrank value = 0 }
+		change_variable = { which = $type$_rank value = 1 }
+	}
+}
+
+# COUNTRY = { remove_current_upgrade = { type = $type$ } }
+remove_current_upgrade = {
+	subtract_variable = { which = $type$ value = 1 }
+	if = {
+		limit = { check_variable = { which = $type$_subrank value = 1 }	}
+		change_variable = { which = $type$_subrank value = -1 }
+	}
+	else = {
+		set_variable = { which = $type$_subrank value = 9 }
+		change_variable = { which = $type$_rank value = -1 }
+	}
+}
+
+# COUNTRY = { check_current_upgrade = { type = $type$ } }
+check_current_upgrade = {
+	clr_country_flag = temp_upgrade_possible
+	if = {
+		limit = { NOT = { check_variable = { which = $type$ value = 0 } } }
+		set_country_flag = temp_upgrade_possible
+	} else = {
+		calculate_price = { type = $type$ $type$ = yes }
+		if = {
+			limit = {
+				OR = {
+					NOT = { check_variable = { which = $type$_price_rank which = rank } }
+					AND = {
+						is_variable_equal = { which = $type$_price_rank which = rank }
+						NOT = { check_variable = { which = $type$_price which = total } }
+					}
+				}
+			}
+			set_country_flag = temp_upgrade_possible
+		}
+	}
+}
+
+# COUNTRY = { calculate_max_upgrade = { type = $type$ } }
+calculate_max_upgrade = {
+	check_current_upgrade = { type = $type$ }
+	if = {
+		limit = { has_country_flag = temp_upgrade_possible }
+		while = {
+			limit = { has_country_flag = temp_upgrade_possible }
+			add_current_upgrade = { type = $type$ }
+			check_current_upgrade = { type = $type$ }
+		}
+		remove_current_upgrade = { type = $type$ }
+	} else = {
+		while = {
+			limit = { NOT = { has_country_flag = temp_upgrade_possible } }
+			remove_current_upgrade = { type = $type$ }
+			check_current_upgrade = { type = $type$ }
+		}
+	}
+}

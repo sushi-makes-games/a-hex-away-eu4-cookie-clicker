@@ -10,7 +10,7 @@ cookie_mechanic = {
 			effect = {
 				random_owned_province = {
 					limit = { can_upgrade_manual = yes }
-					upgrade_manual_click = yes
+					upgrade_click = { type = manual manual = yes } 
 				}
 			}
 			ai_chance = { factor = 50 }
@@ -21,7 +21,7 @@ cookie_mechanic = {
 			effect = {
 				random_owned_province = {
 					limit = { can_upgrade_daily = yes }
-					upgrade_daily_click = yes
+					upgrade_click = { type = daily daily = yes }
 				}
 			}
 			ai_chance = { factor = 100 }
@@ -32,7 +32,7 @@ cookie_mechanic = {
 			effect = {
 				random_owned_province = {
 					limit = { can_upgrade_monthly = yes }
-					upgrade_monthly_click = yes
+					upgrade_click = { type = monthly monthly = yes }
 				}
 			}
 			ai_chance = { factor = 75 }
@@ -74,7 +74,7 @@ cookie_mechanic = {
 		ai_manual_click = {
 			potential = { ai = yes }
 			trigger = { always = yes }
-			effect = { random_owned_province = { variable_effect = { which = manual_rank effect = simulate_manual_click } } }
+			effect = { random_owned_province = { simulate_click = { type = manual } } }
 			ai_chance = { factor = 1 }
 		}
 	}

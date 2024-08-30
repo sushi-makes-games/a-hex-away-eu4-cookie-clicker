@@ -1,5 +1,0 @@
-# ANY = { is_variable_between = { which = $which$ from = $from$ to = $to$ } }
-is_variable_between = {
-	check_variable = { which = $which$ value = $from$ }
-	NOT = { check_variable = { which = $which$ value = $to$ } }
-}

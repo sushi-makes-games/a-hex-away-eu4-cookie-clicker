@@ -2,14 +2,14 @@
 on_global_daily = {
 	every_province = {
 		limit = { is_city = yes is_sabotaged = no }
-		hidden_effect = { variable_effect = { which = daily_rank effect = simulate_daily_click } }
+		hidden_effect = { simulate_click = { type = daily } }
 	}
 }
 
 # # GLOBAL = { on_global_monthly = yes }
 on_global_monthly = {
 	every_province = {
-		limit = { is_city = yes is_sabotaged = no	}
-		hidden_effect = { variable_effect = { which = monthly_rank effect = simulate_monthly_click } }
+		limit = { is_city = yes is_sabotaged = no }
+		hidden_effect = { simulate_click = { type = monthly } }
 	}
 }

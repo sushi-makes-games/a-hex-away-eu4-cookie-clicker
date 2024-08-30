@@ -1,69 +1,125 @@
-# COUNTRY = { increase_total_rank = yes }
-increase_total_rank = { change_variable = { which = total_rank value = 1 } }
-
-# COUNTRY = { decrease_total_rank = yes }
-decrease_total_rank = { change_variable = { which = total_rank value = -1 } }
-
-# COUNTRY = { add_cookie = { rank = $rank$ [value = $value$] [which = $which$] type = $type$ } }
-change_cookie = {
-	$type$_variable = { which = power_$rank$ [[value] value = $value$ ] [[which] which = $which$ ] }
-	set_variable = { which = manual_power_$rank$ which = power_$rank$ }
-	set_variable = { which = daily_power_$rank$ which = power_$rank$ }
-	set_variable = { which = monthly_power_$rank$ which = power_$rank$ }
-
-	if = {
-		limit = { has_cookies_at_rank = { rank = $rank$ } NOT = { has_total_rank = { rank = $rank$ } } }
-		increase_total_rank = yes
-	}
-
-	if = {
-		limit = { has_total_rank = { rank = 1 } NOT = { has_cookies_at_rank = { rank = $rank$ } } has_exact_rank = { rank = $rank$ } }
-		decrease_total_rank = yes
-	}
+# COUNTRY = { change_rank = { [value=$value$] [which=$which$] } }
+change_rank = {
+	change_variable = { which = rank [[which] which = $which$ ] [[value] value = $value$ ] }
+	update_ranks = yes
 }
 
-# COUNTRY = { add_cookie = { rank = $rank$ [value = $value$] [which = $which$] } }
-add_cookie = {
-	change_cookie = { rank = $rank$ [[value] value = $value$ ] [[which] which = $which$ ] type = change }
-	validate_rank = { rank = $rank$ }
+# COUNTRY = { set_rank = { [value=$value$] [which=$which$] } }
+set_rank = {
+	set_variable = { which = rank [[which] which = $which$ ] [[value] value = $value$ ] }
+	update_ranks = yes
 }
 
-# COUNTRY = { subtract_cookie = { rank = $rank$ [value = $value$] [which = $which$] } }
-subtract_cookie = {
-	change_cookie = { rank = $rank$ [[value] value = $value$ ] [[which] which = $which$ ] type = subtract }
-	validate_rank = { rank = $rank$ }
+# COUNTRY = { update_ranks = yes }
+update_ranks = {
+	set_variable = { which = rank_pp which = rank }
+	change_variable = { which = rank_pp value = -2 }
+	set_variable = { which = rank_p which = rank }
+	change_variable = { which = rank_p value = -1 }
+	set_variable = { which = rank_n which = rank }
+	change_variable = { which = rank_n value = 1 }
+	set_variable = { which = rank_nn which = rank }
+	change_variable = { which = rank_nn value = 2 }
 }
 
-# COUNTRY = { add_cookie = { rank = $rank$ value = $value$ } }
-validate_rank = {
-	while = {
-		limit = { cookie_overflow = { rank = $rank$ } }
-		change_cookie = { rank = $rank$ value = 1000 type = subtract }
-		rank_up_$rank$_effect = { effect = change_cookie value = 1 type = change }
-	}
-
-	while = {
-		limit = { cookie_underflow = { rank = $rank$ } }
-		change_cookie = { rank = $rank$ value = 1000 type = change }
-		rank_up_$rank$_effect = { effect = change_cookie value = 1 type = subtract }
-	}
-
+# COUNTRY = { add_cookies = yes }
+add_cookies = {
 	if = {
 		limit = {
-			NOT = { has_country_flag = overflow_check }
-			OR = {
-				rank_up_$rank$_trigger = { trigger = cookie_overflow }
-				rank_up_$rank$_trigger = { trigger = cookie_underflow }
-			}
+			is_variable_equal = { which = temp_rank which = rank_pp }
+			check_variable = { which = temp_value value = 500 }
 		}
-		set_country_flag = overflow_check
-		country_event = { id = overflow_events.0 }
+		change_variable = { which = total value = 0.001 }
 	}
+	else_if = {
+		limit = {
+			is_variable_equal = { which = temp_rank which = rank_p }
+		}
+		divide_variable = { which = temp_value value = 1000 }
+		change_variable = { which = total which = temp_value }
+	}
+	else_if = {
+		limit = {
+			is_variable_equal = { which = temp_rank which = rank }
+		}
+		change_variable = { which = total which = temp_value }
+		if = {
+			limit = { check_variable = { which = total value = 1000 } }
+			divide_variable = { which = total value = 1000 }
+			change_rank = { value = 1 }
+		}
+	}
+	else_if = {
+		limit = {
+			is_variable_equal = { which = temp_rank which = rank_n }
+		}
+		multiply_variable = { which = temp_value value = 1000 }
+		change_variable = { which = total which = temp_value }
+		if = {
+			limit = { check_variable = { which = total value = 1000 } }
+			divide_variable = { which = total value = 1000 }
+			change_rank = { value = 1 }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { which = temp_rank which = rank_nn }
+		}
+		set_variable = { which = total which = temp_value }
+		set_rank = { which = temp_rank }
+	}
+
+	calculate_max_upgrade = { type = manual }
+	calculate_max_upgrade = { type = monthly }
+	calculate_max_upgrade = { type = daily }
+}
+
+# COUNTRY = { subtract_cookies = yes }
+subtract_cookies = {
+	if = {
+		limit = {
+			is_variable_equal = { which = temp_rank which = rank_pp }
+			check_variable = { which = temp_value value = 500 }
+		}
+		subtract_variable = { which = total value = 0.001 }
+		if = {
+			limit = { NOT = { check_variable = { which = total value = 1 } } }
+			multiply_variable = { which = total value = 1000 }
+			change_rank = { value = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			is_variable_equal = { which = temp_rank which = rank_p }
+		}
+		divide_variable = { which = temp_value value = 1000 }
+		subtract_variable = { which = total which = temp_value }
+		if = {
+			limit = { NOT = { check_variable = { which = total value = 1 } } }
+			multiply_variable = { which = total value = 1000 }
+			change_rank = { value = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			is_variable_equal = { which = temp_rank which = rank }
+			check_variable = { which = total which = temp_value }
+		}
+		subtract_variable = { which = total which = temp_value }
+		if = {
+			limit = { NOT = { check_variable = { which = total value = 1 } } }
+			multiply_variable = { which = total value = 1000 }
+			change_rank = { value = -1 }
+		}
+	}
+
+	calculate_max_upgrade = { type = manual }
+	calculate_max_upgrade = { type = monthly }
+	calculate_max_upgrade = { type = daily }
 }
 
 # COUNTRY = { update_cities = yes }
 update_cities = {
 	set_variable = { which = cities value = 0 }
-	every_owned_province = { PREV = { change_variable = { which = cities value = 0.1 } } }
-	round_variable = { which = cities value = 1 }
+	every_owned_province = { PREV = { change_variable = { which = cities value = 1 } } }
 }

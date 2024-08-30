@@ -1,0 +1,3 @@
+current_step = { is_variable_equal = { which = current_step value = $value$ } }
+
+event_started = { check_variable = { which = current_step value = 1 } }

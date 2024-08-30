@@ -1,0 +1,124 @@
+namespace = intro_events
+
+### Hidden Event
+country_event = {
+	id = intro_events.0
+	title = intro_events.0.t
+	desc = intro_events.0.d
+	picture = MERCHANTS_TALKING_eventPicture
+
+	hidden = yes
+	is_triggered_only = yes
+
+  after = {
+    hidden_effect = {
+      if = { limit = { event_started = yes }  country_event = { id = intro_events.1 } }
+    }
+  }
+
+	option = {
+		name = intro_events.0.o
+	}
+}
+
+### Author: Sushi
+country_event = {
+	id = intro_events.1
+	title = intro_events.1.t
+	desc = { trigger = { current_step = { value = 1 } } desc = "intro_events.1.d.1" }
+	desc = { trigger = { current_step = { value = 2 } } desc = "intro_events.1.d.2" }
+	desc = { trigger = { current_step = { value = 3 } } desc = "intro_events.1.d.3" }
+	desc = { trigger = { current_step = { value = 4 } } desc = "intro_events.1.d.4" }
+	desc = { trigger = { current_step = { value = 5 } } desc = "intro_events.1.d.5" }
+	desc = { trigger = { current_step = { value = 6 } } desc = "intro_events.1.d.6" }
+	desc = { trigger = { current_step = { value = 7 } } desc = "intro_events.1.d.7" }
+	desc = { trigger = { current_step = { value = 8 } } desc = "intro_events.1.d.8" }
+	desc = { trigger = { current_step = { value = 9 } } desc = "intro_events.1.d.9" }
+
+	picture = MERCHANTS_TALKING_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			if = { limit = { event_started = no } start_event = yes }
+		}
+	}
+	after = {
+    hidden_effect = {
+      country_event = { id = intro_events.0 }
+    }
+  }
+
+	option = {
+		trigger = { current_step = { value = 1 } }
+		name = intro_events.1.o.1.1
+    hidden_effect = { next_step = { value = 2 } }
+	}
+	option = {
+		trigger = { current_step = { value = 1 } }
+		name = intro_events.1.o.1.2
+    hidden_effect = { finish_event = yes }
+	}
+
+	option = {
+		trigger = { current_step = { value = 2 } }
+		name = intro_events.1.o.2.1
+    hidden_effect = { next_step = { value = 3 } }
+	}
+
+	option = {
+		trigger = { current_step = { value = 3 } }
+		name = intro_events.1.o.3.1
+    hidden_effect = { next_step = { value = 4 } }
+	}
+
+	option = {
+		trigger = { current_step = { value = 4 } }
+		name = intro_events.1.o.4.1
+    hidden_effect = { next_step = { value = 5 } }
+	}
+
+	option = {
+		trigger = { current_step = { value = 5 } }
+		name = intro_events.1.o.5.1
+    hidden_effect = { next_step = { value = 6 } }
+	}
+
+	option = {
+		trigger = { current_step = { value = 6 } }
+		name = intro_events.1.o.6.1
+    hidden_effect = { next_step = { value = 7 } }
+	}
+	option = {
+		trigger = { current_step = { value = 6 } }
+		name = intro_events.1.o.6.2
+    hidden_effect = { next_step = { value = 8 } }
+	}
+
+	option = {
+		trigger = { current_step = { value = 7 } }
+		name = intro_events.1.o.7.1
+    hidden_effect = { finish_event = yes }
+	}
+
+	option = {
+		trigger = { current_step = { value = 8 } }
+		name = intro_events.1.o.8.1
+    hidden_effect = { next_step = { value = 7 } }
+	}
+	option = {
+		trigger = { current_step = { value = 8 } }
+		name = intro_events.1.o.8.2
+    hidden_effect = { next_step = { value = 9 } }
+	}
+
+	option = {
+		trigger = { current_step = { value = 9 } }
+		name = intro_events.1.o.9.1
+    hidden_effect = {
+      finish_event = yes
+      remove_country = yes
+    }
+	}
+}

@@ -1,0 +1,5 @@
+next_step = { set_variable = { which = current_step value = $value$ } }
+
+start_event = { next_step = { value = 1 } }
+
+finish_event = { next_step = { value = 0 } }

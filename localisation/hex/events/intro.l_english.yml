@@ -1,0 +1,40 @@
+﻿l_english:
+  # intro_events.0
+
+  intro_events.0.t:0 "Hidden Intro Event"
+  intro_events.0.d:0 "Reloads intro.events.1 with next step."
+  intro_events.0.0:0 "OK"
+
+  # intro_events.1
+
+  intro_events.1.t:0 "Awakening"
+
+  intro_events.1.d.1:0 "You awake to the World."
+  intro_events.1.o.1.1:0 "It's new to me."
+  intro_events.1.o.1.2:0 "I've seen it before."
+
+  intro_events.1.d.2:0 "As you open your eyes, you see a blonde girl running towards you. In mere moments she crosses the distance between and greets you with a wide smile."
+  intro_events.1.o.2.1:0 "Greet her"
+
+  intro_events.1.d.3:0 "§MHi, nice to finally meet you! I'm Magpie and I know everything around here. I hope we can be great friends.§!"
+  intro_events.1.o.3.1:0 "Me too."
+
+  intro_events.1.d.4:0 "§MSo, what do you want know, friend?§!"
+  intro_events.1.o.4.1:0 "Where am I?"
+
+  intro_events.1.d.5:0 "§MWell, this is the World and you're now in it. You had some kind of Awakening, they call it. Don't worry, all Newcomers must go through it. And now that you are here, you are free to do anything you want.§!"
+  intro_events.1.o.5.1:0 "What can I do?"
+
+  intro_events.1.d.6:0 "§MHave you heard of cookies? I'm currently obsessed with them! As everybody else. Everyone bakes and I hoped you would too.§!"
+  intro_events.1.o.6.1:0 "Of course."
+  intro_events.1.o.6.2:0 "I don't think so."
+
+  intro_events.1.d.7:0 "§MGreat, let's begin then. You can start by looking at the location where are in right now.§!"
+  intro_events.1.o.7.1:0 "Okay."
+
+  intro_events.1.d.8:0 "§MAre you sure? I REALLY want to bake cookies with you.§!"
+  intro_events.1.o.8.1:0 "Fine, I'm in."
+  intro_events.1.o.8.2:0 "I hate cookies."
+
+  intro_events.1.d.9:0 "§MThen I don't think we'll be friends this time. Bye, meany.§!"
+  intro_events.1.o.9.1:0 "Bye."

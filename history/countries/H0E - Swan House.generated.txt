@@ -8,6 +8,6 @@ add_government_reform = player_reform
 primary_culture = race_human
 religion = faith_faithless
 
-capital = 3206
+capital = 4004
 
 2.1.1 = { monarch = { name = "Swan" dynasty = "..." adm = 0 mil = 0 dip = 0 female = yes } }

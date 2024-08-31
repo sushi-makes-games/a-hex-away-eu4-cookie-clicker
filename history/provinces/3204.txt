@@ -3,7 +3,7 @@ add_province_triggered_modifier = on_global_monthly
 
 trade_goods = unknown
 
-3.1.1 = {
+2.1.1 = {
   owner = H00
   add_core = H00
   culture = race_human

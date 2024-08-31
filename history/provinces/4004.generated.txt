@@ -2,7 +2,7 @@
 
 trade_goods = unknown
 
-3.1.4 = {
+6.1.2 = {
   owner = H0E
   add_core = H0E
   culture = race_human

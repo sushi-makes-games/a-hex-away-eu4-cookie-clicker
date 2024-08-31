@@ -187,6 +187,7 @@ custom_button = {
 	potential = { always = yes }
 	trigger = { hidden_trigger = { can_upgrade_manual = yes } }
 	effect = { hidden_effect = { upgrade_click = { type = manual manual = yes } } }
+	tooltip = cbt_cookie_manual_upgrade_tt
 }
 
 custom_window = {

@@ -53,3 +53,41 @@ defined_text = {
 	text = { trigger = { has_province_flag = special } localisation_key = province_name_special }
 	text = { localisation_key = province_name_regular }
 }
+
+defined_text = {
+	name = CL_COOKIE
+	random = no
+
+	text = { trigger = { area = city_area } localisation_key = cookie_city }
+	text = { trigger = { region = the_city_region NOT = { area = city_area } } localisation_key = cookie_outer_city }
+	text = { trigger = { region = great_forest_region } localisation_key = cookie_great_forest }
+	text = { trigger = { region = grey_mountains_region } localisation_key = cookie_grey_mountains }
+	text = { trigger = { region = the_desert_region } localisation_key = cookie_the_desert }
+	text = { trigger = { region = riverlands_region } localisation_key = cookie_riverlands }
+	text = { trigger = { region = griffon_hills_region } localisation_key = cookie_griffon_hills }
+	text = { trigger = { region = archipelago_region } localisation_key = cookie_archipelago }
+	text = { trigger = { region = the_maw_region } localisation_key = cookie_the_maw }
+	text = { trigger = { region = azure_lake_region } localisation_key = cookie_azure_lake }
+	text = { trigger = { region = tempest_sea_region } localisation_key = cookie_tempest_sea }
+	text = { trigger = { region = tempest_coast_region } localisation_key = cookie_tempest_coast }
+	text = { trigger = { region = violet_steppes_region } localisation_key = cookie_violet_steppes }
+	text = { trigger = { region = black_sands_region } localisation_key = cookie_black_sands }
+	text = { trigger = { region = brimstone_region } localisation_key = cookie_brimstone }
+	text = { trigger = { region = the_lakes_region } localisation_key = cookie_the_lakes }
+	text = { trigger = { region = sweet_seas_region } localisation_key = cookie_sweet_seas }
+	text = { trigger = { region = silk_highlands_region } localisation_key = cookie_silk_highlands }
+	text = { trigger = { region = sugar_plains_region } localisation_key = cookie_sugar_plains }
+	text = { trigger = { region = vine_coast_region } localisation_key = cookie_vine_coast }
+	text = { trigger = { region = mangrove_shoals_region } localisation_key = cookie_mangrove_shoals }
+	text = { trigger = { region = horizon_ocean_region } localisation_key = cookie_horizon_ocean }
+	text = { trigger = { region = the_shards_region } localisation_key = cookie_the_shards }
+	text = { trigger = { region = golden_valley_region } localisation_key = cookie_golden_valley }
+	text = { trigger = { region = deadlands_region } localisation_key = cookie_deadlands }
+	text = { trigger = { region = blue_mountains_region } localisation_key = cookie_blue_mountains }
+	text = { trigger = { region = ghost_sea_region } localisation_key = cookie_ghost_sea }
+	text = { trigger = { region = dragontail_mountains_region } localisation_key = cookie_dragontail_mountains }
+	text = { trigger = { region = green_wastes_region } localisation_key = cookie_green_wastes }
+	text = { trigger = { region = red_marshes_region } localisation_key = cookie_red_marshes }
+	text = { trigger = { region = frozen_lands_region } localisation_key = cookie_frozen_lands }
+	text = { trigger = { region = the_pale_region } localisation_key = cookie_the_pale }
+}

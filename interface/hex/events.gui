@@ -1,0 +1,133 @@
+guiTypes = {
+	positionType = {
+		name = "event_option_start"
+		position = { x = 32 y = 16 }
+	}
+
+	# EVENT WINDOW
+
+	windowType = {
+		name = "EventWindow"
+		backGround="Background"
+
+		Orientation = "CENTER"
+		position = { x=-256 y=-192 }
+		fullScreen = yes
+		moveable = 0
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_event_bg_transparency"
+		}
+
+		iconType ={
+			name ="event_bg_top"
+			spriteType = "GFX_HEX_event_bg"
+
+			Orientation = "UPPER_LEFT"
+			position = { x= 0 y = 0 }
+		}
+
+		iconType = {
+			name ="event_picture"
+			spriteType = "GFX_event_event_test"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = 32 y = -128 }
+			scale = 0.25
+		}
+
+		# HIDDEN
+		instantTextBoxType = {
+			name = "Title"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }
+
+			maxWidth = 512
+			maxHeight = 32
+			format = right
+			font = "vic_29s"
+		}
+
+		instantTextBoxType = {
+			name = "Description"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = 32 y = 0 }
+			
+			maxWidth = 448
+			maxHeight = 256
+			format = center
+			font = "vic_29s"
+		}
+		
+		listboxType = {
+			name = "event_option_listbox"
+			scrollbartype = "standardlistbox_slider"
+
+			Orientation = "UPPER_LEFT"
+			size = { x = 0 y = 0 }
+			horizontal = 0
+			spacing = 1
+		}
+		
+		# HIDDEN
+		iconType = {
+			name ="event_bg_middle"
+			spriteType = "GFX_remove"
+
+			Orientation = "UPPER_LEFT"
+			position = { x = -10000 y = 0 }
+		}
+		
+		# HIDDEN
+		iconType = {
+			name ="event_bg_bottom"
+			spriteType = "GFX_remove"
+
+			Orientation = "UPPER_LEFT"
+			position = { x= -10000 y = 0 }
+		}
+
+		# HIDDEN
+		guiButtonType = {
+			name = "event_goto_province"
+			quadTextureSprite ="GFX_event_goto_province"
+
+			position = { x= -10000 y = 0 }
+			buttonFont = "Main_14_black"
+			clicksound = click
+		}
+	}
+
+	# EVENT OPTION
+
+	windowType = {
+		name = "event_option_entry"
+		backGround = ""
+
+		Orientation = "UPPER_LEFT"
+		position = { x = 0 y = 0 }
+		size = { x = 448 y = 36 }
+		
+		guiButtonType = {
+			name = "event_option_button"
+			quadTextureSprite = "GFX_HEX_event_btn"
+
+			buttonFont = "vic_22"
+		}
+
+		# HIDDEN
+		guiButtonType = {
+			name = "event_option_goto_button"
+			quadTextureSprite ="GFX_event_option_goto_province"
+
+			Orientation = "UPPER_LEFT"
+			position = { x= -10000 y = 0 }
+
+			buttonFont = "Main_14_black"
+			clicksound = click
+		}
+	}
+}

@@ -5,16 +5,16 @@ country_event = {
 	id = intro_events.0
 	title = intro_events.0.t
 	desc = intro_events.0.d
-	picture = MERCHANTS_TALKING_eventPicture
+	picture = GFX_HEX_event_magpie
 
 	hidden = yes
 	is_triggered_only = yes
 
-  after = {
-    hidden_effect = {
-      if = { limit = { event_started = yes }  country_event = { id = intro_events.1 } }
-    }
-  }
+	after = {
+		hidden_effect = {
+			if = { limit = { event_started = yes }  country_event = { id = intro_events.1 } }
+		}
+	}
 
 	option = {
 		name = intro_events.0.o
@@ -35,7 +35,29 @@ country_event = {
 	desc = { trigger = { current_step = { value = 8 } } desc = "intro_events.1.d.8" }
 	desc = { trigger = { current_step = { value = 9 } } desc = "intro_events.1.d.9" }
 
-	picture = MERCHANTS_TALKING_eventPicture
+	picture = {
+		trigger = {
+			OR = {
+				current_step = { value = 1 }
+				current_step = { value = 2 }
+			}
+		}
+		picture = GFX_HEX_event_none
+	}
+	picture = {
+		trigger = {
+			OR = {
+				current_step = { value = 3 }
+				current_step = { value = 4 }
+				current_step = { value = 5 }
+				current_step = { value = 6 }
+				current_step = { value = 7 }
+				current_step = { value = 8 }
+				current_step = { value = 9 }
+			}
+		}
+		picture = GFX_HEX_event_magpie
+	}
 
 	is_triggered_only = yes
 
@@ -43,92 +65,92 @@ country_event = {
 		hidden_effect = {
 			if = { limit = { event_started = no } start_event = yes }
 
-      if = { limit = { current_step = { value = 1 } } play_sound = intro_events_1_1 }
-      else_if = { limit = { current_step = { value = 2 } } play_sound = intro_events_1_2 }
-      else_if = { limit = { current_step = { value = 3 } } play_sound = intro_events_1_3 }
-      else_if = { limit = { current_step = { value = 4 } } play_sound = intro_events_1_4 }
-      else_if = { limit = { current_step = { value = 5 } } play_sound = intro_events_1_5 }
-      else_if = { limit = { current_step = { value = 6 } } play_sound = intro_events_1_6 }
-      else_if = { limit = { current_step = { value = 7 } } play_sound = intro_events_1_7 }
-      else_if = { limit = { current_step = { value = 8 } } play_sound = intro_events_1_8 }
-      else_if = { limit = { current_step = { value = 9 } } play_sound = intro_events_1_9 }
+			if = { limit = { current_step = { value = 1 } } play_sound = intro_events_1_1 }
+			else_if = { limit = { current_step = { value = 2 } } play_sound = intro_events_1_2 }
+			else_if = { limit = { current_step = { value = 3 } } play_sound = intro_events_1_3 }
+			else_if = { limit = { current_step = { value = 4 } } play_sound = intro_events_1_4 }
+			else_if = { limit = { current_step = { value = 5 } } play_sound = intro_events_1_5 }
+			else_if = { limit = { current_step = { value = 6 } } play_sound = intro_events_1_6 }
+			else_if = { limit = { current_step = { value = 7 } } play_sound = intro_events_1_7 }
+			else_if = { limit = { current_step = { value = 8 } } play_sound = intro_events_1_8 }
+			else_if = { limit = { current_step = { value = 9 } } play_sound = intro_events_1_9 }
 		}
 	}
 	after = {
-    hidden_effect = {
-      country_event = { id = intro_events.0 }
-    }
-  }
+		hidden_effect = {
+			country_event = { id = intro_events.0 }
+		}
+	}
 
 	option = {
 		trigger = { current_step = { value = 1 } }
 		name = intro_events.1.o.1.1
-    hidden_effect = { next_step = { value = 2 } }
+    	hidden_effect = { next_step = { value = 2 } }
 	}
 	option = {
 		trigger = { current_step = { value = 1 } }
 		name = intro_events.1.o.1.2
-    hidden_effect = { finish_event = yes }
+    	hidden_effect = { finish_event = yes }
 	}
 
 	option = {
 		trigger = { current_step = { value = 2 } }
 		name = intro_events.1.o.2.1
-    hidden_effect = { next_step = { value = 3 } }
+    	hidden_effect = { next_step = { value = 3 } }
 	}
 
 	option = {
 		trigger = { current_step = { value = 3 } }
 		name = intro_events.1.o.3.1
-    hidden_effect = { next_step = { value = 4 } }
+    	hidden_effect = { next_step = { value = 4 } }
 	}
 
 	option = {
 		trigger = { current_step = { value = 4 } }
 		name = intro_events.1.o.4.1
-    hidden_effect = { next_step = { value = 5 } }
+    	hidden_effect = { next_step = { value = 5 } }
 	}
 
 	option = {
 		trigger = { current_step = { value = 5 } }
 		name = intro_events.1.o.5.1
-    hidden_effect = { next_step = { value = 6 } }
+    	hidden_effect = { next_step = { value = 6 } }
 	}
 
 	option = {
 		trigger = { current_step = { value = 6 } }
 		name = intro_events.1.o.6.1
-    hidden_effect = { next_step = { value = 7 } }
+    	hidden_effect = { next_step = { value = 7 } }
 	}
 	option = {
 		trigger = { current_step = { value = 6 } }
 		name = intro_events.1.o.6.2
-    hidden_effect = { next_step = { value = 8 } }
+    	hidden_effect = { next_step = { value = 8 } }
 	}
 
 	option = {
 		trigger = { current_step = { value = 7 } }
 		name = intro_events.1.o.7.1
-    hidden_effect = { finish_event = yes }
+    	hidden_effect = { finish_event = yes }
 	}
 
 	option = {
 		trigger = { current_step = { value = 8 } }
 		name = intro_events.1.o.8.1
-    hidden_effect = { next_step = { value = 7 } }
+    	hidden_effect = { next_step = { value = 7 } }
 	}
 	option = {
 		trigger = { current_step = { value = 8 } }
 		name = intro_events.1.o.8.2
-    hidden_effect = { next_step = { value = 9 } }
+    	hidden_effect = { next_step = { value = 9 } }
 	}
 
 	option = {
 		trigger = { current_step = { value = 9 } }
 		name = intro_events.1.o.9.1
-    hidden_effect = {
-      finish_event = yes
-      remove_country = yes
-    }
+		hidden_effect = {
+			finish_event = yes
+			remove_country = yes
+		}
 	}
 }

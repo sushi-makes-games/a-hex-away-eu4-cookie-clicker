@@ -1,0 +1,21 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_HEX_event_bg"
+		texturefile = "gfx/hex/interface/_event_bg.dds"
+	}
+	textSpriteType = {
+		name = "GFX_HEX_event_btn"
+		texturefile = "gfx/hex/interface/_event_btn.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_HEX_event_none"
+		texturefile = "gfx/hex/event_pictures/none.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_HEX_event_magpie"
+		texturefile = "gfx/hex/event_pictures/magpie.dds"
+		alwaystransparent = yes
+	}
+}

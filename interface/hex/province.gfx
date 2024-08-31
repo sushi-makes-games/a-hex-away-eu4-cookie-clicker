@@ -171,4 +171,13 @@ spriteTypes = {
 		name = "GFX_HEX_province_name"
 		texturefile = "gfx/hex/interface/_province_name.dds"
 	}
+
+	spriteType = {
+		name = "GFX_text_cookie_cost"
+		texturefile = "gfx/hex/interface/_cookie_cost.dds"
+	}
+	spriteType = {
+		name = "GFX_text_cookie_amount"
+		texturefile = "gfx/hex/interface/_cookie_amount.dds"
+	}
 }

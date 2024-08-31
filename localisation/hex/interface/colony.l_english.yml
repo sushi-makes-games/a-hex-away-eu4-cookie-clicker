@@ -6,3 +6,5 @@
   ctb_colony_name:0 "[CL_PROVINCE_NAME]"
   colony_name_special:0 "[Root.GetName]"
   colony_name_regular:0 "[Root.GetName] Bakery"
+
+  ci_colony_cookie_tt:0 "[CL_COOKIE]"

@@ -83,6 +83,8 @@ upgrade_click = {
 	[[monthly] add_base_production = 1 ]
 	[[daily] add_base_manpower = 1 ]
 
+	apply_region_flavor = { type = $type$ $type$ = yes }
+
 	calculate_price = { type = $type$ $type$ = yes }
 }
 

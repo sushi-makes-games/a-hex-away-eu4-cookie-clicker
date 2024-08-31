@@ -1,0 +1,319 @@
+# PROVINCE = { flavor_click_three = { $type$ = yes } }
+flavor_click_three = {
+    random_list = {
+        3 = {}
+        1 = {
+            trigger = { owner = { NOT = { num_of_cities = 2 } } }
+            log = flavor_click_three
+            [[manual]
+                add_current_upgrade = { type = monthly }
+                calculate_price = { type = monthly monthly = yes }
+
+                add_current_upgrade = { type = daily }
+                calculate_price = { type = daily daily = yes }
+            ]
+            [[monthly]
+                add_current_upgrade = { type = manual }
+                calculate_price = { type = manual manual = yes }
+                
+                add_current_upgrade = { type = daily }
+                calculate_price = { type = daily daily = yes }
+            ]
+            [[daily]
+                add_current_upgrade = { type = manual }
+                calculate_price = { type = manual manual = yes }
+
+                add_current_upgrade = { type = monthly }
+                calculate_price = { type = monthly monthly = yes }
+            ]
+        }
+    }
+}
+
+# PROVINCE = { flavor_double_click = { type = $type$ } }
+flavor_double_click = {
+    random_list = {
+        4 = {}
+        1 = {
+            log = flavor_double_click
+            add_current_upgrade = { type = $type$ }
+        }
+    }
+}
+
+# PROVINCE = { flavor_capital_double_click = { type = $type$ } }
+flavor_capital_double_click = {
+    if = {
+        limit = { is_capital = yes }
+        random_list = {
+            4 = {}
+            1 = {
+                log = flavor_capital_double_click
+                add_current_upgrade = { type = $type$ }
+            }
+        }
+    }
+}
+
+# PROVINCE = { flavor_click_two_random_provinces = { type = $type$ } }
+flavor_click_two_random_provinces = {
+    random_list = {
+        9 = {}
+        1 = {
+            log = flavor_click_two_random_provinces
+            random_province = {
+                limit = { region = PREV NOT = { province_id = PREV } }
+                add_current_upgrade = { type = $type$ }
+                calculate_price = { type = $type$ $type$ = yes }
+            }
+        }
+    }
+}
+
+# PROVINCE = { flavor_click_two_owned_provinces = { type = $type$ } }
+flavor_click_two_owned_provinces = {
+    random_list = {
+        9 = {}
+        1 = {
+            log = flavor_click_two_owned_provinces
+            random_province = {
+                limit = { region = PREV owned_by = PREV NOT = { province_id = PREV } }
+                add_current_upgrade = { type = $type$ }
+                calculate_price = { type = $type$ $type$ = yes }
+            }
+        }
+    }
+}
+
+# PROVINCE = { flavor_capital_steal = { type = $type$ } }
+flavor_capital_steal = {
+    if = {
+        limit = { is_capital = yes }
+        random_list = {
+            4 = {}
+            1 = {
+                log = flavor_capital_steal
+                random_province = {
+                    limit = {
+                        region = PREV owned_by = PREV NOT = { province_id = PREV }
+                        check_variable = { which = $type$ value = 2 }
+                    }
+                    remove_current_upgrade = { type = $type$ }
+                    calculate_price = { type = $type$ $type$ = yes }
+                    PREV = { add_current_upgrade = { type = $type$ } }
+                }
+
+            }
+        }
+    }
+}
+
+
+# PROVINCE = { flavor_local_steal = { $type$ = yes } }
+flavor_local_steal = {
+    random_list = {
+        4 = {}
+        1 = {
+            log = flavor_local_steal
+            [[manual]
+                if = {
+                    limit = { check_variable = { which = monthly value = 2 } }
+                    remove_current_upgrade = { type = monthly }
+                    calculate_price = { type = monthly monthly = yes }
+                    add_current_upgrade = { type = manual }
+                }
+                if = {
+                    limit = { check_variable = { which = daily value = 2 } }
+                    remove_current_upgrade = { type = daily }
+                    calculate_price = { type = daily daily = yes }
+                    add_current_upgrade = { type = manual }
+                }
+            ]
+            [[monthly]
+               if = {
+                    limit = { check_variable = { which = manual value = 2 } }
+                    remove_current_upgrade = { type = manual }
+                    calculate_price = { type = manual manual = yes }
+                    add_current_upgrade = { type = monthly }
+                }
+                if = {
+                    limit = { check_variable = { which = daily value = 2 } }
+                    remove_current_upgrade = { type = daily }
+                    calculate_price = { type = daily daily = yes }
+                    add_current_upgrade = { type = monthly }
+                }
+            ]
+            [[daily]
+                if = {
+                    limit = { check_variable = { which = manual value = 2 } }
+                    remove_current_upgrade = { type = manual }
+                    calculate_price = { type = manual manual = yes }
+                    add_current_upgrade = { type = daily }
+                }
+                 if = {
+                    limit = { check_variable = { which = monthly value = 2 } }
+                    remove_current_upgrade = { type = monthly }
+                    calculate_price = { type = monthly monthly = yes }
+                    add_current_upgrade = { type = daily }
+                }
+            ]
+        }
+    }
+}
+
+# PROVINCE = { flavor_city_steal = { type = $type$ } }
+flavor_city_steal = {
+    random_list = {
+        4 = {}
+        1 = {
+            log = flavor_city_steal
+            if = {
+                limit = { event_target:City = { check_variable = { which = $type$ value = 2 } } }
+                event_target:City = {
+                    remove_current_upgrade = { type = $type$ }
+                    calculate_price = { type = $type$ $type$ = yes }
+                }
+                add_current_upgrade = { type = $type$ }
+            }
+        }
+
+    }
+}
+
+# PROVINCE = { flavor_unit_spawn = yes }
+flavor_unit_spawn = {
+    random_list = {
+        19 = {}
+        1 = {
+            log = flavor_unit_spawn
+            owner = { PREV = { infantry = PREV } }
+        }
+    }
+}
+
+# PROVINCE = { flavor_border_sabotage = yes }
+flavor_border_sabotage = {
+    if = {
+        limit = {
+            any_neighbor_province = { is_city = yes is_sabotaged = no NOT = { owned_by = PREV } }
+        }
+        random_list = {
+            9 = {}
+            1 = {
+                log = flavor_border_sabotage
+                random_neighbor_province = {
+                    limit = { is_city = yes is_sabotaged = no NOT = { owned_by = PREV } }
+                    if = { limit = { has_province_flag = sabotaged } clr_province_flag = sabotaged }
+                    set_province_flag = sabotaged
+                }
+            }
+        }
+    }
+}
+
+# PROVINCE = { flavor_border_colony = yes }
+flavor_border_colony = {
+    if = {
+        limit = { has_empty_adjacent_province = yes }
+        random_list = {
+            9 = {}
+            1 = {
+                log = flavor_border_colony
+                random_empty_neighbor_province = {
+                    change_trade_goods = unknown
+                    add_core = PREV
+                    cede_province = PREV
+                    change_religion = PREV
+                    change_culture = PREV
+                }
+            }
+        }
+    }
+}
+
+# PROVINCE = { flavor_random_colony = yes }
+flavor_random_colony = {
+    random_list = {
+        19 = {}
+        1 = {
+            log = flavor_random_colony
+            random_province = {
+                limit = { region = PREV is_city = no }
+                change_trade_goods = unknown
+                add_core = PREV
+                cede_province = PREV
+                change_religion = PREV
+                change_culture = PREV
+            }
+        }
+    }
+}
+
+# PROVINCE = { flavor_border_war = yes }
+flavor_border_war = {
+    if = {
+        limit = {
+            any_neighbor_province = { is_city = yes NOT = { owned_by = PREV } }
+        }
+        random_list = {
+            9 = {}
+            1 = {
+                log = flavor_border_war
+                random_neighbor_province = {
+                    limit = { is_city = yes NOT = { owned_by = PREV } }
+                    owner = { save_event_target_as = WarTarget }
+                    PREV = {
+                        owner = {
+                            if = {
+                                limit = { NOT = { war_with = event_target:WarTarget }}
+                                declare_war_with_cb = { who = event_target:WarTarget casus_belli = cb_cookie }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+# PROVINCE = { apply_region_flavor = { type = $type$ $type$ = yes } }
+apply_region_flavor = {
+    trigger_switch = {
+        on_trigger = region
+
+        the_city_region = {
+            if = { limit = { area = city_area } flavor_click_three = { $type$ = yes } }
+            else = { flavor_city_steal = { type = $type$ } }
+        }
+        great_forest_region = { flavor_click_two_random_provinces = { type = $type$ } }
+        grey_mountains_region = { flavor_border_war = yes }
+        the_desert_region = { [[manual] flavor_double_click = { type = $type$ } ] }
+        riverlands_region = { flavor_border_colony = yes }
+        griffon_hills_region = { flavor_capital_steal = { type = $type$ } }
+        archipelago_region = { [[monthly] flavor_double_click = { type = $type$ } ] }
+        the_maw_region = { flavor_unit_spawn = yes }
+        azure_lake_region = { flavor_capital_double_click = { type = $type$ } }
+        # tempest_sea_region = { test = yes }
+        # tempest_coast_region = { test = yes }
+        violet_steppes_region = { flavor_random_colony = yes }
+        black_sands_region = { flavor_click_two_owned_provinces = { type = $type$ } }
+        brimstone_region = { flavor_capital_steal = { type = $type$ } }
+        the_lakes_region = { flavor_border_colony = yes }
+        sweet_seas_region = { [[monthly] flavor_double_click = { type = $type$ } ] }
+        silk_highlands_region = { flavor_border_sabotage = yes }
+        sugar_plains_region = { [[daily] flavor_double_click = { type = $type$ } ] }
+        vine_coast_region = { flavor_click_two_random_provinces = { type = $type$ } }
+        mangrove_shoals_region = { flavor_capital_double_click = { type = $type$ } }
+        horizon_ocean_region = { flavor_random_colony = yes }
+        # the_shards_region = { test = yes }
+        golden_valley_region = { flavor_click_two_owned_provinces = { type = $type$ } }
+        deadlands_region = { flavor_border_sabotage = yes }
+        blue_mountains_region = { flavor_local_steal = { $type$ = yes } }
+        ghost_sea_region = { flavor_unit_spawn = yes }
+        dragontail_mountains_region = { flavor_border_war = yes }
+        green_wastes_region = { [[manual] flavor_double_click = { type = $type$ } ] }
+        # red_marshes_region = { test = yes }
+        frozen_lands_region = { flavor_local_steal = { $type$ = yes } }
+        the_pale_region = { [[daily] flavor_double_click = { type = $type$ } ] }
+    }
+}

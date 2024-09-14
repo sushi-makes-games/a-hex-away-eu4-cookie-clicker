@@ -30,52 +30,35 @@
 
   ci_province_cookie_tt:0 "[CL_COOKIE]"
   cbt_province_cookie_tt:0 "[CL_COOKIE]"
-  cookie_city:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade all cookie sources at the same time (if you are an OPM)."
-	cookie_outer_city:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to steal upgrades from the City."
-	cookie_great_forest:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade two random provinces at once."
-	cookie_grey_mountains:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]Upgrading in border provinces has chance to declare war."
-	cookie_the_desert:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade manual click twice."
-	cookie_riverlands:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]Upgrading in border provinces has a chance to colonize provinces."
-	cookie_griffon_hills:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]Capital upgrade has a chance to steal upgrades from other owned provinces."
-	cookie_archipelago:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade monthly click twice."
-	cookie_the_maw:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to spawn military unit."
-	cookie_azure_lake:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade the capital twice."
-	cookie_tempest_sea:0 "TBD[CL_DIVIDER]§MTBD§!"
-	cookie_tempest_coast:0 "TBD[CL_DIVIDER]§MTBD§!"
-	cookie_violet_steppes:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to colonize random province in the region."
-	cookie_black_sands:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade two owned provinces at once."
-	cookie_brimstone:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]Capital upgrade has a chance to steal upgrades from other owned provinces."
-	cookie_the_lakes:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]Upgrading in border provinces has a chance to colonize provinces."
-	cookie_sweet_seas:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade monthly click twice."
-	cookie_silk_highlands:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]Upgrading in border provinces has a chance to sabotage enemy provinces."
-	cookie_sugar_plains:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade daily click twice."
-	cookie_vine_coast:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade two random provinces at once."
-	cookie_mangrove_shoals:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade the capital twice."
-	cookie_horizon_ocean:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to colonize random province in the region."
-	cookie_the_shards:0 "TBD[CL_DIVIDER]§MTBD§!"
-	cookie_golden_valley:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade two owned provinces at once."
-	cookie_deadlands:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]Upgrading in border provinces has a chance to sabotage enemy provinces."
-	cookie_blue_mountains:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to move upgrades between cookie sources."
-	cookie_ghost_sea:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to spawn military unit."
-	cookie_dragontail_mountains:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]Upgrading in border provinces has chance to declare war."
-	cookie_green_wastes:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade manual click twice."
-	cookie_red_marshes:0 "TBD[CL_DIVIDER]§MTBD§!"
-	cookie_frozen_lands:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to move upgrades between cookie sources."
-	cookie_the_pale:0 "TBD[CL_DIVIDER]§MTBD§![CL_DIVIDER]You have a chance to upgrade daily click twice."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  cookie_city:0 "Round butter cookies with chocolate drop in the middle.[CL_DIVIDER]You have a chance to upgrade all cookie sources at the same time (if you are an OPM)."
+	cookie_outer_city:0 "Plain hexagon cookies with a mix of nuts and seeds.[CL_DIVIDER]You have a chance to steal upgrades from the City."
+	cookie_great_forest:0 "Hazelnut and blueberries cookies in the shape of pine tree.[CL_DIVIDER]You have a chance to upgrade two random provinces at once."
+	cookie_grey_mountains:0 "Bread cubes with apples.[CL_DIVIDER]Upgrading in border provinces has chance to declare war."
+	cookie_the_desert:0 "Dry brown cookies with dates and spices.[CL_DIVIDER]You have a chance to upgrade manual click twice."
+	cookie_riverlands:0 "Oat cookies with raisins and chocolate.[CL_DIVIDER]Upgrading in border provinces has a chance to colonize provinces."
+	cookie_griffon_hills:0 "Meringue cookies.[CL_DIVIDER]Capital upgrade has a chance to steal upgrades from other owned provinces."
+	cookie_archipelago:0 "Soft milky cookies with coconut .[CL_DIVIDER]You have a chance to upgrade monthly click twice."
+	cookie_the_maw:0 "Chocolate cookies with strawberry jam in the middle.[CL_DIVIDER]You have a chance to spawn military unit."
+	cookie_azure_lake:0 "Blueberry jelly on top of cracker cookie in the shape of Azure lake. On both sides of the cookie is a drawing of a swan. [CL_DIVIDER]You have a chance to upgrade the capital twice."
+	cookie_tempest_sea:0 "Dry cookies with salt."
+	cookie_tempest_coast:0 "Half of the chocolate cookie is topped with blueberry jelly, half is chocolate drops."
+	cookie_violet_steppes:0 "Tender cookies with lavender petals.[CL_DIVIDER]You have a chance to colonize random province in the region."
+	cookie_black_sands:0 "Dry black sesame seeds cookies.[CL_DIVIDER]You have a chance to upgrade two owned provinces at once."
+	cookie_brimstone:0 "Oat cookies with lemon.[CL_DIVIDER]Capital upgrade has a chance to steal upgrades from other owned provinces."
+	cookie_the_lakes:0 "Soft rice cookies with honey.[CL_DIVIDER]Upgrading in border provinces has a chance to colonize provinces."
+	cookie_sweet_seas:0 "Sugar cookies with the white caramel on top.[CL_DIVIDER]You have a chance to upgrade monthly click twice."
+	cookie_silk_highlands:0 "Soft coconut cookies covered in milk icing with sugar hair on top.[CL_DIVIDER]Upgrading in border provinces has a chance to sabotage enemy provinces."
+	cookie_sugar_plains:0 "Sugar cookies with sugar on top.[CL_DIVIDER]You have a chance to upgrade daily click twice."
+	cookie_vine_coast:0 "Soft mango and passion fruit cookies with chocolate bottom.[CL_DIVIDER]You have a chance to upgrade two random provinces at once."
+	cookie_mangrove_shoals:0 "Algae cookies with crab filling.[CL_DIVIDER]You have a chance to upgrade the capital twice."
+	cookie_horizon_ocean:0 "Rum injected soft cookies with salt on top and sugar bottom.[CL_DIVIDER]You have a chance to colonize random province in the region."
+	cookie_the_shards:0 "Simple chocolate crunch cookies."
+	cookie_golden_valley:0 "Butter cookies with saffron.[CL_DIVIDER]You have a chance to upgrade two owned provinces at once."
+	cookie_deadlands:0 "Dry cookies with cinnamon and cone seeds.[CL_DIVIDER]Upgrading in border provinces has a chance to sabotage enemy provinces."
+	cookie_blue_mountains:0 "Cookies with blue icing and meringue.[CL_DIVIDER]You have a chance to move upgrades between cookie sources."
+	cookie_ghost_sea:0 "Seaweed cookies with milky icing in the middle.[CL_DIVIDER]You have a chance to spawn military unit."
+	cookie_dragontail_mountains:0 "Round cookies with rough crunches and almond petals.[CL_DIVIDER]Upgrading in border provinces has chance to declare war."
+	cookie_green_wastes:0 "Plain cookies with grass in waves drawing on top.[CL_DIVIDER]You have a chance to upgrade manual click twice."
+	cookie_red_marshes:0 "Red berries cookies with flower petals."
+	cookie_frozen_lands:0 "White icing cookies with a cranberry in sugar on top.[CL_DIVIDER]You have a chance to move upgrades between cookie sources."
+	cookie_the_pale:0 "Oat cookies with colorful candied fruits.[CL_DIVIDER]You have a chance to upgrade daily click twice."

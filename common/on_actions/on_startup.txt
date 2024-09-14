@@ -19,6 +19,7 @@ on_startup = {
 		init_country_cookies = yes
 		set_country_flag = set_up_cookies
 
-		country_event = { id = intro_events.1 days = 1 }
+		if = { limit = { ai = no } country_event = { id = intro_events.1 days = 1 } }
+		the_world = { discover_country = ROOT }
 	}
 }

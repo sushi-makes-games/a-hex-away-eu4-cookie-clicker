@@ -183,7 +183,7 @@ flavor_city_steal = {
 # PROVINCE = { flavor_unit_spawn = yes }
 flavor_unit_spawn = {
     random_list = {
-        19 = {}
+        49 = {}
         1 = {
             log = flavor_unit_spawn
             owner = { PREV = { infantry = PREV } }
@@ -216,7 +216,7 @@ flavor_border_colony = {
     if = {
         limit = { has_empty_adjacent_province = yes }
         random_list = {
-            9 = {}
+            99 = {}
             1 = {
                 log = flavor_border_colony
                 random_empty_neighbor_province = {
@@ -234,7 +234,7 @@ flavor_border_colony = {
 # PROVINCE = { flavor_random_colony = yes }
 flavor_random_colony = {
     random_list = {
-        19 = {}
+        99 = {}
         1 = {
             log = flavor_random_colony
             random_province = {

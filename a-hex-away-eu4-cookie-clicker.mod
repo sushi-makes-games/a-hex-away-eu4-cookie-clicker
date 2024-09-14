@@ -100,3 +100,4 @@ replace_path="tutorial"
 
 supported_version="v1.37.*"
 path="mod/a-hex-away-eu4-cookie-clicker"
+picture = "logo.jpg"
